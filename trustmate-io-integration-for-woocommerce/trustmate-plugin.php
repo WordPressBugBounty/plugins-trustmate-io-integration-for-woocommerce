@@ -8,7 +8,7 @@
  * Plugin Name: TrustMate.io integration for WooCommerce
  * Plugin URI: https://trustmate.io
  * Description: TrustMate.io integration with auto invitations
- * Version: 1.13.1
+ * Version: 1.13.2
  * Author: TrustMate.io dev team
  * License: GPLv2 or later
  */
