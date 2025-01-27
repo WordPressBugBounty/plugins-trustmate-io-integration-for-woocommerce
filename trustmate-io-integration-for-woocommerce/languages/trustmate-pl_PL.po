@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2022-12-02 07:48+0100\n"
+"PO-Revision-Date: 2025-01-27 08:43+0000\n"
 "Last-Translator: Michał Zagdan <michal.zagdan@trustmate.io>\n"
 "Language-Team: Polish <http://trans.trustmate.io/projects/woocommerce-plugin/"
 "main/pl/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Poedit 3.0.1\n"
+"X-Generator: Weblate 4.5.3\n"
 
 # Menu
 msgid "Create TrustMate account"
@@ -264,12 +264,10 @@ msgid "You can change display position in TrustMate panel"
 msgstr "Możesz zmienić umiejscowienie w panelu TrustMate"
 
 msgid "Why use it?"
-msgstr ""
+msgstr "Dlaczego warto?"
 
-#, fuzzy
-#| msgid "product sales increase"
 msgid "sales increase"
-msgstr "zwiększenie sprzedaży produktu"
+msgstr "zwiększenie sprzedaży"
 
 msgid "customers do not leave site searching for reviews"
 msgstr "klienci nie opuszczają Twojej strony szukając opinii"
@@ -381,10 +379,8 @@ msgid "Create a star constellation in your product lists!"
 msgstr "Stwórz gwiazdozbiór na swoich listach produktowych!"
 
 # Chupacabra
-#, fuzzy
-#| msgid "Social Proof - duży box"
 msgid "Social Proof (big box)"
-msgstr "Social proof - duży box"
+msgstr "Social proof (duży box)"
 
 msgid ""
 "Average rating, recent reviews and customer photos displayed on static cards "
@@ -396,9 +392,7 @@ msgstr ""
 msgid "Neat and simple."
 msgstr "Prosto i przejrzyście."
 
-#, fuzzy
-#| msgid "Can I ask only for company reviews"
-msgid "Carousel - company reviews"
+msgid "Can I ask only for company reviews"
 msgstr "Czy mogę zapraszać tylko do oceny firmy"
 
 # Ferret2
@@ -412,9 +406,7 @@ msgstr ""
 "Zaprezentuj średnią ocenę oraz najświeższe opinie na automatycznie "
 "przewijanych kaflach i spraw, żeby Twoja strona wyglądała jeszcze lepiej!"
 
-#, fuzzy
-#| msgid "Can I ask only for product reviews"
-msgid "Carousel - product reviews"
+msgid "Can I ask only for product reviews"
 msgstr "Czy mogę zapraszać tylko do oceny produktów"
 
 # ProductFerret2
@@ -464,6 +456,16 @@ msgstr ""
 
 msgid "Simply and intuitively."
 msgstr "Intuicyjnie i prosto."
+
+# Bee
+msgid "Company rating - top bar"
+msgstr "Ocena firmy - pasek górny"
+
+msgid "Show off the number of reviews and display the average rating with this simple widget."
+msgstr "Pochwal się liczbą opinii i pokaż średnią ocen na tym prostym widgecie."
+
+msgid "Buyers will know right away that they are dealing with a trustworthy company when they enter your store."
+msgstr "Kupujący zaraz po wejściu na Twój sklep będą wiedzieli, że mają do czynienia z wiarygodną firmą."
 
 # Alpaca
 msgid "Social Proof (pop-up reviews)"
@@ -563,7 +565,7 @@ msgstr "Pokaż karuzelę z opiniami produktowymi"
 
 # Owl
 msgid "Widget with badges"
-msgstr ""
+msgstr "Widget z odznakami"
 
 # Owl
 msgid "Want to present TrustMate-granted awards in style?"
@@ -576,18 +578,12 @@ msgstr "Owl chętnie Ci w tym pomoże!"
 msgid "FAQ"
 msgstr "Najczęściej zadawane pytania"
 
-msgid "Can I ask only for company reviews"
-msgstr "Czy mogę zapraszać tylko do oceny firmy"
-
 msgid ""
 "Yes. You need to mark company invitation configuration as automatic and make "
 "sure no product invitation configuration is marked as such"
 msgstr ""
 "Tak. Wystarczy, że ustawisz konfigurację z oceną firmy 1-5 jako automatyczną "
 "oraz że żadna konfiguracja produktowa nie będzie ustawiona jako automatyczna"
-
-msgid "Can I ask only for product reviews"
-msgstr "Czy mogę zapraszać tylko do oceny produktów"
 
 msgid ""
 "Yes. You need to mark product invitation configuration as automatic and make "

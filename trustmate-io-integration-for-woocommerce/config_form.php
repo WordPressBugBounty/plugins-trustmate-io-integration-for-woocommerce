@@ -2,7 +2,7 @@
 
 function trustmate_render_config_form()
 {
-    wp_enqueue_style( 'config_form_style' );
+    wp_enqueue_style('config_form_style');
     $regulations_consent_file = 'assets/Regulations-Consent-en.pdf';
 
     $locale = get_locale();
@@ -12,7 +12,7 @@ function trustmate_render_config_form()
 
     ?>
     <div class="tm-page">
-    <img src="<?php echo plugins_url('logo.png', __FILE__) ?>" style="width: 30px; float: left; margin-right: 5px;" alt="TrustMate logo"/>
+    <img src="<?php echo plugins_url('assets/logo.png', __FILE__) ?>" style="width: 30px; float: left; margin-right: 5px;" alt="TrustMate logo"/>
     <h2 class="mt-3" style="line-height: 30px">
       TrustMate.io &dash; <?php echo trustmate_tr('settings') ?>
     </h2>

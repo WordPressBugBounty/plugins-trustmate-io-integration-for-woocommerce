@@ -8,7 +8,7 @@
  * Plugin Name: TrustMate.io integration for WooCommerce
  * Plugin URI: https://trustmate.io
  * Description: TrustMate.io integration with auto invitations
- * Version: 1.12.6
+ * Version: 1.13.0
  * Author: TrustMate.io dev team
  * License: GPLv2 or later
  */
@@ -61,6 +61,7 @@ add_action('admin_menu', 'trustmate_create_settings_page');
 add_action('wp_footer', 'trustmate_render_widget_alpaca');
 add_action('wp_footer', 'trustmate_render_widget_badger2');
 add_action('wp_footer', 'trustmate_render_widget_muskrat2');
+add_action('wp_footer', 'trustmate_render_widget_bee');
 add_action('wp_footer', 'trustmate_render_widget_lemur');
 add_action('woocommerce_before_add_to_cart_form', 'trustmate_render_widget_hornet');
 add_action('woocommerce_after_shop_loop_item_title', 'trustmate_insert_hornet_wrappers');
@@ -74,12 +75,14 @@ add_action('admin_head', 'save_widget_status');
 add_action('init', 'plugin_load_textdomain');
 
 
-function plugin_load_textdomain() {
-    load_plugin_textdomain('trustmate', false, basename( dirname( __FILE__ ) ) . '/languages/');
+function plugin_load_textdomain()
+{
+    load_plugin_textdomain('trustmate', false, basename(dirname(__FILE__)) . '/languages/');
 }
 
-function save_widget_status() {
-?>
+function save_widget_status()
+{
+    ?>
 <script type="text/javascript" >
     jQuery(document).ready(function($) {
         function customAlert(msg) {
@@ -121,7 +124,8 @@ function save_widget_status() {
 <?php
 }
 
-function save_checkbox() {
+function save_checkbox()
+{
     if (!current_user_can('activate_plugins')) {
         echo json_encode(array(
             "status" => "error",
@@ -157,7 +161,8 @@ function save_checkbox() {
 
 add_action('wp_ajax_save_checkbox', 'save_checkbox');
 
-function trustmate_create_settings_page() {
+function trustmate_create_settings_page()
+{
     add_menu_page(
         'TrustMate.io - settings',
         'TrustMate.io',
@@ -176,6 +181,7 @@ function trustmate_create_settings_page() {
     register_setting('trustmate_widget_settings', 'trustmate_widget_hydra');
     register_setting('trustmate_widget_settings', 'trustmate_widget_muskrat');
     register_setting('trustmate_widget_settings', 'trustmate_widget_muskrat2');
+    register_setting('trustmate_widget_settings', 'trustmate_widget_bee');
     register_setting('trustmate_widget_settings', 'trustmate_widget_badger');
     register_setting('trustmate_widget_settings', 'trustmate_widget_badger2');
     register_setting('trustmate_widget_settings', 'trustmate_widget_alpaca');
@@ -347,7 +353,8 @@ function trustmate_create_account()
     <?php
 }
 
-function trustmate_invitation_after_order($order_id) {
+function trustmate_invitation_after_order($order_id)
+{
     if (get_option('trustmate_invitations_enabled') !== TRUSTMATE_INV_STATUS_AFTER_ORDER) {
         return;
     }
@@ -359,7 +366,8 @@ function trustmate_invitation_after_order($order_id) {
 add_action('woocommerce_checkout_order_processed', 'trustmate_invitation_after_order');
 
 
-function trustmate_invitation_after_payment($order_id) {
+function trustmate_invitation_after_payment($order_id)
+{
     if (get_option('trustmate_invitations_enabled') !== TRUSTMATE_INV_STATUS_AFTER_PAYMENT) {
         return;
     }
@@ -371,7 +379,8 @@ function trustmate_invitation_after_payment($order_id) {
 add_action('woocommerce_payment_complete', 'trustmate_invitation_after_payment');
 
 
-function trustmate_invitation_after_order_completed($order_id) {
+function trustmate_invitation_after_order_completed($order_id)
+{
     if (get_option('trustmate_invitations_enabled') !== TRUSTMATE_INV_STATUS_COMPLETED) {
         return;
     }
@@ -404,8 +413,8 @@ function trustmate_verify_general_nonce()
 
 function trustmate_instant_review($order_id)
 {
-	$order = wc_get_order($order_id);
-?>
+    $order = wc_get_order($order_id);
+    ?>
   <script>
     TRUST_MATE_USER_NAME = '<?php echo $order->get_billing_first_name() ?>';
     TRUST_MATE_USER_EMAIL = '<?php echo $order->get_billing_email() ?>';
@@ -420,53 +429,55 @@ if (get_option('trustmate_instant_review')) {
     add_action('woocommerce_thankyou', 'trustmate_instant_review');
 }
 
-add_action('update_option_trustmate_instant_review', function($old_value, $value, $option) {
+add_action('update_option_trustmate_instant_review', function ($old_value, $value, $option) {
     trustmate_update_settings($value);
     trustmate_papi_install();
 }, 10, 3);
 
-add_action('update_option_trustmate_invitations_enabled', function($old_value, $value, $option) {
+add_action('update_option_trustmate_invitations_enabled', function ($old_value, $value, $option) {
     if ($old_value != $value) {
         trustmate_papi_install();
     }
 }, 10, 3);
 
 add_action('upgrader_process_complete', 'trustmate_on_plugin_update', 20, 3);
-function trustmate_on_plugin_update($upgrader_object, $options) {
-    $current_plugin = plugin_basename( __FILE__ );
+function trustmate_on_plugin_update($upgrader_object, $options)
+{
+    $current_plugin = plugin_basename(__FILE__);
 
     if ($options['action'] == 'update' && $options['type'] == 'plugin') {
-       foreach ($options['plugins'] as $plugin) {
-          if ($plugin == $current_plugin) {
-            trustmate_papi_install();
+        foreach ($options['plugins'] as $plugin) {
+            if ($plugin == $current_plugin) {
+                trustmate_papi_install();
 
-            // upgrade widget enabled status
-            if (!get_option('trustmate_widget_hydra') && get_option('trustmate_widget_gorilla')) {
-                update_option('trustmate_widget_hydra', 1);
-                update_option('trustmate_widget_gorilla', 0);
+                // upgrade widget enabled status
+                if (!get_option('trustmate_widget_hydra') && get_option('trustmate_widget_gorilla')) {
+                    update_option('trustmate_widget_hydra', 1);
+                    update_option('trustmate_widget_gorilla', 0);
+                }
+                if (!get_option('trustmate_widget_muskrat2') && get_option('trustmate_widget_muskrat')) {
+                    update_option('trustmate_widget_muskrat2', 1);
+                    update_option('trustmate_widget_muskrat', 0);
+                }
+                if (!get_option('trustmate_widget_badger2') && get_option('trustmate_widget_badger')) {
+                    update_option('trustmate_widget_badger2', 1);
+                    update_option('trustmate_widget_badger', 0);
+                }
+                if (!get_option('trustmate_widget_ferret2') && get_option('trustmate_widget_ferret')) {
+                    update_option('trustmate_widget_ferret2', 1);
+                    update_option('trustmate_widget_ferret', 0);
+                }
+                if (!get_option('trustmate_widget_product_ferret2') && get_option('trustmate_widget_product_ferret')) {
+                    update_option('trustmate_widget_product_ferret2', 1);
+                    update_option('trustmate_widget_product_ferret', 0);
+                }
             }
-            if (!get_option('trustmate_widget_muskrat2') && get_option('trustmate_widget_muskrat')) {
-                update_option('trustmate_widget_muskrat2', 1);
-                update_option('trustmate_widget_muskrat', 0);
-            }
-            if (!get_option('trustmate_widget_badger2') && get_option('trustmate_widget_badger')) {
-                update_option('trustmate_widget_badger2', 1);
-                update_option('trustmate_widget_badger', 0);
-            }
-            if (!get_option('trustmate_widget_ferret2') && get_option('trustmate_widget_ferret')) {
-                update_option('trustmate_widget_ferret2', 1);
-                update_option('trustmate_widget_ferret', 0);
-            }
-            if (!get_option('trustmate_widget_product_ferret2') && get_option('trustmate_widget_product_ferret')) {
-                update_option('trustmate_widget_product_ferret2', 1);
-                update_option('trustmate_widget_product_ferret', 0);
-            }
-          }
-       }
+        }
     }
 }
 
-function defer_widget_js($html) {
+function defer_widget_js($html)
+{
     if (is_admin()) {
         return $html;
     }
@@ -479,7 +490,8 @@ function defer_widget_js($html) {
 }
 add_filter('script_loader_tag', 'defer_widget_js', 10);
 
-function trustmate_uninstall() {
+function trustmate_uninstall()
+{
     trustmate_papi_uninstall();
 }
 register_uninstall_hook(__FILE__, 'trustmate_uninstall');

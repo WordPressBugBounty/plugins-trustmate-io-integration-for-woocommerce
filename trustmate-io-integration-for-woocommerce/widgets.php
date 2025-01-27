@@ -6,6 +6,7 @@ $trustmate_widget_image_count = array(
   'product_ferret2' => 2,
   'dodo2' => 4,
   'muskrat2' => 4,
+  'bee' => 2,
   'chupacabra' => 1,
   'alpaca' => 2,
   'hydra' => 3,
@@ -34,6 +35,10 @@ $trustmate_widget_descriptions = array(
     'Amaze your customers with this modern, interactive widget!',
     'Display your average rating and review count, showcase the most recent reviews and collect new ones with just a few clicks.',
     'Simply and intuitively.',
+  ),
+  'bee' => array(
+    'Show off the number of reviews and display the average rating with this simple widget.',
+    'Buyers will know right away that they are dealing with a trustworthy company when they enter your store.',
   ),
   'chupacabra' => array(
     'Average rating, recent reviews and customer photos displayed on static cards directly on your website.',
@@ -85,10 +90,11 @@ $trustmate_widget_descriptive_names = array(
   'owl' => 'Widget with badges',
   'lemur' => 'Sliding out widget with reviews',
   'badger2' => 'Badge - product rating (edge)',
+  'bee' => 'Company rating - top bar',
 );
 
 function trustmate_render_type($widget_name) {
-  $company = ['ferret2', 'dodo2', 'muskrat2', 'lemur', 'owl', 'alpaca'];
+  $company = ['ferret2', 'dodo2', 'muskrat2', 'lemur', 'owl', 'alpaca', 'bee'];
   $product = ['product_ferret2', 'hornet', 'multihornet', 'hydra', 'badger2'];
 
   if (in_array($widget_name, $company)) echo trustmate_tr('Company');
@@ -155,6 +161,7 @@ function trustmate_render_widgets()
       ['name' => 'product_ferret2', 'display_name' => 'ProductFerret'],
       // ['name' => 'dodo2', 'display_name' => 'Dodo'],
       ['name' => 'muskrat2', 'display_name' => 'Muskrat'],
+      ['name' => 'bee', 'display_name' => 'Bee'],
       ['name' => 'chupacabra', 'display_name' => 'Chupacabra'],
       ['name' => 'alpaca', 'display_name' => 'Alpaca'],
       ['name' => 'hydra', 'display_name' => 'Hydra'],

@@ -1,8 +1,8 @@
 === TrustMate.io - WooCommerce integration ===
 Contributors: TrustMate.io dev team
 Tags: reviews, opinions, surveys, products
-Tested up to: 6.4.1
-Stable tag: 1.12.6
+Tested up to: 6.7.1
+Stable tag: 1.13.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -80,9 +80,8 @@ at your WooCommerce store. Creating an account is done with one click.
 
 == Changelog ==
 
-= 1.12.6 =
-* Updated suggested consent for shop regulations.
-* Updated CS translations.
+= 1.13.0 =
+* Added Bee widget.
 
 = 1.12.4 =
 * Updated CS translations.

@@ -49,6 +49,21 @@ function trustmate_render_widget_muskrat2()
     }
 }
 
+function trustmate_render_widget_bee()
+{
+    $language_param = class_exists('SitePress') ? '?language='.ICL_LANGUAGE_CODE : '';
+
+    if (get_option('trustmate_widget_bee')) {
+        echo "<div id='tm-widget-bee'></div>";
+        $script_src = sprintf(
+            "%s/platforms/widget/bee/script/%s{$language_param}",
+            trustmate_get_api_base_url(),
+            get_option('trustmate_account_uuid')
+        );
+        wp_enqueue_script('trustmate-bee', $script_src);
+    }
+}
+
 function trustmate_render_widget_lemur()
 {
     $language_param = class_exists('SitePress') ? '?language='.ICL_LANGUAGE_CODE : '';

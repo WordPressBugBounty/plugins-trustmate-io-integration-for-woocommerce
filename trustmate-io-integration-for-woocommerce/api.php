@@ -199,6 +199,7 @@ function trustmate_papi_install()
     $additional_info = array(
         'muskrat' => (int) get_option('trustmate_widget_muskrat'),
         'muskrat2' => (int) get_option('trustmate_widget_muskrat2'),
+        'bee' => (int) get_option('trustmate_widget_bee'),
         'lemur' => (int) get_option('trustmate_widget_lemur'),
         'product_ferret' => (int) get_option('trustmate_widget_product_ferret'),
         'product_ferret2' => (int) get_option('trustmate_widget_product_ferret2'),

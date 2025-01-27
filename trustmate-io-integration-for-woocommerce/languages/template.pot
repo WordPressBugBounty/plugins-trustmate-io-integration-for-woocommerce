@@ -327,6 +327,16 @@ msgstr ""
 msgid "Simply and intuitively."
 msgstr ""
 
+# Bee
+msgid "Company rating - top bar"
+msgstr ""
+
+msgid "Show off the number of reviews and display the average rating with this simple widget."
+msgstr ""
+
+msgid "Buyers will know right away that they are dealing with a trustworthy company when they enter your store."
+msgstr ""
+
 # Alpaca
 msgid "Social Proof (pop-up reviews)"
 msgstr ""
