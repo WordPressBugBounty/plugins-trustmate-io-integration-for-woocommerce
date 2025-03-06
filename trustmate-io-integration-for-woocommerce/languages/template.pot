@@ -126,6 +126,18 @@ msgstr ""
 msgid "Your TrustMate user code (UUID from TrustMate panel, Integration section)"
 msgstr ""
 
+msgid "Additional TrustMate account UUIDs per language"
+msgstr ""
+
+msgid "Use this only if you have multiple TrustMate language accounts"
+msgstr ""
+
+msgid "Currently we only support Polylang for WooCommerce"
+msgstr ""
+
+msgid "Add another"
+msgstr ""
+
 msgid "Automatic review invitations"
 msgstr ""
 

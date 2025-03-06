@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-01-27 08:43+0000\n"
+"PO-Revision-Date: 2025-03-06 08:57+0000\n"
 "Last-Translator: Michał Zagdan <michal.zagdan@trustmate.io>\n"
 "Language-Team: Polish <http://trans.trustmate.io/projects/woocommerce-plugin/"
 "main/pl/>\n"
@@ -151,6 +151,18 @@ msgstr ""
 msgid ""
 "Your TrustMate user code (UUID from TrustMate panel, Integration section)"
 msgstr "Twój kod użytkownika TrustMate (UUID z panelu TrustMate → Integracje)"
+
+msgid "Additional TrustMate account UUIDs per language"
+msgstr "Dodatkowe konta TrustMate dla poszczególnych języków"
+
+msgid "Use this only if you have multiple TrustMate language accounts"
+msgstr "Użyj tylko jeśli masz wiele kont TrustMate dla poszczególnych języków"
+
+msgid "Currently we only support Polylang for WooCommerce"
+msgstr "Aktualnie wspieramy tylko Polylang dla WooCommerce"
+
+msgid "Add another"
+msgstr "Dodaj kolejne konto"
 
 msgid "Automatic review invitations"
 msgstr "Automatyczne zaproszenia do oceny firmy i produktów"
@@ -620,7 +632,7 @@ msgid "Sending them together may lower conversion rate"
 msgstr "Wysyłanie ich w tym samym czasie może zmniejszyć konwersję"
 
 msgid "What is UUID"
-msgstr "Co to jest kod UUID"
+msgstr "Co to jest UUID"
 
 msgid "UUID code is a unique identifier for your TrustMate's account"
 msgstr "Kod UUID to unikatowy identyfikator Twojego konta w TrustMate"

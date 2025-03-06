@@ -11,7 +11,8 @@ function trustmate_api_create_account($params)
     ));
 }
 
-function trustmate_create_invitation($order_id, $language = null) {
+function trustmate_create_invitation($order_id, $language = null)
+{
     if (!get_option('trustmate_invitations_enabled')) {
         return;
     }
@@ -32,7 +33,7 @@ function trustmate_create_invitation($order_id, $language = null) {
                     $product_id_for_category = $product->get_parent_id();
                 }
                 $wpseo_primary_term_id = yoast_get_primary_term_id('product_cat', $product_id_for_category);
-                $category_term = get_term( $wpseo_primary_term_id );
+                $category_term = get_term($wpseo_primary_term_id);
                 $category = is_wp_error($category_term) ? null : $category_term->name;
             }
 
@@ -74,14 +75,18 @@ function trustmate_create_invitation($order_id, $language = null) {
             }
             if (!$availability) {
                 switch ($product->get_stock_status()) {
-                    case 'instock': $availability = 1; break;
-                    case 'outofstock': $availability = 2; break;
+                    case 'instock': $availability = 1;
+                        break;
+                    case 'outofstock': $availability = 2;
+                        break;
                     default: break;
                 }
                 if (!$availability && $parent) {
                     switch ($parent->get_stock_status()) {
-                        case 'instock': $availability = 1; break;
-                        case 'outofstock': $availability = 2; break;
+                        case 'instock': $availability = 1;
+                            break;
+                        case 'outofstock': $availability = 2;
+                            break;
                         default: break;
                     }
                 }
@@ -114,13 +119,21 @@ function trustmate_create_invitation($order_id, $language = null) {
         }
     }
 
+    $uuid = get_option('trustmate_account_uuid');
+    if ($language_uuids = get_option('trustmate_account_language_uuids')) {
+        $language_uuids = json_decode($language_uuids, true);
+        if (isset($language_uuids[$language])) {
+            $uuid = $language_uuids[$language];
+        }
+    }
+
     $invitation_data = array(
         'name' => $order->get_billing_first_name(),
         'email' => $order->get_billing_email(),
         'orderNumber' => $order->get_order_number(),
-        'uuid' => get_option('trustmate_account_uuid'),
+        'uuid' => $uuid,
         'products' => $products_data,
-        'signature' => md5($order->get_billing_email() . get_option('trustmate_account_uuid')),
+        'signature' => md5($order->get_billing_email() . $uuid),
         'language' => $language,
         'sourceType' => 'woo',
     );
@@ -138,12 +151,34 @@ function trustmate_create_invitation($order_id, $language = null) {
         wp_remote_request(trustmate_get_api_base_url() . '/platforms/error', array(
             'method' => 'POST',
             'body' => array(
-                'uuid' => get_option('trustmate_account_uuid'),
+                'uuid' => $uuid,
                 'error' => implode(' ', $response->get_error_messages()),
                 'host' => $_SERVER['HTTP_HOST'],
             ),
         ));
     }
+}
+
+function trustmate_get_current_uuid()
+{
+    $uuid = get_option('trustmate_account_uuid');
+    if ($language_uuids = get_option('trustmate_account_language_uuids')) {
+        $language_uuids = json_decode($language_uuids, true);
+
+        $language = null;
+        if (class_exists('SitePress')) {
+            $language = apply_filters('wpml_current_language', null);
+        }
+        elseif (function_exists('pll_current_language')) {
+            $language = pll_current_language();
+        }
+
+        if (isset($language_uuids[$language])) {
+            $uuid = $language_uuids[$language];
+        }
+    }
+
+    return $uuid;
 }
 
 function trustmate_update_settings($instant_reviews)
@@ -225,7 +260,12 @@ function trustmate_papi_install()
         if (strpos($key, 'trustmate-plugin.php') !== false) {
             $trustmate_version = $details['Version'];
         }
-        if (strpos($details['Name'], 'Rank Math') !== false || strpos($details['Name'], 'Yoast SEO') !== false) {
+        if (
+            strpos($details['Name'], 'Rank Math') !== false
+            || strpos($details['Name'], 'Yoast SEO') !== false
+            || strpos($details['Name'], 'Polylang for WooCommerce') !== false
+            || strpos($details['Name'], 'WooCommerce Multilingual & Multicurrency with WPML') !== false
+        ) {
             $additional_info[$details['Name']] = 1;
         }
     }

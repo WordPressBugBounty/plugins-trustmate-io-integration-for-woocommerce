@@ -8,7 +8,7 @@
  * Plugin Name: TrustMate.io integration for WooCommerce
  * Plugin URI: https://trustmate.io
  * Description: TrustMate.io integration with auto invitations
- * Version: 1.13.2
+ * Version: 1.14.0
  * Author: TrustMate.io dev team
  * License: GPLv2 or later
  */
@@ -175,6 +175,7 @@ function trustmate_create_settings_page()
     add_options_page('TrustMate', 'Plugin Menu', 'manage_options', 'trustmate', 'trustmate_view_dispatcher');
     register_setting('trustmate_basic_settings', 'trustmate_invitations_enabled', array('default' => 1));
     register_setting('trustmate_basic_settings', 'trustmate_account_uuid');
+    register_setting('trustmate_basic_settings', 'trustmate_account_language_uuids');
     register_setting('trustmate_basic_settings', 'trustmate_instant_review');
     register_setting('trustmate_basic_settings', 'trustmate_base_url');
     register_setting('trustmate_widget_settings', 'trustmate_widget_gorilla');
@@ -231,6 +232,7 @@ function trustmate_view_dispatcher()
 
     if ($action === TRUSTMATE_PAGE_RESET_PLUGIN) {
         update_option('trustmate_account_uuid', null);
+        update_option('trustmate_account_language_uuids', null);
         trustmate_render_setup_choice();
         return;
     }
@@ -359,8 +361,7 @@ function trustmate_invitation_after_order($order_id)
         return;
     }
 
-    $language = class_exists('SitePress') ? ICL_LANGUAGE_CODE : null;
-
+    $language = trustmate_get_order_language($order_id);
     trustmate_create_invitation($order_id, $language);
 };
 add_action('woocommerce_checkout_order_processed', 'trustmate_invitation_after_order');
@@ -372,8 +373,7 @@ function trustmate_invitation_after_payment($order_id)
         return;
     }
 
-    $language = class_exists('SitePress') ? ICL_LANGUAGE_CODE : null;
-
+    $language = trustmate_get_order_language($order_id);
     trustmate_create_invitation($order_id, $language);
 };
 add_action('woocommerce_payment_complete', 'trustmate_invitation_after_payment');
@@ -385,15 +385,27 @@ function trustmate_invitation_after_order_completed($order_id)
         return;
     }
 
-    $language = get_post_meta($order_id, 'wpml_language', true);
-    if (!$language) {
-        $language = get_post_meta($order_id, 'wpml_lang', true);
-    }
-
+    $language = trustmate_get_order_language($order_id);
     trustmate_create_invitation($order_id, $language);
 }
 add_action('woocommerce_order_status_completed', 'trustmate_invitation_after_order_completed');
 
+
+function trustmate_get_order_language($order_id)
+{
+    if (function_exists('pll_get_post_language')) {
+        return pll_get_post_language($order_id);
+    }
+
+    if (class_exists('SitePress')) {
+        $language_details = apply_filters('wpml_post_language_details', null, $order_id);
+        if (isset($language_details['language_code'])) {
+            return $language_details['language_code'];
+        }
+    }
+
+    return null;
+}
 
 function trustmate_add_nonce()
 {
@@ -419,9 +431,9 @@ function trustmate_instant_review($order_id)
     TRUST_MATE_USER_NAME = '<?php echo $order->get_billing_first_name() ?>';
     TRUST_MATE_USER_EMAIL = '<?php echo $order->get_billing_email() ?>';
     TRUST_MATE_ORDER_NUMBER = '<?php echo $order->get_order_number() ?>';
-    TRUST_MATE_COMPANY_UUID = '<?php echo get_option('trustmate_account_uuid') ?>';
+    TRUST_MATE_COMPANY_UUID = '<?php echo trustmate_get_current_uuid() ?>';
   </script>
-  <script type="text/javascript" src='<?php echo trustmate_get_api_base_url() ?>/api/invitation/script'></script>
+  <script defer type="text/javascript" src='<?php echo trustmate_get_api_base_url() ?>/api/invitation/script'></script>
 <?php
 }
 

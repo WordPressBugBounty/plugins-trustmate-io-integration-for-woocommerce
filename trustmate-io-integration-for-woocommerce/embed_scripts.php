@@ -9,7 +9,7 @@ function trustmate_render_widget_alpaca()
         $script_src = sprintf(
             "%s/platforms/widget/alpaca/script/%s{$language_param}",
             trustmate_get_api_base_url(),
-            get_option('trustmate_account_uuid')
+            trustmate_get_current_uuid()
         );
         wp_enqueue_script('trustmate-alpaca', $script_src);
     }
@@ -26,7 +26,7 @@ function trustmate_render_widget_badger2()
         $script_src = sprintf(
             "%s/platforms/widget/badger2/script/%s?%s=%s{$language_param}",
             trustmate_get_api_base_url(),
-            get_option('trustmate_account_uuid'),
+            trustmate_get_current_uuid(),
             $product->get_type() === 'variable' ? 'group' : 'product',
             $product->get_id()
         );
@@ -43,7 +43,7 @@ function trustmate_render_widget_muskrat2()
         $script_src = sprintf(
             "%s/platforms/widget/muskrat2/script/%s{$language_param}",
             trustmate_get_api_base_url(),
-            get_option('trustmate_account_uuid')
+            trustmate_get_current_uuid()
         );
         wp_enqueue_script('trustmate-muskrat2', $script_src);
     }
@@ -58,7 +58,7 @@ function trustmate_render_widget_bee()
         $script_src = sprintf(
             "%s/platforms/widget/bee/script/%s{$language_param}",
             trustmate_get_api_base_url(),
-            get_option('trustmate_account_uuid')
+            trustmate_get_current_uuid()
         );
         wp_enqueue_script('trustmate-bee', $script_src);
     }
@@ -73,7 +73,7 @@ function trustmate_render_widget_lemur()
         $script_src = sprintf(
             "%s/platforms/widget/lemur/script/%s{$language_param}",
             trustmate_get_api_base_url(),
-            get_option('trustmate_account_uuid')
+            trustmate_get_current_uuid()
         );
         wp_enqueue_script('trustmate-lemur', $script_src);
     }
@@ -89,7 +89,7 @@ function trustmate_render_widget_chupacabra()
         $script_src = sprintf(
             "%s/platforms/widget/chupacabra2/script/%s{$language_param}",
             trustmate_get_api_base_url(),
-            get_option('trustmate_account_uuid')
+            trustmate_get_current_uuid()
         );
         wp_enqueue_script('trustmate-chupacabra', $script_src);
     }
@@ -104,7 +104,7 @@ function trustmate_render_widget_ferret2()
         $script_src = sprintf(
             "%s/platforms/widget/ferret2/script/%s{$language_param}",
             trustmate_get_api_base_url(),
-            get_option('trustmate_account_uuid')
+            trustmate_get_current_uuid()
         );
         wp_enqueue_script('trustmate-ferret2', $script_src);
     }
@@ -121,7 +121,7 @@ function trustmate_render_widget_product_ferret2()
         $script_src = sprintf(
             "%s/platforms/widget/productFerret2/script/%s?%s=%s{$language_param}",
             trustmate_get_api_base_url(),
-            get_option('trustmate_account_uuid'),
+            trustmate_get_current_uuid(),
             $product->get_type() === 'variable' ? 'group' : 'product',
             $product->get_id()
         );
@@ -140,7 +140,7 @@ function trustmate_render_widget_hydra()
         $script_src = sprintf(
             "%s/platforms/widget/hydra/script/%s?%s=%s{$language_param}",
             trustmate_get_api_base_url(),
-            get_option('trustmate_account_uuid'),
+            trustmate_get_current_uuid(),
             $product->get_type() === 'variable' ? 'group' : 'product',
             $product->get_id()
         );
@@ -158,7 +158,7 @@ function trustmate_render_widget_owl()
         $script_src = sprintf(
             "%s/platforms/widget/owl2/script/%s{$language_param}",
             trustmate_get_api_base_url(),
-            get_option('trustmate_account_uuid')
+            trustmate_get_current_uuid()
         );
         wp_enqueue_script('trustmate-owl', $script_src);
     }
@@ -350,11 +350,11 @@ function trustmate_render_widget_hornets()
                 })();
             </script>",
             trustmate_get_api_base_url(),
-            get_option('trustmate_account_uuid'),
+            trustmate_get_current_uuid(),
             trustmate_get_api_base_url(),
-            get_option('trustmate_account_uuid'),
+            trustmate_get_current_uuid(),
             trustmate_get_api_base_url(),
-            get_option('trustmate_account_uuid')
+            trustmate_get_current_uuid()
         );
     }
 }
@@ -369,7 +369,7 @@ function trustmate_render_widget_hornet()
         echo "<div id='tm-widget-hornet'></div>";
         $script_src = sprintf("%s/platforms/%s/widget/hornet/script?%s=%s{$language_param}",
             trustmate_get_api_base_url(),
-            get_option('trustmate_account_uuid'),
+            trustmate_get_current_uuid(),
             $product->get_type() === 'variable' ? 'group' : 'product',
             $product->get_id()
         );
