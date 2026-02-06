@@ -18,6 +18,10 @@ function trustmate_create_invitation($order_id, $language = null)
     }
 
     $order = wc_get_order($order_id);
+    if (trustmate_is_from_marketplace($order->get_billing_email())) {
+        return;
+    }
+
     $items = $order->get_items();
 
     $products_data = array();
@@ -168,8 +172,7 @@ function trustmate_get_current_uuid()
         $language = null;
         if (class_exists('SitePress')) {
             $language = apply_filters('wpml_current_language', null);
-        }
-        elseif (function_exists('pll_current_language')) {
+        } elseif (function_exists('pll_current_language')) {
             $language = pll_current_language();
         }
 
@@ -247,6 +250,7 @@ function trustmate_papi_install()
         'ferret2' => (int) get_option('trustmate_widget_ferret2'),
         'chupacabra' => (int) get_option('trustmate_widget_chupacabra'),
         'hornet' => (int) get_option('trustmate_widget_hornet'),
+        'multihornet' => (int) get_option('trustmate_widget_multihornet'),
         'owl' => (int) get_option('trustmate_widget_owl'),
         'instant_review' => (int) get_option('trustmate_instant_review'),
     );
@@ -264,7 +268,12 @@ function trustmate_papi_install()
             strpos($details['Name'], 'Rank Math') !== false
             || strpos($details['Name'], 'Yoast SEO') !== false
             || strpos($details['Name'], 'Polylang for WooCommerce') !== false
+            || $details['Name'] == 'Polylang'
             || strpos($details['Name'], 'WooCommerce Multilingual & Multicurrency with WPML') !== false
+            || strpos($details['Name'], 'WPML Multilingual & Multicurrency for WooCommerce') !== false
+            || strpos($details['Name'], 'Translate Multilingual sites – TranslatePress') !== false
+            || strpos($details['Name'], 'Translate WordPress and go Multilingual – Weglot') !== false
+            || strpos($details['Name'], 'Translate WordPress with GTranslate') !== false
         ) {
             $additional_info[$details['Name']] = 1;
         }
@@ -314,4 +323,16 @@ function trustmate_papi_get_base_url()
     }
 
     return str_replace('://', '://papi.', $api_url);
+}
+
+function trustmate_is_from_marketplace($email)
+{
+    return stripos($email, '@allegromail.pl') !== false
+        || stripos($email, '@members.ebay.') !== false
+        || stripos($email, '@marketplace.amazon.') !== false
+        || stripos($email, '@spartoo.com') !== false
+        || stripos($email, '@mail.erli.pl') !== false
+        || stripos($email, '@ct.vtex.com.br') !== false
+        || stripos($email, '@privaterelay.appleid.com') !== false
+    ;
 }

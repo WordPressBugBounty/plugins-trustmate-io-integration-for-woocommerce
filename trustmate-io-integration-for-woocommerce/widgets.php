@@ -18,11 +18,11 @@ $trustmate_widget_image_count = array(
 );
 $trustmate_widget_descriptions = array(
   'ferret2' => array(
-    'Catch your customers’ attention with this immersive widget!',
+    'Catch your customer attention with this immersive widget!',
     'Showcase your average rating and the most recent reviews on auto-scrolling tiles and make your website look even cooler!',
   ),
   'product_ferret2' => array(
-    'Attract your customers’ attention with this dynamic widget.',
+    'Attract your customer attention with this dynamic widget.',
     'Average rating, recent reviews, customer images - everything in one place!',
     'Fits like a glove and works like a dream!',
   ),
@@ -93,38 +93,46 @@ $trustmate_widget_descriptive_names = array(
   'bee' => 'Company rating - top bar',
 );
 
-function trustmate_render_type($widget_name) {
-  $company = ['ferret2', 'dodo2', 'muskrat2', 'lemur', 'owl', 'alpaca', 'bee'];
-  $product = ['product_ferret2', 'hornet', 'multihornet', 'hydra', 'badger2'];
+function trustmate_render_type($widget_name)
+{
+    $company = ['ferret2', 'dodo2', 'muskrat2', 'lemur', 'owl', 'alpaca', 'bee'];
+    $product = ['product_ferret2', 'hornet', 'multihornet', 'hydra', 'badger2'];
 
-  if (in_array($widget_name, $company)) echo trustmate_tr('Company');
-  else if (in_array($widget_name, $product)) echo trustmate_tr('Product');
-  else if ($widget_name === 'chupacabra') {
-    echo trustmate_tr('Company'), ' / ', trustmate_tr('Product');
-  }
+    if (in_array($widget_name, $company)) {
+        echo trustmate_tr('Company');
+    } elseif (in_array($widget_name, $product)) {
+        echo trustmate_tr('Product');
+    } elseif ($widget_name === 'chupacabra') {
+        echo trustmate_tr('Company'), ' / ', trustmate_tr('Product');
+    }
 }
 
-function trustmate_render_widget($widget_name, $widget_display_name, $image_path_folder) {
-  global $trustmate_widget_image_count;
-  global $trustmate_widget_descriptions;
-  global $trustmate_widget_descriptive_names;
-  wp_enqueue_style('switch_style');
-  $widgetId = 'trustmate_widget_' . $widget_name;
-  ?>
+function trustmate_render_widget($widget_name, $widget_display_name, $image_path_folder)
+{
+    global $trustmate_widget_image_count;
+    global $trustmate_widget_descriptions;
+    global $trustmate_widget_descriptive_names;
+    wp_enqueue_style('switch_style');
+    $widgetId = 'trustmate_widget_' . $widget_name;
+    ?>
     <div class="row mt-5">
       <div class="col-12 font-weight-bold"><div class="card-block opacity-75 fs-2 h2"><?php echo $widget_display_name ?></div></div>
       <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
         <div id="<?php echo $widget_name ?>" class="carousel carousel-dark slide" data-bs-ride="carousel">
           <div class="carousel-indicators">
             <?php for ($i = 1; $i <= $trustmate_widget_image_count[$widget_name]; $i++): ?>
-              <button type="button" data-bs-target="#<?php echo $widget_name ?>" data-bs-slide-to="<?php echo $i - 1 ?>" <?php if ($i == 1) echo ' class="active" aria-current="true" '; ?> aria-label="Slide <?php echo $i ?>"></button>
+              <button type="button" data-bs-target="#<?php echo $widget_name ?>" data-bs-slide-to="<?php echo $i - 1 ?>" <?php if ($i == 1) {
+                  echo ' class="active" aria-current="true" ';
+              } ?> aria-label="Slide <?php echo $i ?>"></button>
             <?php endfor ?>
           </div>
           <div class="carousel-inner">
             <?php for ($i = 1; $i <= $trustmate_widget_image_count[$widget_name]; $i++): ?>
               <?php $image_name = ($widget_name === 'product_ferret2') ? 'productFerret2' : $widget_name ?>
               <?php $image_path = 'assets/' . $image_path_folder . '/' . $image_name . '_0' . $i . '.png?1' ?>
-              <div class="carousel-item <?php if ($i == 1) echo "active" ?>">
+              <div class="carousel-item <?php if ($i == 1) {
+                  echo "active";
+              } ?>">
                 <img src="<?php echo plugins_url($image_path, __FILE__) ?>" class="d-block w-100" alt="...">
               </div>
             <?php endfor ?>
@@ -166,7 +174,7 @@ function trustmate_render_widgets()
       ['name' => 'alpaca', 'display_name' => 'Alpaca'],
       ['name' => 'hydra', 'display_name' => 'Hydra'],
       ['name' => 'hornet', 'display_name' => 'Hornet'],
-      // ['name' => 'multihornet', 'display_name' => 'MultiHornet'],
+      ['name' => 'multihornet', 'display_name' => 'Multihornet'],
       ['name' => 'owl', 'display_name' => 'Owl'],
       ['name' => 'lemur', 'display_name' => 'Lemur'],
       ['name' => 'badger2', 'display_name' => 'Badger'],
@@ -178,7 +186,7 @@ function trustmate_render_widgets()
         $image_path_folder = 'pl';
     }
 
-?>
+    ?>
     <h2 class="mt-3"><?php echo trustmate_tr('Show reviews with widgets') ?></h2>
     <form method="post" action="options.php">
       <?php settings_fields('trustmate_widget_settings'); ?>

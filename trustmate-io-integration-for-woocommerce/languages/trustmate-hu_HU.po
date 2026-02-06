@@ -3,16 +3,17 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-24 15:36+0000\n"
-"PO-Revision-Date: 2023-02-11 10:45+0000\n"
-"Last-Translator: Paula Kulcsar <paula.kulcsar@gmail.com>\n"
-"Language-Team: Hungarian <http://trans.trustmate.io/projects/"
+"PO-Revision-Date: 2025-04-28 02:39+0000\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
+"Language-Team: Hungarian <https://weblate.trustmate.io/projects/"
 "woocommerce-plugin/main/hu/>\n"
 "Language: hu_HU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.5.3\n"
+"X-Generator: Weblate 5.10.2\n"
 
 # Menu
 msgid "Create TrustMate account"
@@ -317,43 +318,60 @@ msgstr "Kattints a widget leírásának megjelenítéséhez"
 # Hornet
 msgid "Small widget that displays the average rating and the number of reviews"
 msgstr ""
+"Kis widget, amely megjeleníti az átlagos értékelést és a vélemények számát"
 
 msgid "The stars will appear on the product card near the photo and on the product tiles throughout the store"
 msgstr ""
+"A csillagok a termékkártyán a fénykép közelében és a termékcsempéken "
+"jelennek meg az egész üzletben"
 
 msgid "The widget displays the current number of reviews about the product and the current average rating"
 msgstr ""
+"A widget megjeleníti a termékről szóló értékelések jelenlegi számát és az "
+"aktuális átlagos minősítést"
 
 msgid "It can be embedded next to the main product description on the product sheet or in product lists in your store"
 msgstr ""
+"Beágyazható a fő termékleírás mellé a terméklapon vagy az üzlet "
+"terméklistáiban"
 
 msgid "Benefits"
-msgstr ""
+msgstr "Előnyök"
 
 msgid "distinguishes the product by encouraging customers to click on it and make purchases"
 msgstr ""
+"megkülönbözteti a terméket azáltal, hogy arra ösztönzi az ügyfeleket, hogy "
+"kattintsanak rá és vásároljanak"
 
 # Chupacabra
 msgid "Widget social proof (large box)"
-msgstr ""
+msgstr "Widget társadalmi bizonyíték (nagy doboz)"
 
 msgid "Static widget with customer reviews sending a message \"you can trust us\""
 msgstr ""
+"Statikus widget vásárlói véleményekkel, amelyek üzenetet küldenek "
+"\"megbízhat bennünk\""
 
 msgid "Widget includes both company and product reviews"
-msgstr ""
+msgstr "A widget vállalati és termékértékeléseket is tartalmaz"
 
 msgid "Anytime you can adjust widget outlook without developer help, even after embedding it on your site"
 msgstr ""
+"Bármikor módosíthatja a widget megjelenését fejlesztői segítség nélkül, még "
+"akkor is, ha beágyazta a webhelyére"
 
 msgid "Microdata"
-msgstr ""
+msgstr "Mikroadat"
 
 msgid "If you enable microdata, widget will make your reviews understandable for search engines like Google"
 msgstr ""
+"Ha engedélyezi a mikroadatokat, a widget érthetővé teszi véleményeit az "
+"olyan keresőmotorok számára, mint a Google"
 
 msgid "Search engine results with your site will be enriched with additional data like average rating, stars, review count"
 msgstr ""
+"A webhely keresőmotorjainak eredményei további adatokkal bővülnek, például "
+"átlagos értékeléssel, csillagokkal, értékelések számával"
 
 # Ferret
 msgid "Carousel"
@@ -384,13 +402,17 @@ msgstr "Csúszka termék értékeléséhez"
 
 # Owl
 msgid "Certificate widget"
-msgstr ""
+msgstr "Tanúsítvány widget"
 
 msgid "If you meet the program conditions visible on the main page of the panel, TrustMate will automatically display the badge in your store along with information about the current rating"
 msgstr ""
+"Ha megfelel a panel főoldalán látható programfeltételeknek, a TrustMate "
+"automatikusan megjeleníti a jelvényt az üzletében az aktuális értékeléssel "
+"együtt"
 
 msgid "This will result in more buying interest from potential customers"
 msgstr ""
+"Ez nagyobb vásárlási érdeklődést eredményez a potenciális vásárlók körében"
 
 # FAQ section
 msgid "FAQ"
@@ -491,3 +513,153 @@ msgid "If you use multiple categories for your product the only way is to use pr
 msgstr ""
 "Ha több kategóriát használsz a termékedhez, az egyetlen módja ennek a Yoast "
 "SEO plugin elsődleges kategória funkciójának használata"
+msgid "Add another"
+msgstr "Adj hozzá még egyet"
+
+msgid "Additional TrustMate account UUIDs per language"
+msgstr "További TrustMate fiók UUID-k nyelvenként"
+
+msgid "Amaze your customers with this modern, interactive widget!"
+msgstr "Kápráztatja el ügyfeleit ezzel a modern, interaktív widgettel!"
+
+msgid "A minimalistic widget displaying average rating next to a product description."
+msgstr "Minimalista widget, amely az átlagos értékelést jeleníti meg a termékleírás mellett."
+
+msgid "Attention grabber like no other."
+msgstr "Figyelemfelkeltő, mint semmi más."
+
+msgid "Attract your customer attention with this dynamic widget."
+msgstr "Vonja magára ügyfelei figyelmét ezzel a dinamikus widgettel."
+
+msgid "Average rating, recent reviews and customer photos displayed on static cards directly on your website."
+msgstr "Átlagos értékelés, friss vélemények és ügyfélfotók statikus kártyákon közvetlenül a webhelyén."
+
+msgid "Average rating, recent reviews, customer images - everything in one place!"
+msgstr "Átlagos értékelés, friss vélemények, ügyfélfotók - minden egy helyen!"
+
+msgid "Average rating, results of product surveys, up to 50 recent reviews, expert evaluations, and the Q&A module - Hydra has everything in one place."
+msgstr "Átlagos értékelés, termékfelmérések eredményei, akár 50 friss vélemény, szakértői értékelések és a kérdés-válasz modul - a Hydra mindent egy helyen tartalmaz."
+
+msgid "Bring your average rating to view and showcase the full review content by expanding this little widget."
+msgstr "Jelenítse meg átlagos értékelését, és mutassa be a teljes véleménytartalmat ennek a kis widgetnek a kibontásával."
+
+msgid "Buyers will know right away that they are dealing with a trustworthy company when they enter your store."
+msgstr "A vásárlók azonnal tudni fogják, hogy megbízható céggel van dolguk, amikor belépnek az áruházába."
+
+msgid "Carousel - company reviews"
+msgstr "Körhinta - cégértékelések"
+
+msgid "Carousel - product reviews"
+msgstr "Körhinta - termékértékelések"
+
+msgid "Catch your customers' attention with this immersive widget!"
+msgstr "Ragadja meg ügyfelei figyelmét ezzel a magával ragadó widgettel!"
+
+msgid "Company rating - top bar"
+msgstr "Cégértékelés - felső sáv"
+
+msgid "Create a star constellation in your product lists!"
+msgstr "Hozzon létre csillagképet a terméklistáiban!"
+
+msgid "Currently we only support Polylang for WooCommerce"
+msgstr "Jelenleg csak a Polylang for WooCommerce-t támogatjuk"
+
+msgid "Description"
+msgstr "Leírás"
+
+msgid "Designed for those who want more."
+msgstr "Azoknak tervezve, akik többet akarnak."
+
+msgid "Display product average rating on category pages and other product listings."
+msgstr "Jelenítse meg a termék átlagos értékelését a kategóriaoldalakon és más terméklistákon."
+
+msgid "Display your average rating and review count, showcase the most recent reviews and collect new ones with just a few clicks."
+msgstr "Jelenítse meg átlagos értékelését és véleményszámát, mutassa be a legfrissebb véleményeket, és gyűjtsön újakat néhány kattintással."
+
+msgid "Display your average rating, number of reviews and present the most recent ones with this unmissable widget."
+msgstr "Jelenítse meg átlagos értékelését, a vélemények számát, és mutassa be a legfrissebbeket ezzel a nélkülözhetetlen widgettel."
+
+msgid "Enable instant company review form on thank you page - do not use with After successful order status"
+msgstr "Azonnali cégértékelő űrlap engedélyezése a köszönőoldalon - ne használja a Sikeres rendelés után státusszal"
+
+msgid "Fits like a glove and works like a dream!"
+msgstr "Tökéletesen illeszkedik és álomszerűen működik!"
+
+msgid "Get your reviews noticed with this sliding widget."
+msgstr "Tegye észrevehetővé véleményeit ezzel a csúszó widgettel."
+
+msgid "Hornet allows customers to read reviews."
+msgstr "A Hornet lehetővé teszi az ügyfelek számára, hogy elolvassák a véleményeket."
+
+msgid "Lemur is a perfect way to demonstrate your average rating, and when expanded, also latest reviews and TrustMate-granted badges."
+msgstr "A Lemur tökéletes módja az átlagos értékelés bemutatásának, kibontva pedig a legfrissebb vélemények és a TrustMate által adományozott jelvények megjelenítésének is."
+
+msgid "Let Alpaca give your website that wow factor!"
+msgstr "Hagyja, hogy az Alpaca adja meg weboldalának azt a wow faktort!"
+
+msgid "Modular widget - product reviews, expert reviews, Q&A"
+msgstr "Moduláris widget - termékértékelések, szakértői vélemények, kérdés-válasz"
+
+msgid "Name"
+msgstr "Név"
+
+msgid "Neat and simple."
+msgstr "Tiszta és egyszerű."
+
+msgid "No matter if your customers want to read reviews or submit their own - Dodo's got you covered!"
+msgstr "Nem számít, hogy ügyfelei véleményeket akarnak olvasni vagy sajátot beküldeni - a Dodo gondoskodik önről!"
+
+msgid "Not too little, not too much - just perfect!"
+msgstr "Nem túl kevés, nem túl sok - éppen tökéletes!"
+
+msgid "Owl's here to help!"
+msgstr "Az Owl azért van itt, hogy segítsen!"
+
+msgid "Product"
+msgstr "Termék"
+
+msgid "Showcase your average rating and the most recent reviews on auto-scrolling tiles and make your website look even cooler!"
+msgstr "Mutassa be átlagos értékelését és a legfrissebb véleményeket automatikusan görgetődő csempéken, és tegye weboldalát még menőbbé!"
+
+msgid "Showcase your review count and average rating with this simple widget."
+msgstr "Mutassa be véleményeinek számát és átlagos értékelését ezzel az egyszerű widgettel."
+
+msgid "Show off the number of reviews and display the average rating with this simple widget."
+msgstr "Büszkélkedjen véleményeinek számával és jelenítse meg az átlagos értékelést ezzel az egyszerű widgettel."
+
+msgid "Simple and effective."
+msgstr "Egyszerű és hatékony."
+
+msgid "Simply and intuitively."
+msgstr "Egyszerűen és intuitívan."
+
+msgid "Sliding out widget with reviews"
+msgstr "Kicsúszó widget véleményekkel"
+
+msgid "Small but mighty!"
+msgstr "Kicsi, de erős!"
+
+msgid "Type"
+msgstr "Típus"
+
+msgid "Use this only if you have multiple TrustMate language accounts"
+msgstr "Csak akkor használja ezt, ha több TrustMate nyelvi fiókja van"
+
+msgid "Want to present TrustMate-granted awards in style?"
+msgstr "Stílusosan szeretné bemutatni a TrustMate által adományozott díjakat?"
+
+msgid "What's not to love about it?"
+msgstr "Mit ne szeressen ebben?"
+
+msgid "Widgets that will be withdrawn"
+msgstr "Widgetek, amelyeket visszavonnak"
+
+msgid "Widget that displays the rating and reviews"
+msgstr "Widget, amely megjeleníti az értékelést és a véleményeket"
+
+msgid "Widget with badges"
+msgstr "Widget jelvényekkel"
+
+msgid "Wow your customers with this versatile, modular widget!"
+msgstr "Kápráztatja el ügyfeleit ezzel a sokoldalú, moduláris widgettel!"
+

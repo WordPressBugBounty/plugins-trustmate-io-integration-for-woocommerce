@@ -3,16 +3,17 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-23 18:04+0000\n"
-"PO-Revision-Date: 2023-02-19 08:45+0000\n"
-"Last-Translator: Marco van Basten <motivationselfdevelopment@gmail.com>\n"
-"Language-Team: Dutch <http://trans.trustmate.io/projects/woocommerce-plugin/"
-"main/nl/>\n"
+"PO-Revision-Date: 2025-04-28 02:39+0000\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
+"Language-Team: Dutch <https://weblate.trustmate.io/projects/"
+"woocommerce-plugin/main/nl/>\n"
 "Language: nl_NL\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.5.3\n"
+"X-Generator: Weblate 5.10.2\n"
 
 # Menu
 msgid "Create TrustMate account"
@@ -320,43 +321,61 @@ msgstr "Klik om widget beschrijving te tonen"
 # Hornet
 msgid "Small widget that displays the average rating and the number of reviews"
 msgstr ""
+"Kleine widget die de gemiddelde beoordeling en het aantal beoordelingen "
+"weergeeft"
 
 msgid "The stars will appear on the product card near the photo and on the product tiles throughout the store"
 msgstr ""
+"De sterren verschijnen op de productkaart bij de foto en op de producttegels "
+"in de hele winkel"
 
 msgid "The widget displays the current number of reviews about the product and the current average rating"
 msgstr ""
+"De widget toont het huidige aantal beoordelingen van het product en de "
+"huidige gemiddelde beoordeling"
 
 msgid "It can be embedded next to the main product description on the product sheet or in product lists in your store"
 msgstr ""
+"Het kan worden ingesloten naast de hoofdproductbeschrijving op de "
+"productfiche of in productlijsten in uw winkel"
 
 msgid "Benefits"
-msgstr ""
+msgstr "Voordelen"
 
 msgid "distinguishes the product by encouraging customers to click on it and make purchases"
 msgstr ""
+"onderscheidt het product door klanten aan te moedigen erop te klikken en "
+"aankopen te doen"
 
 # Chupacabra
 msgid "Widget social proof (large box)"
-msgstr ""
+msgstr "Widget sociaal bewijs (grote doos)"
 
 msgid "Static widget with customer reviews sending a message \"you can trust us\""
 msgstr ""
+"Statische widget met klantbeoordelingen die een bericht sturen "
+"\"u kunt ons vertrouwen\""
 
 msgid "Widget includes both company and product reviews"
-msgstr ""
+msgstr "Widget bevat zowel bedrijfs- als productrecensies"
 
 msgid "Anytime you can adjust widget outlook without developer help, even after embedding it on your site"
 msgstr ""
+"Op elk moment kunt u de vooruitzichten voor widgets aanpassen zonder hulp "
+"van de ontwikkelaar, zelfs nadat u deze op uw site hebt ingesloten"
 
 msgid "Microdata"
-msgstr ""
+msgstr "Microdata"
 
 msgid "If you enable microdata, widget will make your reviews understandable for search engines like Google"
 msgstr ""
+"Als u microdata inschakelt, maakt widget uw beoordelingen begrijpelijk voor "
+"zoekmachines zoals Google"
 
 msgid "Search engine results with your site will be enriched with additional data like average rating, stars, review count"
 msgstr ""
+"Zoekmachineresultaten met uw site worden verrijkt met aanvullende gegevens, "
+"zoals gemiddelde beoordeling, sterren, aantal beoordelingen"
 
 # Ferret
 msgid "Carousel"
@@ -388,13 +407,16 @@ msgstr "Productoverzicht carrousel"
 
 # Owl
 msgid "Certificate widget"
-msgstr ""
+msgstr "Certificaat widget"
 
 msgid "If you meet the program conditions visible on the main page of the panel, TrustMate will automatically display the badge in your store along with information about the current rating"
 msgstr ""
+"Als u voldoet aan de programmavoorwaarden die zichtbaar zijn op de "
+"hoofdpagina van het paneel, zal TrustMate automatisch de badge in uw winkel "
+"weergeven, samen met informatie over de huidige beoordeling"
 
 msgid "This will result in more buying interest from potential customers"
-msgstr ""
+msgstr "Dit zal resulteren in meer koopinteresse van potentiële klanten"
 
 # FAQ section
 msgid "FAQ"
@@ -496,3 +518,153 @@ msgid "If you use multiple categories for your product the only way is to use pr
 msgstr ""
 "Als je meerdere categorieën gebruikt voor je product is de enige manier om "
 "de primaire categorie functie van Yoast SEO plugin te gebruiken"
+msgid "Add another"
+msgstr "Nog een toevoegen"
+
+msgid "Additional TrustMate account UUIDs per language"
+msgstr "Extra TrustMate account UUID's per taal"
+
+msgid "Amaze your customers with this modern, interactive widget!"
+msgstr "Verbaas uw klanten met deze moderne, interactieve widget!"
+
+msgid "A minimalistic widget displaying average rating next to a product description."
+msgstr "Een minimalistische widget die de gemiddelde beoordeling naast een productbeschrijving weergeeft."
+
+msgid "Attention grabber like no other."
+msgstr "Aandachtstrekker als geen ander."
+
+msgid "Attract your customer attention with this dynamic widget."
+msgstr "Trek de aandacht van uw klanten met deze dynamische widget."
+
+msgid "Average rating, recent reviews and customer photos displayed on static cards directly on your website."
+msgstr "Gemiddelde beoordeling, recente reviews en klantfoto's weergegeven op statische kaarten direct op uw website."
+
+msgid "Average rating, recent reviews, customer images - everything in one place!"
+msgstr "Gemiddelde beoordeling, recente reviews, klantafbeeldingen - alles op één plek!"
+
+msgid "Average rating, results of product surveys, up to 50 recent reviews, expert evaluations, and the Q&A module - Hydra has everything in one place."
+msgstr "Gemiddelde beoordeling, resultaten van productenquêtes, tot 50 recente reviews, deskundige evaluaties en de vraag- en antwoordmodule - Hydra heeft alles op één plek."
+
+msgid "Bring your average rating to view and showcase the full review content by expanding this little widget."
+msgstr "Breng uw gemiddelde beoordeling in beeld en toon de volledige review-inhoud door deze kleine widget uit te vouwen."
+
+msgid "Buyers will know right away that they are dealing with a trustworthy company when they enter your store."
+msgstr "Kopers zullen meteen weten dat ze te maken hebben met een betrouwbaar bedrijf wanneer ze uw winkel betreden."
+
+msgid "Carousel - company reviews"
+msgstr "Carrousel - bedrijfsrecensies"
+
+msgid "Carousel - product reviews"
+msgstr "Carrousel - productrecensies"
+
+msgid "Catch your customers' attention with this immersive widget!"
+msgstr "Trek de aandacht van uw klanten met deze meeslepende widget!"
+
+msgid "Company rating - top bar"
+msgstr "Bedrijfsbeoordeling - bovenbalk"
+
+msgid "Create a star constellation in your product lists!"
+msgstr "Creëer een sterrenconstellation in uw productlijsten!"
+
+msgid "Currently we only support Polylang for WooCommerce"
+msgstr "Momenteel ondersteunen we alleen Polylang voor WooCommerce"
+
+msgid "Description"
+msgstr "Beschrijving"
+
+msgid "Designed for those who want more."
+msgstr "Ontworpen voor degenen die meer willen."
+
+msgid "Display product average rating on category pages and other product listings."
+msgstr "Geef de gemiddelde productbeoordeling weer op categoriepagina's en andere productlijsten."
+
+msgid "Display your average rating and review count, showcase the most recent reviews and collect new ones with just a few clicks."
+msgstr "Toon uw gemiddelde beoordeling en aantal reviews, presenteer de meest recente reviews en verzamel nieuwe met slechts een paar klikken."
+
+msgid "Display your average rating, number of reviews and present the most recent ones with this unmissable widget."
+msgstr "Toon uw gemiddelde beoordeling, aantal reviews en presenteer de meest recente met deze onmisbare widget."
+
+msgid "Enable instant company review form on thank you page - do not use with After successful order status"
+msgstr "Activeer direct bedrijfsreviewformulier op bedankpagina - niet gebruiken met de status Na succesvolle bestelling"
+
+msgid "Fits like a glove and works like a dream!"
+msgstr "Past als gegoten en werkt als een droom!"
+
+msgid "Get your reviews noticed with this sliding widget."
+msgstr "Laat uw reviews opvallen met deze schuifwidget."
+
+msgid "Hornet allows customers to read reviews."
+msgstr "Hornet stelt klanten in staat reviews te lezen."
+
+msgid "Lemur is a perfect way to demonstrate your average rating, and when expanded, also latest reviews and TrustMate-granted badges."
+msgstr "Lemur is een perfecte manier om uw gemiddelde beoordeling te tonen en, wanneer uitgevouwen, ook de nieuwste reviews en door TrustMate toegekende badges."
+
+msgid "Let Alpaca give your website that wow factor!"
+msgstr "Laat Alpaca uw website die wow-factor geven!"
+
+msgid "Modular widget - product reviews, expert reviews, Q&A"
+msgstr "Modulaire widget - productrecensies, deskundige reviews, vragen en antwoorden"
+
+msgid "Name"
+msgstr "Naam"
+
+msgid "Neat and simple."
+msgstr "Netjes en eenvoudig."
+
+msgid "No matter if your customers want to read reviews or submit their own - Dodo's got you covered!"
+msgstr "Of uw klanten nu reviews willen lezen of hun eigen willen indienen - Dodo heeft u gedekt!"
+
+msgid "Not too little, not too much - just perfect!"
+msgstr "Niet te weinig, niet te veel - gewoon perfect!"
+
+msgid "Owl's here to help!"
+msgstr "Owl is hier om te helpen!"
+
+msgid "Product"
+msgstr "Product"
+
+msgid "Showcase your average rating and the most recent reviews on auto-scrolling tiles and make your website look even cooler!"
+msgstr "Toon uw gemiddelde beoordeling en de meest recente reviews op automatisch scrollende tegels en maak uw website er nog cooler uit!"
+
+msgid "Showcase your review count and average rating with this simple widget."
+msgstr "Toon uw aantal reviews en gemiddelde beoordeling met deze eenvoudige widget."
+
+msgid "Show off the number of reviews and display the average rating with this simple widget."
+msgstr "Pronk met het aantal reviews en toon de gemiddelde beoordeling met deze eenvoudige widget."
+
+msgid "Simple and effective."
+msgstr "Eenvoudig en effectief."
+
+msgid "Simply and intuitively."
+msgstr "Eenvoudig en intuïtief."
+
+msgid "Sliding out widget with reviews"
+msgstr "Uitschuifbare widget met reviews"
+
+msgid "Small but mighty!"
+msgstr "Klein maar krachtig!"
+
+msgid "Type"
+msgstr "Type"
+
+msgid "Use this only if you have multiple TrustMate language accounts"
+msgstr "Gebruik dit alleen als u meerdere TrustMate-taalaccounts heeft"
+
+msgid "Want to present TrustMate-granted awards in style?"
+msgstr "Wilt u door TrustMate toegekende onderscheidingen stijlvol presenteren?"
+
+msgid "What's not to love about it?"
+msgstr "Wat valt er niet leuk aan te vinden?"
+
+msgid "Widgets that will be withdrawn"
+msgstr "Widgets die worden ingetrokken"
+
+msgid "Widget that displays the rating and reviews"
+msgstr "Widget die de beoordeling en reviews weergeeft"
+
+msgid "Widget with badges"
+msgstr "Widget met badges"
+
+msgid "Wow your customers with this versatile, modular widget!"
+msgstr "Verbaas uw klanten met deze veelzijdige, modulaire widget!"
+

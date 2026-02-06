@@ -8,7 +8,7 @@
  * Plugin Name: TrustMate.io integration for WooCommerce
  * Plugin URI: https://trustmate.io
  * Description: TrustMate.io integration with auto invitations
- * Version: 1.14.0
+ * Version: 1.15.0
  * Author: TrustMate.io dev team
  * License: GPLv2 or later
  */
@@ -50,13 +50,17 @@ const TRUSTMATE_INV_STATUS_AFTER_ORDER = '1';
 const TRUSTMATE_INV_STATUS_AFTER_PAYMENT = '2';
 const TRUSTMATE_INV_STATUS_COMPLETED = '3';
 
-if (isset($_GET['page']) && $_GET['page'] === 'trustmate') {
-    wp_register_script('5.2.3_bootstrap', '//cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js');
-    wp_enqueue_script('5.2.3_bootstrap');
-    wp_register_style('5.2.3_bootstrap', '//cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css');
-    wp_enqueue_style('5.2.3_bootstrap');
+function trustmate_enqueue_bootstrap()
+{
+    if (isset($_GET['page']) && $_GET['page'] === 'trustmate') {
+        wp_register_script('5.2.3_bootstrap', '//cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js');
+        wp_enqueue_script('5.2.3_bootstrap');
+        wp_register_style('5.2.3_bootstrap', '//cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css');
+        wp_enqueue_style('5.2.3_bootstrap');
+    }
 }
 
+add_action('admin_enqueue_scripts', 'trustmate_enqueue_bootstrap');
 add_action('admin_menu', 'trustmate_create_settings_page');
 add_action('wp_footer', 'trustmate_render_widget_alpaca');
 add_action('wp_footer', 'trustmate_render_widget_badger2');
@@ -64,8 +68,8 @@ add_action('wp_footer', 'trustmate_render_widget_muskrat2');
 add_action('wp_footer', 'trustmate_render_widget_bee');
 add_action('wp_footer', 'trustmate_render_widget_lemur');
 add_action('woocommerce_before_add_to_cart_form', 'trustmate_render_widget_hornet');
-add_action('woocommerce_after_shop_loop_item_title', 'trustmate_insert_hornet_wrappers');
-add_action('wp_footer', 'trustmate_render_widget_hornets');
+add_action('woocommerce_after_shop_loop_item_title', 'trustmate_insert_multihornet_wrappers');
+add_action('wp_footer', 'trustmate_render_widget_multihornet');
 add_action('get_footer', 'trustmate_render_widget_chupacabra');
 add_action('get_footer', 'trustmate_render_widget_ferret2');
 add_action('get_footer', 'trustmate_render_widget_product_ferret2');

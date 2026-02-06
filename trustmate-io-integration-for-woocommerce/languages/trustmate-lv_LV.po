@@ -3,421 +3,654 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-24 17:45+0000\n"
-"PO-Revision-Date: 2022-04-07 15:18+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
-"Language: lv\n"
+"PO-Revision-Date: 2025-04-28 02:39+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Latvian <https://weblate.trustmate.io/projects/"
+"woocommerce-plugin/main/lv/>\n"
+"Language: lv_LV\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.0.1\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 0 || n % 100 >= 11 && n % 100 <= "
+"19) ? 0 : ((n % 10 == 1 && n % 100 != 11) ? 1 : 2);\n"
+"X-Generator: Weblate 5.10.2\n"
 
 # Menu
 msgid "Create TrustMate account"
-msgstr ""
+msgstr "Izveidot TrustMate kontu"
 
 msgid "Settings"
-msgstr ""
+msgstr "Uzstādījumi"
 
 msgid "Widgets"
-msgstr ""
+msgstr "Logrīgi"
 
 # Headers and buttons
 msgid "settings"
-msgstr ""
+msgstr "iestatījumi"
 
 msgid "Configure plugin"
-msgstr ""
+msgstr "Konfigurēt spraudni"
 
 msgid "If you already have TrustMate account"
-msgstr ""
+msgstr "Ja jums jau ir TrustMate konts"
 
 msgid "skip this step"
-msgstr ""
+msgstr "Izlaist šo darbību"
 
 msgid "Save changes"
-msgstr ""
+msgstr "Saglabājiet izmaiņas"
 
 # Install
 msgid "To start collecting reviews you need TrustMate account. Fortunetly you can create it"
 msgstr ""
+"Lai sāktu apkopot atsauksmes, jums ir nepieciešams TrustMate konts. Par "
+"laimi, jūs varat to izveidot"
 
 msgid "within one minute. We'll use data from WooCommerce"
-msgstr ""
+msgstr "vienas minūtes laikā. Mēs izmantosim datus no WooCommerce"
 
 msgid "to make this process very easy"
-msgstr ""
+msgstr "lai padarītu šo procesu ļoti vienkāršu"
 
 msgid "Company details can be updated later in TrustMate panel"
-msgstr ""
+msgstr "Uzņēmuma informāciju var atjaunināt vēlāk TrustMate panelī"
 
 msgid "By registering I accept"
-msgstr ""
+msgstr "Reģistrējoties es piekrītu"
 
 msgid "terms of service"
-msgstr ""
+msgstr "Pakalpojuma noteikumi"
 
 msgid "including consent to be contacted by TrustMate customer service"
 msgstr ""
+"ieskaitot piekrišanu sazināties ar TrustMate klientu apkalpošanas dienestu"
 
 msgid "I going to ask clients for review by e-mail"
-msgstr ""
+msgstr "Es lūgšu klientiem pārskatīt pa e-pastu"
 
 msgid "I accept"
-msgstr ""
+msgstr "Es piekrītu"
 
 msgid "the data entrustment agreement"
-msgstr ""
+msgstr "Datu uzticēšanas līgums"
 
 msgid "Configure invitations and widgets"
-msgstr ""
+msgstr "Uzaicinājumu un logrīku konfigurēšana"
 
 msgid "Verify form below and click \"Create TrustMate account\""
 msgstr ""
+"Verificējiet veidlapu zemāk un noklikšķiniet uz \"Izveidot TrustMate kontu\""
 
 msgid "Account data"
-msgstr ""
+msgstr "Konta dati"
 
 msgid "Company registration data"
-msgstr ""
+msgstr "Uzņēmuma reģistrācijas dati"
 
 msgid "Website address"
-msgstr ""
+msgstr "Mājas lapas adrese"
 
 msgid "Owner's e-mail"
-msgstr ""
+msgstr "Īpašnieka e-pasts"
 
 msgid "Company name"
-msgstr ""
+msgstr "Uzņēmuma nosaukums"
 
 msgid "Street"
-msgstr ""
+msgstr "Iela"
 
 msgid "City"
-msgstr ""
+msgstr "Pilsēta"
 
 msgid "Zip code"
-msgstr ""
+msgstr "Pasta indekss"
 
 msgid "Country"
-msgstr ""
+msgstr "Valsts"
 
 msgid "Tax identification number"
-msgstr ""
+msgstr "Nodokļu maksātāja identifikācijas numurs"
 
 # API related messages and erros
 msgid "Account created"
-msgstr ""
+msgstr "Profils izveidots"
 
 msgid "Please check your e-mail to set password for TrustMate account"
-msgstr ""
+msgstr "Lūdzu, pārbaudiet savu e-pastu, lai iestatītu paroli TrustMate kontam"
 
 msgid "Account already exists"
-msgstr ""
+msgstr "Konts jau pastāv"
 
 msgid "Invalid data sent"
-msgstr ""
+msgstr "Nosūtīti nederīgi dati"
 
 msgid "Unexpected error"
-msgstr ""
+msgstr "Negaidīta kļūda"
 
 msgid "Cannot create account"
-msgstr ""
+msgstr "Nevar izveidot kontu"
 
 msgid "Registration address in WooCommerce Settings not complete"
-msgstr ""
+msgstr "Reģistrācijas adrese WooCommerce iestatījumos nav pabeigta"
 
 msgid "Something went wrong. Please try again or contact TrustMate customer service"
 msgstr ""
+"Kaut kas nogāja greizi. Lūdzu, mēģiniet vēlreiz vai sazinieties ar TrustMate "
+"klientu apkalpošanas dienestu"
 
 msgid "Widget activation failed. Please try again or contact TrustMate customer service"
 msgstr ""
+"Logrīka aktivizācija neizdevās. Lūdzu, mēģiniet vēlreiz vai sazinieties ar "
+"TrustMate klientu apkalpošanas dienestu"
 
 # Config form
 msgid "Your TrustMate user code (UUID from TrustMate panel, Integration section)"
 msgstr ""
+"Jūsu TrustMate lietotāja kods (UUID no TrustMate paneļa, sadaļas Integrācija)"
 
 msgid "Automatic review invitations"
-msgstr ""
+msgstr "Automātiski pārskatīšanas uzaicinājumi"
 
 msgid "To quickly collect client reviews turn on automatic invitations"
 msgstr ""
+"Lai ātri apkopotu klientu atsauksmes, ieslēdziet automātiskos uzaicinājumus"
 
 msgid "While active, script sends invitations to your customers asking for review"
 msgstr ""
+"Kamēr skripts ir aktīvs, tas nosūta klientiem uzaicinājumus, lūdzot pārskatīt"
 
 msgid "In TrustMate panel you can"
-msgstr ""
+msgstr "TrustMate panelī jūs varat"
 
 msgid "change invitation sending delay"
-msgstr ""
+msgstr "Uzaicinājuma nosūtīšanas aizkavēšanās maiņa"
 
 msgid "set how many times customer is reminded to write a review"
-msgstr ""
+msgstr "Iestatiet, cik reižu klientam tiek atgādināts rakstīt atsauksmi"
 
 msgid "adjust invitation colors to your brand"
-msgstr ""
+msgstr "Ielūgumu krāsu pielāgošana savam zīmolam"
 
 msgid "turn on and off product review invitations"
-msgstr ""
+msgstr "Produktu atsauksmju uzaicinājumu ieslēgšana un izslēgšana"
 
 msgid "and more!"
-msgstr ""
+msgstr "un daudz ko citu!"
 
 msgid "Ask for permission to send invitation"
-msgstr ""
+msgstr "Lūgt atļauju nosūtīt uzaicinājumu"
 
 msgid "In order to send review inviations you need customer consent"
 msgstr ""
+"Lai nosūtītu atsauksmes uzaicinājumus, jums ir nepieciešama klienta "
+"piekrišana"
 
 msgid "If you do not collect those consents by yourself (separate checkbox or proper regulations), turn this option on"
 msgstr ""
+"Ja jūs pats neapkopojat šīs piekrišanas (atsevišķa izvēles rūtiņa vai "
+"atbilstošie noteikumi), ieslēdziet šo opciju"
 
 msgid "If you do not directly ask customer for consent to send invitation, we suggest to extend your regulations with content from"
 msgstr ""
+"Ja jūs tieši nelūdzat klientam piekrišanu nosūtīt uzaicinājumu, iesakām "
+"paplašināt savus noteikumus ar saturu no"
 
 msgid "this file"
-msgstr ""
+msgstr "Šis fails"
 
 msgid "Disabled"
-msgstr ""
+msgstr "Atspējots"
 
 msgid "After successful order"
-msgstr ""
+msgstr "Pēc veiksmīga pasūtījuma"
 
 msgid "After successful payment"
-msgstr ""
+msgstr "Pēc veiksmīgas apmaksas"
 
 msgid "After marked as completed"
-msgstr ""
+msgstr "Pēc atzīmēšanas kā pabeigta"
 
 # Widget configuration
 msgid "Show reviews with widgets"
-msgstr ""
+msgstr "Rādīt atsauksmes ar logrīkiem"
 
 msgid "Show badge with shop's grade"
-msgstr ""
+msgstr "Rādīt emblēmu ar veikala pakāpi"
 
 msgid "Show sliding out widget with shop's grade"
-msgstr ""
+msgstr "Rādīt izbīdāmo logrīku ar veikala pakāpi"
 
 msgid "Non-invasive badge is glued to screen's edge and takes little space"
-msgstr ""
+msgstr "Neinvazīva emblēma ir pielīmēta pie ekrāna malas un aizņem maz vietas"
 
 msgid "Click shows a modal with recent reviews"
-msgstr ""
+msgstr "Uz noklikšķināšanas tiek rādīts modāls ar nesenajām atsauksmēm"
 
 msgid "You can change display position in TrustMate panel"
-msgstr ""
+msgstr "Displeja pozīciju var mainīt panelī TrustMate"
 
 msgid "Why use it?"
-msgstr ""
+msgstr "Kāpēc to izmantot?"
 
 msgid "sales increase"
-msgstr ""
+msgstr "palielināts pārdošanas apjoms"
 
 msgid "customers do not leave site searching for reviews"
-msgstr ""
+msgstr "Klienti neatstāj vietni, meklējot atsauksmes"
 
 msgid "can boost your SEO"
-msgstr ""
+msgstr "var uzlabot jūsu SEO"
 
 msgid "can make search engines show stars under your results"
-msgstr ""
+msgstr "var likt meklētājprogrammām rādīt zvaigznes zem jūsu rezultātiem;"
 
 msgid "Show badge with products' grade"
-msgstr ""
+msgstr "Rādīt emblēmu ar produktu pakāpi"
 
 msgid "Click shows a modal with recent reviews and grade distribution"
 msgstr ""
+"Uz klikšķa tiek rādīts modāls ar nesenajām atsauksmēm un atzīmju sadalījumu"
 
 msgid "Widget is a finishing touch on your product page"
-msgstr ""
+msgstr "Logrīks ir pēdējais pieskāriens jūsu produkta lapā"
 
 msgid "product sales increase"
-msgstr ""
+msgstr "Produktu pārdošanas pieaugums"
 
 msgid "can boost your product SEO"
-msgstr ""
+msgstr "var uzlabot jūsu produktu SEO"
 
 msgid "can make search engines show stars under product result"
-msgstr ""
+msgstr "var likt meklētājprogrammām rādīt zvaigznes zem produkta rezultāta"
 
 msgid "Popping up reviews"
-msgstr ""
+msgstr "Uznirstošas atsauksmes"
 
 msgid "Social proof widget with up to three types of popping up boxes which ensure your customers about quality of your services"
 msgstr ""
+"Sociālās pārbaudes logrīks ar līdz pat trīs veidu uznirstošajiem lodziņiem, "
+"kas nodrošina jūsu klientiem jūsu pakalpojumu kvalitāti"
 
 msgid "Position is configurable. Thanks to unconventional images and messages they are very noticable"
 msgstr ""
+"Pozīcija ir konfigurējama. Pateicoties netradicionāliem attēliem un "
+"ziņojumiem, tie ir ļoti pamanāmi"
 
 msgid "If you want to use custom images contact us at support@trustmate.io"
 msgstr ""
+"Ja vēlaties izmantot pielāgotus attēlus, sazinieties ar mums pa e-pastu "
+"support@trustmate.io"
 
 msgid "Boxes does not take much space and are easy way to present your reviews"
 msgstr ""
+"Kastes neaizņem daudz vietas un ir vienkāršs veids, kā prezentēt savas "
+"atsauksmes"
 
 msgid "Show grade and reviews on product page"
-msgstr ""
+msgstr "Rādīt vērtējumu un atsauksmes produkta lapā"
 
 msgid "Page-wide reviews similar to popular comments sections showing under your product"
 msgstr ""
+"Lapas mēroga atsauksmes, kas līdzīgas populārām komentāru sadaļām, kas tiek "
+"rādītas zem jūsu produkta"
 
 msgid "Remember, there are more widgets available"
-msgstr ""
+msgstr "Atcerieties, ka ir pieejami vairāk logrīku"
 
 msgid "You can put them on your site using wordpress HTML widgets"
-msgstr ""
+msgstr "Jūs varat tos ievietot savā vietnē, izmantojot wordpress HTML logrīkus"
 
 msgid "Just copy the code from TrustMate panel widget section"
-msgstr ""
+msgstr "Vienkārši nokopējiet kodu no TrustMate paneļa logrīka sadaļas"
 
 msgid "Turn on"
-msgstr ""
+msgstr "Ieslēgt"
 
 msgid "Click to show widget description"
-msgstr ""
+msgstr "Noklikšķiniet, lai parādītu logrīka aprakstu"
 
 # Hornet
 msgid "Small widget that displays the average rating and the number of reviews"
-msgstr ""
+msgstr "Mazs logrīks, kas parāda vidējo vērtējumu un atsauksmju skaitu"
 
 msgid "The stars will appear on the product card near the photo and on the product tiles throughout the store"
 msgstr ""
+"Zvaigznes parādīsies uz produkta kartītes blakus fotoattēlam un uz produktu "
+"flīzēm visā veikalā"
 
 msgid "The widget displays the current number of reviews about the product and the current average rating"
 msgstr ""
+"Logrīks attēlo pašreizēju atsauksmju skaitu par produktu un pašreizējo "
+"vidējo vērtējumu"
 
 msgid "It can be embedded next to the main product description on the product sheet or in product lists in your store"
 msgstr ""
+"To var iegult blakus galvenajam produkta aprakstam produkta lapā vai veikala "
+"produktu sarakstos"
 
 msgid "Benefits"
-msgstr ""
+msgstr "Ieguvumi"
 
 msgid "distinguishes the product by encouraging customers to click on it and make purchases"
-msgstr ""
+msgstr "atšķir produktu, mudinot klientus noklikšķināt uz tā un veikt pirkumus"
 
 # Chupacabra
 msgid "Widget social proof (large box)"
-msgstr ""
+msgstr "Logrīka sociālais pierādījums (liels lodziņš)"
 
 msgid "Static widget with customer reviews sending a message \"you can trust us\""
 msgstr ""
+"Statisks logrīks ar klientu atsauksmēm, kas sūta ziņojumu "
+"\"jūs varat mums uzticēties\""
 
 msgid "Widget includes both company and product reviews"
-msgstr ""
+msgstr "Logrīks ietver gan uzņēmumu, gan produktu atsauksmes"
 
 msgid "Anytime you can adjust widget outlook without developer help, even after embedding it on your site"
 msgstr ""
+"Jebkurā laikā varat pielāgot logrīka perspektīvu bez izstrādātāja "
+"palīdzības, pat pēc tā iegulšanas savā vietnē"
 
 msgid "Microdata"
-msgstr ""
+msgstr "Mikrodati"
 
 msgid "If you enable microdata, widget will make your reviews understandable for search engines like Google"
 msgstr ""
+"Ja iespējojat mikrodatus, logrīks padarīs jūsu atsauksmes saprotamas tādām "
+"meklētājprogrammām kā Google"
 
 msgid "Search engine results with your site will be enriched with additional data like average rating, stars, review count"
 msgstr ""
+"Meklētājprogrammu rezultāti ar jūsu vietni tiks papildināti ar papildu "
+"datiem, piemēram, vidējo vērtējumu, zvaigznēm, atsauksmju skaitu."
 
 # Ferret
 msgid "Carousel"
-msgstr ""
+msgstr "Karuselis"
 
 msgid "Dynamic \"carousel\" widget catches the eye of customers presenting up to the last 21 reviews. You set the scrolling speed of the visible ratings yourself"
 msgstr ""
+"Dinamiskais \"karuselis\" logrīks piesaista klientu uzmanību, kas prezentē "
+"līdz pēdējām 21 atsauksmēm. Redzamo vērtējumu ritināšanas ātrumu iestatāt "
+"pats"
 
 msgid "Using the carousel you increase the attractiveness of your website to search engines, e.g. Google"
 msgstr ""
+"Izmantojot karuseli, jūs palielināsiet savas mājas lapas pievilcību "
+"meklētājprogrammām, piemēram, Google"
 
 msgid "Let customers read reviews about your company without leaving your website"
 msgstr ""
+"Ļaujiet klientiem lasīt atsauksmes par jūsu uzņēmumu, neizejot no jūsu "
+"vietnes"
 
 msgid "The carousel is responsive and adapts to every page view and mobile devices"
 msgstr ""
+"Karuselis ir atsaucīgs un pielāgojas katram lapas skatījumam un mobilajām "
+"ierīcēm"
 
 msgid "Product review carousel"
-msgstr ""
+msgstr "Produkta apskates karuselis"
 
 # Owl
 msgid "Certificate widget"
-msgstr ""
+msgstr "Sertifikāta logrīks"
 
 msgid "If you meet the program conditions visible on the main page of the panel, TrustMate will automatically display the badge in your store along with information about the current rating"
 msgstr ""
+"Ja atbilstat programmas nosacījumiem, kas redzami paneļa galvenajā lapā, "
+"TrustMate automātiski parādīs emblēmu jūsu veikalā kopā ar informāciju par "
+"pašreizējo vērtējumu"
 
 msgid "This will result in more buying interest from potential customers"
-msgstr ""
+msgstr "Tas radīs lielāku interesi par pirkumiem no potenciālajiem klientiem"
 
 # FAQ section
 msgid "FAQ"
-msgstr ""
+msgstr "FAQ"
 
 msgid "Can I ask only for company reviews"
-msgstr ""
+msgstr "Vai es varu lūgt tikai uzņēmuma atsauksmes?"
 
 msgid "Yes. You need to mark company invitation configuration as automatic and make sure no product invitation configuration is marked as such"
 msgstr ""
+"Jā. Jums ir jāatzīmē uzņēmuma uzaicinājuma konfigurācija kā automātiska un "
+"jāpārliecinās, vai neviena produkta uzaicinājuma konfigurācija nav atzīmēta "
+"kā tāda"
 
 msgid "Can I ask only for product reviews"
-msgstr ""
+msgstr "Vai es varu lūgt tikai produktu atsauksmes?"
 
 msgid "Yes. You need to mark product invitation configuration as automatic and make sure no company invitation configuration is marked as such"
 msgstr ""
+"Jā. Jums ir jāatzīmē produkta uzaicinājuma konfigurācija kā automātiska un "
+"jāpārliecinās, vai neviena uzņēmuma uzaicinājuma konfigurācija nav atzīmēta "
+"kā tāda"
 
 msgid "Remember, for product invitations to work you need to load product feed in TrustMate settings"
 msgstr ""
+"Atcerieties, ka, lai produktu uzaicinājumi darbotos, ir jāielādē produktu "
+"plūsma TrustMate iestatījumos"
 
 msgid "Can I ask for both company and product reviews"
-msgstr ""
+msgstr "Vai es varu lūgt gan uzņēmumu, gan produktu atsauksmes"
 
 msgid "Yes. You need to mark both company and product invitation configurations as automatic"
 msgstr ""
+"Jā. Jums ir jāatzīmē gan uzņēmuma, gan produktu uzaicinājuma konfigurācijas "
+"kā automātiskas"
 
 msgid "Is such case we recommend configuring company invitations to send at least couple days befor product"
 msgstr ""
+"Šādā gadījumā iesakām konfigurēt uzņēmuma uzaicinājumus, lai nosūtītu vismaz "
+"pāris dienas pirms produkta"
 
 msgid "Sending them together may lower conversion rate"
-msgstr ""
+msgstr "To nosūtīšana kopā var samazināt reklāmguvumu līmeni"
 
 msgid "What is UUID"
-msgstr ""
+msgstr "Kas ir UUID"
 
 msgid "UUID code is a unique identifier for your TrustMate's account"
-msgstr ""
+msgstr "UUID kods ir unikāls identifikators jūsu TrustMate kontam"
 
 msgid "You will find it in <em>Integration</em> section"
-msgstr ""
+msgstr "To atradīsiet <em>sadaļā Integrācija</em>"
 
 msgid "How can I add widget with grades and reviews"
-msgstr ""
+msgstr "Kā es varu pievienot logrīku ar atzīmēm un atsauksmēm?"
 
 msgid "Widget which stick to screen edge can be turned on with one click in plugin configuration"
 msgstr ""
+"Logrīku, kas pieturas pie ekrāna malas, var ieslēgt ar vienu klikšķi "
+"spraudņa konfigurācijā"
 
 msgid "All other widget you can embed on your site using Wordpress features: widgets and themes"
 msgstr ""
+"Visi pārējie logrīki, kurus varat iegult savā vietnē, izmantojot WordPress "
+"funkcijas: logrīkus un tēmas"
 
 msgid "When should I enable \"Ask for permission to send review invitation\""
-msgstr ""
+msgstr "Kad jāiespējo opcija \"Lūgt atļauju nosūtīt atsauksmes uzaicinājumu\""
 
 msgid "Always when you do not collect such consent in previous transaction steps and your rules document do not handle the issue"
 msgstr ""
+"Vienmēr, ja jūs nesaņemat šādu piekrišanu iepriekšējās darījuma darbībās un "
+"jūsu noteikumu dokuments nerisina problēmu"
 
 msgid "How can I hide WooCommerce product reviews"
-msgstr ""
+msgstr "Kā es varu paslēpt WooCommerce produktu atsauksmes"
 
 msgid "You need to turn off default WooCommerce reviews in: <em>WooCommerce → Settings → Products → Enable product reviews</em>"
 msgstr ""
+"Jums ir jāizslēdz noklusējuma WooCommerce atsauksmes: <em>WooCommerce → "
+"Iestatījumi → Produkti → Produktu atsauksmju iespējošana</em>"
 
 msgid "Do you support WPML?"
-msgstr ""
+msgstr "Vai jūs atbalstāt WPML?"
 
 msgid "Yes, but keep in mind that you need to add invitation configurations for all languages you want to use in TrustMate.io panel"
 msgstr ""
+"Jā, bet ņemiet vērā, ka jums ir jāpievieno uzaicinājumu konfigurācijas visām "
+"valodām, kuras vēlaties izmantot TrustMate.io panelī"
 
 msgid "How I can decide which on my product category is sent to TrustMate.io?"
 msgstr ""
+"Kā es varu izlemt, kura no manas produktu kategorijas tiek nosūtīta "
+"TrustMate.io?"
 
 msgid "If you use multiple categories for your product the only way is to use primary category feature from Yoast SEO plugin"
 msgstr ""
+"Ja savam produktam izmantojat vairākas kategorijas, vienīgais veids ir "
+"izmantot primārās kategorijas funkciju no Yoast SEO spraudņa"
+msgid "Add another"
+msgstr "Pievienot citu"
+
+msgid "Additional TrustMate account UUIDs per language"
+msgstr "Papildu TrustMate konta UUID pēc valodas"
+
+msgid "Amaze your customers with this modern, interactive widget!"
+msgstr "Pārsteigiet savus klientus ar šo moderno, interaktīvo logrīku!"
+
+msgid "A minimalistic widget displaying average rating next to a product description."
+msgstr "Minimālistisks logrīks, kas rāda vidējo vērtējumu blakus produkta aprakstam."
+
+msgid "Attention grabber like no other."
+msgstr "Uzmanības piesaistītājs kā neviens cits."
+
+msgid "Attract your customer attention with this dynamic widget."
+msgstr "Piesaistiet klientu uzmanību ar šo dinamisko logrīku."
+
+msgid "Average rating, recent reviews and customer photos displayed on static cards directly on your website."
+msgstr "Vidējais vērtējums, jaunākie atsauksmes un klientu fotoattēli, kas redzami uz statiskām kartēm tieši jūsu vietnē."
+
+msgid "Average rating, recent reviews, customer images - everything in one place!"
+msgstr "Vidējais vērtējums, jaunākās atsauksmes, klientu attēli - viss vienuviet!"
+
+msgid "Average rating, results of product surveys, up to 50 recent reviews, expert evaluations, and the Q&A module - Hydra has everything in one place."
+msgstr "Vidējais vērtējums, produktu aptauju rezultāti, līdz 50 jaunākajām atsauksmēm, ekspertu vērtējumi un jautājumu un atbilžu modulis - Hydra ir viss vienuviet."
+
+msgid "Bring your average rating to view and showcase the full review content by expanding this little widget."
+msgstr "Parādiet savu vidējo vērtējumu un demonstrējiet pilnu atsauksmes saturu, izvēršot šo mazo logrīku."
+
+msgid "Buyers will know right away that they are dealing with a trustworthy company when they enter your store."
+msgstr "Pircēji uzreiz zinās, ka viņi sadarbojas ar uzticamu uzņēmumu, kad ienāks jūsu veikalā."
+
+msgid "Carousel - company reviews"
+msgstr "Karuselis - uzņēmuma atsauksmes"
+
+msgid "Carousel - product reviews"
+msgstr "Karuselis - produktu atsauksmes"
+
+msgid "Catch your customers' attention with this immersive widget!"
+msgstr "Piesaistiet klientu uzmanību ar šo aizraujošo logrīku!"
+
+msgid "Company rating - top bar"
+msgstr "Uzņēmuma vērtējums - augšējā josla"
+
+msgid "Create a star constellation in your product lists!"
+msgstr "Izveidojiet zvaigžņu konstelāciju savos produktu sarakstos!"
+
+msgid "Currently we only support Polylang for WooCommerce"
+msgstr "Pašlaik mēs atbalstām tikai Polylang WooCommerce"
+
+msgid "Description"
+msgstr "Apraksts"
+
+msgid "Designed for those who want more."
+msgstr "Izstrādāts tiem, kas vēlas vairāk."
+
+msgid "Display product average rating on category pages and other product listings."
+msgstr "Rādiet produkta vidējo vērtējumu kategoriju lapās un citos produktu sarakstos."
+
+msgid "Display your average rating and review count, showcase the most recent reviews and collect new ones with just a few clicks."
+msgstr "Rādiet savu vidējo vērtējumu un atsauksmju skaitu, demonstrējiet jaunākās atsauksmes un vāciet jaunas ar dažiem klikšķiem."
+
+msgid "Display your average rating, number of reviews and present the most recent ones with this unmissable widget."
+msgstr "Rādiet savu vidējo vērtējumu, atsauksmju skaitu un prezentējiet jaunākās ar šo nepalaidamo logrīku."
+
+msgid "Enable instant company review form on thank you page - do not use with After successful order status"
+msgstr "Iespējot tūlītēju uzņēmuma atsauksmes formu pateicības lapā - neizmantojiet ar statusu Pēc veiksmīga pasūtījuma"
+
+msgid "Fits like a glove and works like a dream!"
+msgstr "Der kā cimds un darbojas kā sapnis!"
+
+msgid "Get your reviews noticed with this sliding widget."
+msgstr "Padariet savas atsauksmes pamanāmas ar šo slīdošo logrīku."
+
+msgid "Hornet allows customers to read reviews."
+msgstr "Hornet ļauj klientiem lasīt atsauksmes."
+
+msgid "Lemur is a perfect way to demonstrate your average rating, and when expanded, also latest reviews and TrustMate-granted badges."
+msgstr "Lemur ir lielisks veids, kā demonstrēt savu vidējo vērtējumu, un, izvēršot, arī jaunākās atsauksmes un TrustMate piešķirtās nozīmes."
+
+msgid "Let Alpaca give your website that wow factor!"
+msgstr "Ļaujiet Alpaca piešķirt jūsu vietnei to wow faktoru!"
+
+msgid "Modular widget - product reviews, expert reviews, Q&A"
+msgstr "Modulārs logrīks - produktu atsauksmes, ekspertu atsauksmes, jautājumi un atbildes"
+
+msgid "Name"
+msgstr "Nosaukums"
+
+msgid "Neat and simple."
+msgstr "Kārtīgs un vienkāršs."
+
+msgid "No matter if your customers want to read reviews or submit their own - Dodo's got you covered!"
+msgstr "Neatkarīgi no tā, vai jūsu klienti vēlas lasīt atsauksmes vai iesniegt savas - Dodo jūs nodrošinās!"
+
+msgid "Not too little, not too much - just perfect!"
+msgstr "Ne pārāk maz, ne pārāk daudz - tieši pareizi!"
+
+msgid "Owl's here to help!"
+msgstr "Owl ir šeit, lai palīdzētu!"
+
+msgid "Product"
+msgstr "Produkts"
+
+msgid "Showcase your average rating and the most recent reviews on auto-scrolling tiles and make your website look even cooler!"
+msgstr "Parādiet savu vidējo vērtējumu un jaunākās atsauksmes uz automātiski ritošām plāksnēm un padariet savu vietni vēl interesantāku!"
+
+msgid "Showcase your review count and average rating with this simple widget."
+msgstr "Parādiet savu atsauksmju skaitu un vidējo vērtējumu ar šo vienkāršo logrīku."
+
+msgid "Show off the number of reviews and display the average rating with this simple widget."
+msgstr "Lepoties ar atsauksmju skaitu un rādiet vidējo vērtējumu ar šo vienkāršo logrīku."
+
+msgid "Simple and effective."
+msgstr "Vienkāršs un efektīvs."
+
+msgid "Simply and intuitively."
+msgstr "Vienkārši un intuitīvi."
+
+msgid "Sliding out widget with reviews"
+msgstr "Izslīdošais logrīks ar atsauksmēm"
+
+msgid "Small but mighty!"
+msgstr "Mazs, bet spēcīgs!"
+
+msgid "Type"
+msgstr "Tips"
+
+msgid "Use this only if you have multiple TrustMate language accounts"
+msgstr "Izmantojiet to tikai tad, ja jums ir vairāki TrustMate valodu konti"
+
+msgid "Want to present TrustMate-granted awards in style?"
+msgstr "Vēlaties stilīgi prezentēt TrustMate piešķirtās balvas?"
+
+msgid "What's not to love about it?"
+msgstr "Ko te nemīlēt?"
+
+msgid "Widgets that will be withdrawn"
+msgstr "Logrīki, kas tiks atsaukti"
+
+msgid "Widget that displays the rating and reviews"
+msgstr "Logrīks, kas rāda vērtējumu un atsauksmes"
+
+msgid "Widget with badges"
+msgstr "Logrīks ar nozīmēm"
+
+msgid "Wow your customers with this versatile, modular widget!"
+msgstr "Pārsteigiet savus klientus ar šo daudzpusīgo, modulāro logrīku!"
+

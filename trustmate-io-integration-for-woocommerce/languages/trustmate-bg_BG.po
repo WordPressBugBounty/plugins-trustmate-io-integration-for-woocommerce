@@ -510,3 +510,156 @@ msgid "If you use multiple categories for your product the only way is to use pr
 msgstr ""
 "Ако използвате няколко категории за вашия продукт, единственият начин е да "
 "използвате функцията за основна категория от приставката за SEO на Yoast"
+msgid "Add another"
+msgstr "Добави друг"
+
+msgid "Additional TrustMate account UUIDs per language"
+msgstr "Допълнителни UUID на TrustMate акаунти по език"
+
+msgid "Amaze your customers with this modern, interactive widget!"
+msgstr "Удивете клиентите си с този модерен, интерактивен уиджет!"
+
+msgid "A minimalistic widget displaying average rating next to a product description."
+msgstr "Минималистичен уиджет, показващ средната оценка до описанието на продукта."
+
+msgid "Attention grabber like no other."
+msgstr "Привличане на внимание като никой друг."
+
+msgid "Attract your customer attention with this dynamic widget."
+msgstr "Привлечете вниманието на клиентите си с този динамичен уиджет."
+
+msgid "Average rating, recent reviews and customer photos displayed on static cards directly on your website."
+msgstr "Средна оценка, скорошни отзиви и снимки на клиенти, показани на статични карти директно на вашия уебсайт."
+
+msgid "Average rating, recent reviews, customer images - everything in one place!"
+msgstr "Средна оценка, скорошни отзиви, снимки на клиенти - всичко на едно място!"
+
+msgid "Average rating, results of product surveys, up to 50 recent reviews, expert evaluations, and the Q&A module - Hydra has everything in one place."
+msgstr "Средна оценка, резултати от проучвания на продукти, до 50 скорошни отзива, експертни оценки и модул за въпроси и отговори - Hydra има всичко на едно място."
+
+msgid "Bring your average rating to view and showcase the full review content by expanding this little widget."
+msgstr "Покажете средната си оценка и представете пълното съдържание на отзива, като разширите този малък уиджет."
+
+msgid "Buyers will know right away that they are dealing with a trustworthy company when they enter your store."
+msgstr "Купувачите веднага ще разберат, че имат работа с надеждна компания, когато влязат в магазина ви."
+
+msgid "Carousel - company reviews"
+msgstr "Въртележка - отзиви за компанията"
+
+msgid "Carousel - product reviews"
+msgstr "Въртележка - отзиви за продукти"
+
+msgid "Catch your customers' attention with this immersive widget!"
+msgstr "Привлечете вниманието на клиентите си с този завладяващ уиджет!"
+
+msgid "Company rating - top bar"
+msgstr "Оценка на компанията - горна лента"
+
+msgid "Create a star constellation in your product lists!"
+msgstr "Създайте звездно съзвездие във вашите списъци с продукти!"
+
+msgid "Currently we only support Polylang for WooCommerce"
+msgstr "В момента поддържаме само Polylang за WooCommerce"
+
+msgid "Description"
+msgstr "Описание"
+
+msgid "Designed for those who want more."
+msgstr "Предназначен за тези, които искат повече."
+
+msgid "Display product average rating on category pages and other product listings."
+msgstr "Показвайте средната оценка на продукта на страници с категории и други списъци с продукти."
+
+msgid "Display your average rating and review count, showcase the most recent reviews and collect new ones with just a few clicks."
+msgstr "Показвайте средната си оценка и брой отзиви, представете най-новите отзиви и съберете нови само с няколко кликвания."
+
+msgid "Display your average rating, number of reviews and present the most recent ones with this unmissable widget."
+msgstr "Показвайте средната си оценка, брой отзиви и представете най-новите с този незаменим уиджет."
+
+msgid "Enable instant company review form on thank you page - do not use with After successful order status"
+msgstr "Активирайте формуляр за моментален отзив за компанията на страницата за благодарности - не използвайте със статус След успешна поръчка"
+
+msgid "Fits like a glove and works like a dream!"
+msgstr "Пасва като ръкавица и работи като на сън!"
+
+msgid "Get your reviews noticed with this sliding widget."
+msgstr "Направете отзивите си забележими с този плъзгащ се уиджет."
+
+msgid "Hornet allows customers to read reviews."
+msgstr "Hornet позволява на клиентите да четат отзиви."
+
+msgid "Invalid data sent"
+msgstr "Изпратени невалидни данни"
+
+msgid "Lemur is a perfect way to demonstrate your average rating, and when expanded, also latest reviews and TrustMate-granted badges."
+msgstr "Lemur е перфектен начин да покажете средната си оценка, а когато е разширен - също най-новите отзиви и значките, предоставени от TrustMate."
+
+msgid "Let Alpaca give your website that wow factor!"
+msgstr "Нека Alpaca даде на уебсайта ви този wow фактор!"
+
+msgid "Modular widget - product reviews, expert reviews, Q&A"
+msgstr "Модулен уиджет - отзиви за продукти, експертни отзиви, въпроси и отговори"
+
+msgid "Name"
+msgstr "Име"
+
+msgid "Neat and simple."
+msgstr "Чисто и просто."
+
+msgid "No matter if your customers want to read reviews or submit their own - Dodo's got you covered!"
+msgstr "Без значение дали клиентите ви искат да четат отзиви или да изпратят свои собствени - Dodo ви покрива!"
+
+msgid "Not too little, not too much - just perfect!"
+msgstr "Нито твърде малко, нито твърде много - просто перфектно!"
+
+msgid "Owl's here to help!"
+msgstr "Owl е тук, за да помогне!"
+
+msgid "Product"
+msgstr "Продукт"
+
+msgid "Showcase your average rating and the most recent reviews on auto-scrolling tiles and make your website look even cooler!"
+msgstr "Покажете средната си оценка и най-новите отзиви на автоматично превъртащи се плочки и направете уебсайта си още по-готин!"
+
+msgid "Showcase your review count and average rating with this simple widget."
+msgstr "Покажете броя на отзивите си и средната оценка с този прост уиджет."
+
+msgid "Show off the number of reviews and display the average rating with this simple widget."
+msgstr "Похвалете се с броя на отзивите и покажете средната оценка с този прост уиджет."
+
+msgid "Simple and effective."
+msgstr "Просто и ефективно."
+
+msgid "Simply and intuitively."
+msgstr "Просто и интуитивно."
+
+msgid "Sliding out widget with reviews"
+msgstr "Изплъзващ се уиджет с отзиви"
+
+msgid "Small but mighty!"
+msgstr "Малък, но мощен!"
+
+msgid "Type"
+msgstr "Тип"
+
+msgid "Use this only if you have multiple TrustMate language accounts"
+msgstr "Използвайте това само ако имате множество езикови акаунти в TrustMate"
+
+msgid "Want to present TrustMate-granted awards in style?"
+msgstr "Искате ли да представите наградите, предоставени от TrustMate, със стил?"
+
+msgid "What's not to love about it?"
+msgstr "Какво да не харесате в това?"
+
+msgid "Widgets that will be withdrawn"
+msgstr "Уиджети, които ще бъдат оттеглени"
+
+msgid "Widget that displays the rating and reviews"
+msgstr "Уиджет, показващ оценката и отзивите"
+
+msgid "Widget with badges"
+msgstr "Уиджет със значки"
+
+msgid "Wow your customers with this versatile, modular widget!"
+msgstr "Удивете клиентите си с този универсален, модулен уиджет!"
+

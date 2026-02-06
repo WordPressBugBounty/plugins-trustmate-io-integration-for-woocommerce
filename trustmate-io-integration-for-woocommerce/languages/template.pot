@@ -220,7 +220,46 @@ msgstr ""
 msgid "Show sliding out widget with shop's grade"
 msgstr ""
 
+msgid "Non-invasive badge is glued to screen's edge and takes little space"
+msgstr ""
+
+msgid "Click shows a modal with recent reviews"
+msgstr ""
+
+msgid "You can change display position in TrustMate panel"
+msgstr ""
+
+msgid "Why use it?"
+msgstr ""
+
+msgid "sales increase"
+msgstr ""
+
+msgid "customers do not leave site searching for reviews"
+msgstr ""
+
+msgid "can boost your SEO"
+msgstr ""
+
+msgid "can make search engines show stars under your results"
+msgstr ""
+
 msgid "Show badge with products' grade"
+msgstr ""
+
+msgid "Click shows a modal with recent reviews and grade distribution"
+msgstr ""
+
+msgid "Widget is a finishing touch on your product page"
+msgstr ""
+
+msgid "product sales increase"
+msgstr ""
+
+msgid "can boost your product SEO"
+msgstr ""
+
+msgid "can make search engines show stars under product result"
 msgstr ""
 
 msgid "Popping up reviews"
@@ -292,7 +331,7 @@ msgstr ""
 msgid "Carousel - company reviews"
 msgstr ""
 
-msgid "Catch your customers’ attention with this immersive widget!"
+msgid "Catch your customer attention with this immersive widget!"
 msgstr ""
 
 msgid "Showcase your average rating and the most recent reviews on auto-scrolling tiles and make your website look even cooler!"
@@ -303,7 +342,7 @@ msgstr ""
 msgid "Carousel - product reviews"
 msgstr ""
 
-msgid "Attract your customers’ attention with this dynamic widget."
+msgid "Attract your customer attention with this dynamic widget."
 msgstr ""
 
 msgid "Average rating, recent reviews, customer images - everything in one place!"
@@ -375,6 +414,16 @@ msgstr ""
 msgid "Designed for those who want more."
 msgstr ""
 
+# Badger2
+msgid "Badge - product rating (edge)"
+msgstr ""
+
+msgid "Small but mighty!"
+msgstr ""
+
+msgid "Bring your average rating to view and showcase the full review content by expanding this little widget."
+msgstr ""
+
 # Lemur
 msgid "Sliding out widget with reviews"
 msgstr ""
@@ -390,6 +439,18 @@ msgstr ""
 
 # Ferret
 msgid "Carousel"
+msgstr ""
+
+msgid "Dynamic \"carousel\" widget catches the eye of customers presenting up to the last 21 reviews. You set the scrolling speed of the visible ratings yourself"
+msgstr ""
+
+msgid "Using the carousel you increase the attractiveness of your website to search engines, e.g. Google"
+msgstr ""
+
+msgid "Let customers read reviews about your company without leaving your website"
+msgstr ""
+
+msgid "The carousel is responsive and adapts to every page view and mobile devices"
 msgstr ""
 
 msgid "Product review carousel"
@@ -477,4 +538,7 @@ msgid "How I can decide which on my product category is sent to TrustMate.io?"
 msgstr ""
 
 msgid "If you use multiple categories for your product the only way is to use primary category feature from Yoast SEO plugin"
+msgstr ""
+
+msgid "Widgets that will be withdrawn"
 msgstr ""

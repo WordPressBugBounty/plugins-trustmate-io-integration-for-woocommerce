@@ -18,7 +18,7 @@ function trustmate_get_terms_url() {
         return 'https://trustmate.io/regulations';
     }
 
-    return 'https://en.trustmate.io/regulations';
+    return 'https://trustmate.io/en/regulations';
 }
 
 function trustmate_get_pdpc_url() {

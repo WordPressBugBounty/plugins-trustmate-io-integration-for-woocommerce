@@ -3,9 +3,10 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-22 08:57+0000\n"
-"PO-Revision-Date: 2023-02-11 10:45+0000\n"
-"Last-Translator: Paula Kulcsar <paula.kulcsar@gmail.com>\n"
-"Language-Team: Romanian <http://trans.trustmate.io/projects/"
+"PO-Revision-Date: 2025-04-28 02:39+0000\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
+"Language-Team: Romanian <https://weblate.trustmate.io/projects/"
 "woocommerce-plugin/main/ro/>\n"
 "Language: ro_RO\n"
 "MIME-Version: 1.0\n"
@@ -13,7 +14,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2;\n"
-"X-Generator: Weblate 4.5.3\n"
+"X-Generator: Weblate 5.10.2\n"
 
 # Menu
 msgid "Create TrustMate account"
@@ -152,8 +153,27 @@ msgstr ""
 "Codul tău de utilizator TrustMate (UUID din panoul TrustMate, secțiunea "
 "Integrare)"
 
+msgid "Additional TrustMate account UUIDs per language"
+msgstr "UUID-uri suplimentare de cont TrustMate per limbă"
+
+msgid "Use this only if you have multiple TrustMate language accounts"
+msgstr "Folosește aceasta doar dacă ai mai multe conturi TrustMate pentru diferite limbi"
+
+msgid "Currently we only support Polylang for WooCommerce"
+msgstr "În prezent, acceptăm doar Polylang pentru WooCommerce"
+
+msgid "Add another"
+msgstr "Adaugă altul"
+
 msgid "Automatic review invitations"
 msgstr "Invitații automate de recenzie"
+
+msgid ""
+"Enable instant company review form on thank you page - do not use with After "
+"successful order status"
+msgstr ""
+"Activează formularul de recenzie instantanee a companiei pe pagina de "
+"mulțumire - nu utiliza cu statusul După comandă cu succes"
 
 msgid "To quickly collect client reviews turn on automatic invitations"
 msgstr ""
@@ -217,6 +237,21 @@ msgstr "După ce a fost marcat ca fiind finalizat"
 # Widget configuration
 msgid "Show reviews with widgets"
 msgstr "Afișează recenzii cu widget-uri"
+
+msgid "Type"
+msgstr "Tip"
+
+msgid "Company"
+msgstr "Companie"
+
+msgid "Product"
+msgstr "Produs"
+
+msgid "Name"
+msgstr "Nume"
+
+msgid "Description"
+msgstr "Descriere"
 
 msgid "Show badge with shop's grade"
 msgstr "Afișează ecusonul cu ratingul magazinului"
@@ -316,45 +351,183 @@ msgid "Click to show widget description"
 msgstr "Apasă pentru a afișa descrierea widget-ului"
 
 # Hornet
-msgid "Small widget that displays the average rating and the number of reviews"
-msgstr ""
+msgid "Widget that displays the rating and reviews"
+msgstr "Widget care afișează ratingul și recenziile"
 
-msgid "The stars will appear on the product card near the photo and on the product tiles throughout the store"
+msgid ""
+"A minimalistic widget displaying average rating next to a product "
+"description."
 msgstr ""
+"Widget minimalist care afișează ratingul mediu lângă descrierea "
+"produsului."
 
-msgid "The widget displays the current number of reviews about the product and the current average rating"
-msgstr ""
+msgid "Hornet allows customers to read reviews."
+msgstr "Hornet permite clienților să citească recenzii."
 
-msgid "It can be embedded next to the main product description on the product sheet or in product lists in your store"
-msgstr ""
+msgid "Simple and effective."
+msgstr "Simplu și eficient."
 
-msgid "Benefits"
+# MultiHornet
+msgid ""
+"Display product average rating on category pages and other product listings."
 msgstr ""
+"Afișează ratingul mediu al produsului pe paginile de categorii și alte "
+"liste de produse."
 
-msgid "distinguishes the product by encouraging customers to click on it and make purchases"
-msgstr ""
+msgid "Create a star constellation in your product lists!"
+msgstr "Creează o constelație de stele în listele tale de produse!"
 
 # Chupacabra
-msgid "Widget social proof (large box)"
-msgstr ""
+msgid "Social Proof (big box)"
+msgstr "Social Proof (cutie mare)"
 
-msgid "Static widget with customer reviews sending a message \"you can trust us\""
+msgid ""
+"Average rating, recent reviews and customer photos displayed on static cards "
+"directly on your website."
 msgstr ""
+"Rating mediu, recenzii recente și fotografii ale clienților afișate pe "
+"carduri statice direct pe site-ul tău."
 
-msgid "Widget includes both company and product reviews"
-msgstr ""
+msgid "Neat and simple."
+msgstr "Curat și simplu."
 
-msgid "Anytime you can adjust widget outlook without developer help, even after embedding it on your site"
-msgstr ""
+# Ferret2
 
-msgid "Microdata"
-msgstr ""
+msgid "Carousel - company reviews"
+msgstr "Carusel - recenzii companie"
 
-msgid "If you enable microdata, widget will make your reviews understandable for search engines like Google"
-msgstr ""
+msgid "Catch your customer attention with this immersive widget!"
+msgstr "Atrage atenția clienților tăi cu acest widget captivant!"
 
-msgid "Search engine results with your site will be enriched with additional data like average rating, stars, review count"
+msgid ""
+"Showcase your average rating and the most recent reviews on auto-scrolling "
+"tiles and make your website look even cooler!"
 msgstr ""
+"Prezintă ratingul tău mediu și cele mai recente recenzii pe plăci cu "
+"derulare automată și fă site-ul tău să arate și mai tare!"
+
+# ProductFerret2
+
+msgid "Carousel - product reviews"
+msgstr "Carusel - recenzii produse"
+
+msgid "Attract your customer attention with this dynamic widget."
+msgstr "Atrage atenția clienților tăi cu acest widget dinamic."
+
+msgid ""
+"Average rating, recent reviews, customer images - everything in one place!"
+msgstr ""
+"Rating mediu, recenzii recente, imagini de la clienți - totul într-un "
+"singur loc!"
+
+msgid "Fits like a glove and works like a dream!"
+msgstr "Se potrivește perfect și funcționează de minune!"
+
+# Dodo2
+msgid "Static box with rating (small / large)"
+msgstr "Cutie statică cu rating (mică / mare)"
+
+msgid "Showcase your review count and average rating with this simple widget."
+msgstr "Prezintă numărul de recenzii și ratingul mediu cu acest widget simplu."
+
+msgid ""
+"No matter if your customers want to read reviews or submit their own - "
+"Dodo's got you covered!"
+msgstr ""
+"Indiferent dacă clienții tăi vor să citească recenzii sau să trimită "
+"propria recenzie - Dodo te ajută!"
+
+msgid "Not too little, not too much - just perfect!"
+msgstr "Nici prea mic, nici prea mare - perfect!"
+
+# Muskrat2
+msgid "Badge with the company's rating and grades distribution (edge)"
+msgstr "Insignă cu ratingul companiei și distribuția notelor (margine)"
+
+msgid "Amaze your customers with this modern, interactive widget!"
+msgstr "Uimește clienții tăi cu acest widget modern și interactiv!"
+
+msgid ""
+"Display your average rating and review count, showcase the most recent "
+"reviews and collect new ones with just a few clicks."
+msgstr ""
+"Afișează ratingul mediu și numărul de recenzii, prezintă cele mai recente "
+"recenzii și colectează altele noi cu doar câteva clicuri."
+
+msgid "Simply and intuitively."
+msgstr "Simplu și intuitiv."
+
+# Bee
+msgid "Company rating - top bar"
+msgstr "Rating companie - bară superioară"
+
+msgid "Show off the number of reviews and display the average rating with this simple widget."
+msgstr "Arată numărul de recenzii și afișează ratingul mediu cu acest widget simplu."
+
+msgid "Buyers will know right away that they are dealing with a trustworthy company when they enter your store."
+msgstr "Cumpărătorii vor ști imediat că au de-a face cu o companie de încredere când intră în magazinul tău."
+
+# Alpaca
+msgid "Social Proof (pop-up reviews)"
+msgstr "Social Proof - recenzii pop-up"
+
+msgid "Attention grabber like no other."
+msgstr "Atrage atenția ca nimeni altul."
+
+msgid ""
+"Display your average rating, number of reviews and present the most recent "
+"ones with this unmissable widget."
+msgstr ""
+"Afișează ratingul mediu, numărul de recenzii și prezintă cele mai recente "
+"cu acest widget imposibil de ratat."
+
+msgid "Let Alpaca give your website that wow factor!"
+msgstr "Lasă Alpaca să ofere site-ului tău acel factor wow!"
+
+# Hydra
+msgid "Modular widget - product reviews, expert reviews, Q&A"
+msgstr "Widget modular - recenzii produse, recenzii experți, întrebări și răspunsuri"
+
+msgid "Wow your customers with this versatile, modular widget!"
+msgstr "Uimește clienții tăi cu acest widget versatil și modular!"
+
+msgid ""
+"Average rating, results of product surveys, up to 50 recent reviews, expert "
+"evaluations, and the Q&A module - Hydra has everything in one place."
+msgstr ""
+"Rating mediu, rezultate ale sondajelor de produse, până la 50 de recenzii "
+"recente, evaluări de experți și modulul de întrebări și răspunsuri - Hydra "
+"are totul într-un singur loc."
+
+msgid "Designed for those who want more."
+msgstr "Conceput pentru cei care vor mai mult."
+
+# Badger2
+msgid "Badge - product rating (edge)"
+msgstr "Insignă - rating produs (margine)"
+
+msgid "Small but mighty!"
+msgstr "Mic dar puternic!"
+
+msgid "Bring your average rating to view and showcase the full review content by expanding this little widget."
+msgstr "Afișează ratingul mediu și prezintă conținutul complet al recenziilor prin extinderea acestui widget mic."
+
+# Lemur
+msgid "Sliding out widget with reviews"
+msgstr "Widget glisant cu recenzii"
+
+msgid "Get your reviews noticed with this sliding widget."
+msgstr "Fă-ți remarcate recenziile cu acest widget glisant."
+
+msgid ""
+"Lemur is a perfect way to demonstrate your average rating, and when "
+"expanded, also latest reviews and TrustMate-granted badges."
+msgstr ""
+"Lemur este o modalitate perfectă de a demonstra ratingul mediu și, când "
+"este extins, și cele mai recente recenzii și insignele acordate de TrustMate."
+
+msgid "What's not to love about it?"
+msgstr "Ce nu e de iubit la el?"
 
 # Ferret
 msgid "Carousel"
@@ -385,21 +558,21 @@ msgid "Product review carousel"
 msgstr "Carusel de recenzii de produse"
 
 # Owl
-msgid "Certificate widget"
-msgstr ""
+msgid "Widget with badges"
+msgstr "Widget cu insigne"
 
-msgid "If you meet the program conditions visible on the main page of the panel, TrustMate will automatically display the badge in your store along with information about the current rating"
-msgstr ""
+msgid "Want to present TrustMate-granted awards in style?"
+msgstr "Vrei să prezinți premiile acordate de TrustMate cu stil?"
 
-msgid "This will result in more buying interest from potential customers"
-msgstr ""
+msgid "Owl's here to help!"
+msgstr "Owl este aici să te ajute!"
 
 # FAQ section
 msgid "FAQ"
 msgstr "ÎNTREBĂRI FRECVENTE"
 
 msgid "Can I ask only for company reviews"
-msgstr "Pot să solicit doar recenzii ale companiei"
+msgstr "Pot solicita doar recenzii ale companiei"
 
 msgid "Yes. You need to mark company invitation configuration as automatic and make sure no product invitation configuration is marked as such"
 msgstr ""
@@ -495,3 +668,6 @@ msgid "If you use multiple categories for your product the only way is to use pr
 msgstr ""
 "Dacă folosești mai multe categorii pentru produsul tău, singura modalitate "
 "este să folosești funcția de categorie primară din plugin-ul Yoast SEO"
+
+msgid "Widgets that will be withdrawn"
+msgstr "Widget-uri care vor fi retrase"

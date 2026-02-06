@@ -3,16 +3,17 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-25 07:46+0000\n"
-"PO-Revision-Date: 2023-02-11 10:45+0000\n"
-"Last-Translator: Rafael <0sr3jskr2@relay.firefox.com>\n"
-"Language-Team: Portuguese (Portugal) <http://trans.trustmate.io/projects/"
+"PO-Revision-Date: 2025-04-28 02:39+0000\n"
+"Last-Translator: Azure AI Translator <noreply-mt-microsoft-"
+"translator@weblate.org>\n"
+"Language-Team: Portuguese (Portugal) <https://weblate.trustmate.io/projects/"
 "woocommerce-plugin/main/pt_PT/>\n"
 "Language: pt_PT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.5.3\n"
+"X-Generator: Weblate 5.10.2\n"
 
 # Menu
 msgid "Create TrustMate account"
@@ -320,44 +321,59 @@ msgstr "Clique para mostrar a descrição do widget"
 
 # Hornet
 msgid "Small widget that displays the average rating and the number of reviews"
-msgstr ""
+msgstr "Pequeno widget que exibe a classificação média e o número de avaliações"
 
 msgid "The stars will appear on the product card near the photo and on the product tiles throughout the store"
 msgstr ""
+"As estrelas aparecerão no cartão do produto próximo à foto e nos blocos do "
+"produto em toda a loja"
 
 msgid "The widget displays the current number of reviews about the product and the current average rating"
 msgstr ""
+"O widget exibe o número atual de avaliações sobre o produto e a "
+"classificação média atual"
 
 msgid "It can be embedded next to the main product description on the product sheet or in product lists in your store"
 msgstr ""
+"Ele pode ser incorporado ao lado da descrição principal do produto na ficha "
+"do produto ou nas listas de produtos em sua loja"
 
 msgid "Benefits"
-msgstr ""
+msgstr "Benefícios"
 
 msgid "distinguishes the product by encouraging customers to click on it and make purchases"
 msgstr ""
+"distingue o produto incentivando os clientes a clicar nele e fazer compras"
 
 # Chupacabra
 msgid "Widget social proof (large box)"
-msgstr ""
+msgstr "Prova social do widget (caixa grande)"
 
 msgid "Static widget with customer reviews sending a message \"you can trust us\""
 msgstr ""
+"Widget estático com avaliações de clientes enviando uma mensagem "
+"\"você pode confiar em nós\""
 
 msgid "Widget includes both company and product reviews"
-msgstr ""
+msgstr "O widget inclui análises de empresas e produtos"
 
 msgid "Anytime you can adjust widget outlook without developer help, even after embedding it on your site"
 msgstr ""
+"A qualquer momento, você pode ajustar a perspectiva do widget sem a ajuda do "
+"desenvolvedor, mesmo depois de incorporá-lo ao seu site"
 
 msgid "Microdata"
-msgstr ""
+msgstr "Microdados"
 
 msgid "If you enable microdata, widget will make your reviews understandable for search engines like Google"
 msgstr ""
+"Se você ativar os microdados, o widget tornará suas avaliações "
+"compreensíveis para mecanismos de pesquisa como o Google"
 
 msgid "Search engine results with your site will be enriched with additional data like average rating, stars, review count"
 msgstr ""
+"Os resultados do mecanismo de pesquisa com seu site serão enriquecidos com "
+"dados adicionais, como classificação média, estrelas, contagem de avaliações"
 
 # Ferret
 msgid "Carousel"
@@ -387,13 +403,16 @@ msgstr "Carrossel de avaliação de produtos"
 
 # Owl
 msgid "Certificate widget"
-msgstr ""
+msgstr "Widget de certificado"
 
 msgid "If you meet the program conditions visible on the main page of the panel, TrustMate will automatically display the badge in your store along with information about the current rating"
 msgstr ""
+"Se você atender às condições do programa visíveis na página principal do "
+"painel, o TrustMate exibirá automaticamente o selo em sua loja junto com "
+"informações sobre a classificação atual"
 
 msgid "This will result in more buying interest from potential customers"
-msgstr ""
+msgstr "Isso resultará em mais interesse de compra de clientes em potencial"
 
 # FAQ section
 msgid "FAQ"
@@ -495,3 +514,153 @@ msgid "If you use multiple categories for your product the only way is to use pr
 msgstr ""
 "Se você usar várias categorias de produtos, então a única maneira é através "
 "do recurso de categoria principal do plug-in Yoast SEO"
+msgid "Add another"
+msgstr "Adicionar outro"
+
+msgid "Additional TrustMate account UUIDs per language"
+msgstr "UUIDs adicionais de conta TrustMate por idioma"
+
+msgid "Amaze your customers with this modern, interactive widget!"
+msgstr "Surpreenda os seus clientes com este widget moderno e interativo!"
+
+msgid "A minimalistic widget displaying average rating next to a product description."
+msgstr "Um widget minimalista que exibe a classificação média ao lado da descrição do produto."
+
+msgid "Attention grabber like no other."
+msgstr "Captador de atenção como nenhum outro."
+
+msgid "Attract your customer attention with this dynamic widget."
+msgstr "Atraia a atenção dos seus clientes com este widget dinâmico."
+
+msgid "Average rating, recent reviews and customer photos displayed on static cards directly on your website."
+msgstr "Classificação média, avaliações recentes e fotos de clientes exibidas em cartões estáticos diretamente no seu site."
+
+msgid "Average rating, recent reviews, customer images - everything in one place!"
+msgstr "Classificação média, avaliações recentes, imagens de clientes - tudo num só lugar!"
+
+msgid "Average rating, results of product surveys, up to 50 recent reviews, expert evaluations, and the Q&A module - Hydra has everything in one place."
+msgstr "Classificação média, resultados de pesquisas de produtos, até 50 avaliações recentes, avaliações de especialistas e o módulo de perguntas e respostas - Hydra tem tudo num só lugar."
+
+msgid "Bring your average rating to view and showcase the full review content by expanding this little widget."
+msgstr "Mostre a sua classificação média e exiba o conteúdo completo da avaliação expandindo este pequeno widget."
+
+msgid "Buyers will know right away that they are dealing with a trustworthy company when they enter your store."
+msgstr "Os compradores saberão imediatamente que estão a lidar com uma empresa confiável quando entrarem na sua loja."
+
+msgid "Carousel - company reviews"
+msgstr "Carrossel - avaliações da empresa"
+
+msgid "Carousel - product reviews"
+msgstr "Carrossel - avaliações de produtos"
+
+msgid "Catch your customers' attention with this immersive widget!"
+msgstr "Capte a atenção dos seus clientes com este widget imersivo!"
+
+msgid "Company rating - top bar"
+msgstr "Classificação da empresa - barra superior"
+
+msgid "Create a star constellation in your product lists!"
+msgstr "Crie uma constelação de estrelas nas suas listas de produtos!"
+
+msgid "Currently we only support Polylang for WooCommerce"
+msgstr "Atualmente, suportamos apenas Polylang para WooCommerce"
+
+msgid "Description"
+msgstr "Descrição"
+
+msgid "Designed for those who want more."
+msgstr "Projetado para quem quer mais."
+
+msgid "Display product average rating on category pages and other product listings."
+msgstr "Exiba a classificação média do produto nas páginas de categorias e outras listagens de produtos."
+
+msgid "Display your average rating and review count, showcase the most recent reviews and collect new ones with just a few clicks."
+msgstr "Exiba a sua classificação média e contagem de avaliações, mostre as avaliações mais recentes e recolha novas com apenas alguns cliques."
+
+msgid "Display your average rating, number of reviews and present the most recent ones with this unmissable widget."
+msgstr "Exiba a sua classificação média, número de avaliações e apresente as mais recentes com este widget imperdível."
+
+msgid "Enable instant company review form on thank you page - do not use with After successful order status"
+msgstr "Ativar formulário de avaliação instantânea da empresa na página de agradecimento - não usar com o status Após pedido bem-sucedido"
+
+msgid "Fits like a glove and works like a dream!"
+msgstr "Encaixa como uma luva e funciona como um sonho!"
+
+msgid "Get your reviews noticed with this sliding widget."
+msgstr "Destaque as suas avaliações com este widget deslizante."
+
+msgid "Hornet allows customers to read reviews."
+msgstr "O Hornet permite que os clientes leiam avaliações."
+
+msgid "Lemur is a perfect way to demonstrate your average rating, and when expanded, also latest reviews and TrustMate-granted badges."
+msgstr "O Lemur é uma maneira perfeita de demonstrar a sua classificação média e, quando expandido, também as últimas avaliações e os distintivos concedidos pela TrustMate."
+
+msgid "Let Alpaca give your website that wow factor!"
+msgstr "Deixe o Alpaca dar ao seu site aquele fator uau!"
+
+msgid "Modular widget - product reviews, expert reviews, Q&A"
+msgstr "Widget modular - avaliações de produtos, avaliações de especialistas, perguntas e respostas"
+
+msgid "Name"
+msgstr "Nome"
+
+msgid "Neat and simple."
+msgstr "Limpo e simples."
+
+msgid "No matter if your customers want to read reviews or submit their own - Dodo's got you covered!"
+msgstr "Não importa se os seus clientes querem ler avaliações ou enviar as suas próprias - Dodo tem tudo coberto!"
+
+msgid "Not too little, not too much - just perfect!"
+msgstr "Nem muito pouco, nem demais - simplesmente perfeito!"
+
+msgid "Owl's here to help!"
+msgstr "O Owl está aqui para ajudar!"
+
+msgid "Product"
+msgstr "Produto"
+
+msgid "Showcase your average rating and the most recent reviews on auto-scrolling tiles and make your website look even cooler!"
+msgstr "Mostre a sua classificação média e as avaliações mais recentes em blocos de rolagem automática e faça o seu site parecer ainda mais fixe!"
+
+msgid "Showcase your review count and average rating with this simple widget."
+msgstr "Mostre a contagem de avaliações e a classificação média com este widget simples."
+
+msgid "Show off the number of reviews and display the average rating with this simple widget."
+msgstr "Exiba o número de avaliações e mostre a classificação média com este widget simples."
+
+msgid "Simple and effective."
+msgstr "Simples e eficaz."
+
+msgid "Simply and intuitively."
+msgstr "Simples e intuitivo."
+
+msgid "Sliding out widget with reviews"
+msgstr "Widget deslizante com avaliações"
+
+msgid "Small but mighty!"
+msgstr "Pequeno mas poderoso!"
+
+msgid "Type"
+msgstr "Tipo"
+
+msgid "Use this only if you have multiple TrustMate language accounts"
+msgstr "Use isto apenas se tiver várias contas de idioma TrustMate"
+
+msgid "Want to present TrustMate-granted awards in style?"
+msgstr "Quer apresentar os prémios concedidos pela TrustMate com estilo?"
+
+msgid "What's not to love about it?"
+msgstr "O que não amar sobre isto?"
+
+msgid "Widgets that will be withdrawn"
+msgstr "Widgets que serão retirados"
+
+msgid "Widget that displays the rating and reviews"
+msgstr "Widget que exibe a classificação e as avaliações"
+
+msgid "Widget with badges"
+msgstr "Widget com distintivos"
+
+msgid "Wow your customers with this versatile, modular widget!"
+msgstr "Surpreenda os seus clientes com este widget versátil e modular!"
+

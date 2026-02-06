@@ -408,7 +408,11 @@ msgid "Can I ask only for company reviews"
 msgstr "Czy mogę zapraszać tylko do oceny firmy"
 
 # Ferret2
-msgid "Catch your customers’ attention with this immersive widget!"
+
+msgid "Carousel - company reviews"
+msgstr "Karuzela - opinie o firmie"
+
+msgid "Catch your customer attention with this immersive widget!"
 msgstr "Przyciągnij uwagę swoich klientów ruchomym widgetem!"
 
 msgid ""
@@ -422,7 +426,11 @@ msgid "Can I ask only for product reviews"
 msgstr "Czy mogę zapraszać tylko do oceny produktów"
 
 # ProductFerret2
-msgid "Attract your customers’ attention with this dynamic widget."
+
+msgid "Carousel - product reviews"
+msgstr "Karuzela - opinie o produktach"
+
+msgid "Attract your customer attention with this dynamic widget."
 msgstr "Przyciągnij uwagę klientów tym ruchomym widgetem."
 
 msgid ""
