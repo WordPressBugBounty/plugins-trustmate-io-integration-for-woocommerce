@@ -41,7 +41,9 @@ msgid "Save changes"
 msgstr "Enregistrer les modifications"
 
 # Install
-msgid "To start collecting reviews you need TrustMate account. Fortunetly you can create it"
+msgid ""
+"To start collecting reviews you need TrustMate account. Fortunetly you can "
+"create it"
 msgstr ""
 "Pour commencer à recueillir des avis, vous avez besoin d'un compte "
 "TrustMate. Heureusement, vous pouvez le créer"
@@ -127,7 +129,7 @@ msgstr ""
 msgid "Account already exists"
 msgstr "Le compte existe déjà"
 
-msgid "Invald data sent"
+msgid "Invalid data sent"
 msgstr "Données invalides envoyées"
 
 msgid "Unexpected error"
@@ -141,31 +143,57 @@ msgstr ""
 "L'adresse d'enregistrement dans les paramètres de WooCommerce n'est pas "
 "complète"
 
-msgid "Something went wrong. Please try again or contact TrustMate customer service"
+msgid ""
+"Something went wrong. Please try again or contact TrustMate customer service"
 msgstr ""
 "Un problème est survenu. Veuillez réessayer ou contacter le service "
 "clientèle de TrustMate, s'il vous plaît"
 
-msgid "Widget activation failed. Please try again or contact TrustMate customer service"
+msgid ""
+"Widget activation failed. Please try again or contact TrustMate customer "
+"service"
 msgstr ""
 "L'activation du widget a échoué. Veuillez réessayer ou contacter le service "
 "clientèle de TrustMate, s'il vous plaît"
 
 # Config form
-msgid "Your TrustMate user code (UUID from TrustMate panel, Integration section)"
+msgid ""
+"Your TrustMate user code (UUID from TrustMate panel, Integration section)"
 msgstr ""
 "Votre code utilisateur TrustMate (UUID du panneau TrustMate, section "
 "Intégration)"
 
+msgid "Additional TrustMate account UUIDs per language"
+msgstr "UUIDs de compte TrustMate supplémentaires par langue"
+
+msgid "Use this only if you have multiple TrustMate language accounts"
+msgstr ""
+"Utilisez ceci uniquement si vous avez plusieurs comptes linguistiques "
+"TrustMate"
+
+msgid "Currently we only support Polylang for WooCommerce"
+msgstr "Actuellement, nous ne prenons en charge que Polylang pour WooCommerce"
+
+msgid "Add another"
+msgstr "Ajouter un autre"
+
 msgid "Automatic review invitations"
 msgstr "Invitations automatiques à la révision"
+
+msgid ""
+"Enable instant company review form on thank you page - do not use with After "
+"successful order status"
+msgstr ""
+"Activer le formulaire d'avis instantané sur la page de remerciement - ne pas "
+"utiliser avec le statut Après commande réussie"
 
 msgid "To quickly collect client reviews turn on automatic invitations"
 msgstr ""
 "Pour recueillir rapidement les avis des clients, activez les invitations "
 "automatiques"
 
-msgid "While active, script sends invitations to your customers asking for review"
+msgid ""
+"While active, script sends invitations to your customers asking for review"
 msgstr ""
 "Pendant qu'il est actif, le script envoie des invitations à vos clients pour "
 "qu'ils donnent leur avis"
@@ -197,12 +225,16 @@ msgstr ""
 "Afin d'envoyer des invitations à la révision, vous avez besoin du "
 "consentement du client"
 
-msgid "If you do not collect those consents by yourself (separate checkbox or proper regulations), turn this option on"
+msgid ""
+"If you do not collect those consents by yourself (separate checkbox or "
+"proper regulations), turn this option on"
 msgstr ""
 "Si vous ne recueillez pas ces consentements vous-même (case à cocher séparée "
 "ou réglementation appropriée), activez cette option"
 
-msgid "If you do not directly ask customer for consent to send invitation, we suggest to extend your regulations with content from"
+msgid ""
+"If you do not directly ask customer for consent to send invitation, we "
+"suggest to extend your regulations with content from"
 msgstr ""
 "Si vous ne demandez pas directement au client de consentir à l'envoi d'une "
 "invitation, nous vous suggérons de compléter votre règlement avec du contenu "
@@ -226,6 +258,22 @@ msgstr "Après avoir marqué comme terminé"
 # Widget configuration
 msgid "Show reviews with widgets"
 msgstr "Afficher les avis avec des widgets"
+
+msgid "Type"
+msgstr "Type"
+
+#, fuzzy
+msgid "Company"
+msgstr "Nom de la société"
+
+msgid "Product"
+msgstr "Produit"
+
+msgid "Name"
+msgstr "Nom"
+
+msgid "Description"
+msgstr "Description"
 
 msgid "Show badge with shop's grade"
 msgstr "Afficher le badge avec la note du magasin"
@@ -286,12 +334,16 @@ msgstr ""
 msgid "Popping up reviews"
 msgstr "L'apparition de critiques"
 
-msgid "Social proof widget with up to three types of popping up boxes which ensure your customers about quality of your services"
+msgid ""
+"Social proof widget with up to three types of popping up boxes which ensure "
+"your customers about quality of your services"
 msgstr ""
 "Widget de preuve sociale avec jusqu'à trois types de boîtes qui s'affichent "
 "et qui garantissent à vos clients la qualité de vos services"
 
-msgid "Position is configurable. Thanks to unconventional images and messages they are very noticable"
+msgid ""
+"Position is configurable. Thanks to unconventional images and messages they "
+"are very noticable"
 msgstr ""
 "La position est configurable. Grâce aux images et aux messages non "
 "conventionnels, ils sont très visibles"
@@ -308,11 +360,6 @@ msgstr ""
 
 msgid "Show grade and reviews on product page"
 msgstr "Afficher la note et les avis sur la page du produit"
-
-msgid "Page-wide reviews similar to popular comments sections showing under your product"
-msgstr ""
-"Des avis sur toute la page, similaires aux sections de commentaires "
-"populaires, s'affichent sous votre produit"
 
 msgid "Remember, there are more widgets available"
 msgstr "Rappelez-vous, il y a encore plus de widgets disponibles"
@@ -331,85 +378,224 @@ msgstr "Allumer"
 msgid "Click to show widget description"
 msgstr "Cliquer pour afficher la description du widget"
 
-# Hornet
-msgid "Small widget that displays the average rating and the number of reviews"
-msgstr "Petit widget qui affiche la note moyenne et le nombre d'avis"
+msgid "Widget that displays the rating and reviews"
+msgstr "Widget qui affiche la note et les avis"
 
-msgid "The stars will appear on the product card near the photo and on the product tiles throughout the store"
+msgid ""
+"A minimalistic widget displaying average rating next to a product "
+"description."
 msgstr ""
-"Les étoiles apparaîtront sur la fiche produit près de la photo et sur les "
-"carreaux de produits dans tout le magasin"
+"Un widget minimaliste affichant la note moyenne à côté de la description du "
+"produit."
 
-msgid "The widget displays the current number of reviews about the product and the current average rating"
+msgid "Hornet allows customers to read reviews."
+msgstr "Hornet permet aux clients de lire les avis."
+
+msgid "Simple and effective."
+msgstr "Simple et efficace."
+
+msgid ""
+"Display product average rating on category pages and other product listings."
 msgstr ""
-"Le widget affiche le nombre actuel d'avis sur le produit et la note moyenne "
-"actuelle"
+"Affichez la note moyenne du produit sur les pages de catégories et autres "
+"listes de produits."
 
-msgid "It can be embedded next to the main product description on the product sheet or in product lists in your store"
+msgid "Create a star constellation in your product lists!"
+msgstr "Créez une constellation d'étoiles dans vos listes de produits !"
+
+msgid ""
+"If it does not work automatically after enabling, it may need to be "
+"configured in the TrustMate client panel."
 msgstr ""
-"Il peut être intégré à côté de la description principale du produit sur la "
-"fiche produit ou dans les listes de produits de votre boutique"
-
-msgid "Benefits"
-msgstr "Avantages"
-
-msgid "distinguishes the product by encouraging customers to click on it and make purchases"
-msgstr ""
-"permet de distinguer le produit en incitant les clients à cliquer dessus et "
-"à faire des achats"
+"Si cela ne fonctionne pas automatiquement après activation, il peut être "
+"nécessaire de le configurer dans le panneau client TrustMate."
 
 # Chupacabra
-msgid "Widget social proof (large box)"
+#, fuzzy
+msgid "Social Proof (big box)"
 msgstr "Widget preuve sociale (grande case)"
 
-msgid "Static widget with customer reviews sending a message \"you can trust us\""
+msgid ""
+"Average rating, recent reviews and customer photos displayed on static cards "
+"directly on your website."
 msgstr ""
-"Widget statique avec des avis de clients qui envoient le message \"vous "
-"pouvez nous faire confiance\""
+"Note moyenne, avis récents et photos de clients affichés sur des cartes "
+"statiques directement sur votre site web."
 
-msgid "Widget includes both company and product reviews"
-msgstr "Le widget comprend les avis sur les entreprises et les produits"
+msgid "Neat and simple."
+msgstr "Net et simple."
 
-msgid "Anytime you can adjust widget outlook without developer help, even after embedding it on your site"
+msgid "Carousel - company reviews"
+msgstr "Carrousel - avis sur l'entreprise"
+
+#, fuzzy
+msgid "Catch your customer attention with this immersive widget!"
+msgstr "Captez l'attention de vos clients avec ce widget immersif !"
+
+msgid ""
+"Showcase your average rating and the most recent reviews on auto-scrolling "
+"tiles and make your website look even cooler!"
 msgstr ""
-"À tout moment, vous pouvez régler les perspectives du widget sans l'aide "
-"d'un développeur, même après l'avoir intégré à votre site"
+"Présentez votre note moyenne et les avis les plus récents sur des tuiles à "
+"défilement automatique et rendez votre site web encore plus cool !"
 
-msgid "Microdata"
-msgstr "Microdonnées"
+msgid "Carousel - product reviews"
+msgstr "Carrousel - avis sur les produits"
 
-msgid "If you enable microdata, widget will make your reviews understandable for search engines like Google"
+msgid "Attract your customer attention with this dynamic widget."
+msgstr "Attirez l'attention de vos clients avec ce widget dynamique."
+
+msgid ""
+"Average rating, recent reviews, customer images - everything in one place!"
+msgstr "Note moyenne, avis récents, images clients - tout au même endroit !"
+
+msgid "Fits like a glove and works like a dream!"
+msgstr "S'adapte parfaitement et fonctionne à merveille !"
+
+# Dodo2
+msgid "Static box with rating (small / large)"
 msgstr ""
-"Si vous activez les microdonnées, le widget rendra vos commentaires "
-"compréhensibles pour les moteurs de recherche comme Google"
 
-msgid "Search engine results with your site will be enriched with additional data like average rating, stars, review count"
+msgid "Showcase your review count and average rating with this simple widget."
+msgstr "Affichez le nombre d'avis et la note moyenne avec ce widget simple."
+
+#, fuzzy
+msgid ""
+"No matter if your customers want to read reviews or submit their own - "
+"Dodo’s got you covered!"
 msgstr ""
-"Les résultats des moteurs de recherche concernant votre site seront enrichis "
-"de données supplémentaires comme l'évaluation moyenne, les étoiles et le "
-"nombre d'avis"
+"Peu importe si vos clients veulent lire des avis ou soumettre les leurs - "
+"Dodo s'occupe de tout !"
+
+msgid "Not too little, not too much - just perfect!"
+msgstr "Ni trop peu, ni trop - juste parfait !"
+
+# Muskrat2
+msgid "Badge with the company's rating and grades distribution (edge)"
+msgstr ""
+
+msgid "Amaze your customers with this modern, interactive widget!"
+msgstr "Épatez vos clients avec ce widget moderne et interactif !"
+
+msgid ""
+"Display your average rating and review count, showcase the most recent "
+"reviews and collect new ones with just a few clicks."
+msgstr ""
+"Affichez votre note moyenne et le nombre d'avis, présentez les avis les plus "
+"récents et collectez-en de nouveaux en quelques clics seulement."
+
+msgid "Simply and intuitively."
+msgstr "Simplement et intuitivement."
+
+msgid "Company rating - top bar"
+msgstr "Évaluation de l'entreprise - barre supérieure"
+
+msgid ""
+"Show off the number of reviews and display the average rating with this "
+"simple widget."
+msgstr ""
+"Montrez le nombre d'avis et affichez la note moyenne avec ce widget simple."
+
+msgid ""
+"Buyers will know right away that they are dealing with a trustworthy company "
+"when they enter your store."
+msgstr ""
+"Les acheteurs sauront immédiatement qu'ils ont affaire à une entreprise de "
+"confiance lorsqu'ils entreront dans votre boutique."
+
+# Alpaca
+msgid "Social Proof (pop-up reviews)"
+msgstr ""
+
+msgid "Attention grabber like no other."
+msgstr "Capteur d'attention comme aucun autre."
+
+msgid ""
+"Display your average rating, number of reviews and present the most recent "
+"ones with this unmissable widget."
+msgstr ""
+"Affichez votre note moyenne, le nombre d'avis et présentez les plus récents "
+"avec ce widget incontournable."
+
+msgid "Let Alpaca give your website that wow factor!"
+msgstr "Laissez Alpaca donner à votre site web ce facteur wow !"
+
+msgid "Modular widget - product reviews, expert reviews, Q&A"
+msgstr ""
+"Widget modulaire - avis sur les produits, avis d'experts, questions et "
+"réponses"
+
+msgid "Wow your customers with this versatile, modular widget!"
+msgstr "Impressionnez vos clients avec ce widget polyvalent et modulaire !"
+
+msgid ""
+"Average rating, results of product surveys, up to 50 recent reviews, expert "
+"evaluations, and the Q&A module - Hydra has everything in one place."
+msgstr ""
+"Note moyenne, résultats des enquêtes produits, jusqu'à 50 avis récents, "
+"évaluations d'experts et le module Q&R - Hydra a tout au même endroit."
+
+msgid "Designed for those who want more."
+msgstr "Conçu pour ceux qui en veulent plus."
+
+#, fuzzy
+msgid "Badge - product rating (edge)"
+msgstr "Afficher le badge avec le classement des produits"
+
+msgid "Small but mighty!"
+msgstr "Petit mais puissant !"
+
+msgid ""
+"Bring your average rating to view and showcase the full review content by "
+"expanding this little widget."
+msgstr ""
+"Affichez votre note moyenne et présentez le contenu complet de l'avis en "
+"développant ce petit widget."
+
+msgid "Sliding out widget with reviews"
+msgstr "Widget coulissant avec avis"
+
+msgid "Get your reviews noticed with this sliding widget."
+msgstr "Faites remarquer vos avis avec ce widget coulissant."
+
+msgid ""
+"Lemur is a perfect way to demonstrate your average rating, and when "
+"expanded, also latest reviews and TrustMate-granted badges."
+msgstr ""
+"Lemur est un moyen parfait de démontrer votre note moyenne et, lorsqu'il est "
+"développé, également les derniers avis et les badges accordés par TrustMate."
+
+msgid "What is not to love about it?"
+msgstr "Qu'est-ce qu'il n'y a pas à aimer ?"
 
 # Ferret
 msgid "Carousel"
 msgstr "Carrousel"
 
-msgid "Dynamic \"carousel\" widget catches the eye of customers presenting up to the last 21 reviews. You set the scrolling speed of the visible ratings yourself"
+msgid ""
+"Dynamic \"carousel\" widget catches the eye of customers presenting up to "
+"the last 21 reviews. You set the scrolling speed of the visible ratings "
+"yourself"
 msgstr ""
 "Le widget dynamique \"carrousel\" attire l'attention des clients en "
 "présentant jusqu'aux 21 dernières évaluations. Vous définissez vous-même la "
 "vitesse de défilement des évaluations visibles"
 
-msgid "Using the carousel you increase the attractiveness of your website to search engines, e.g. Google"
+msgid ""
+"Using the carousel you increase the attractiveness of your website to search "
+"engines, e.g. Google"
 msgstr ""
 "En utilisant le carrousel, vous augmentez l'attractivité de votre site web "
 "pour les moteurs de recherche, par exemple Google"
 
-msgid "Let customers read reviews about your company without leaving your website"
+msgid ""
+"Let customers read reviews about your company without leaving your website"
 msgstr ""
 "Les clients peuvent lire les avis sur votre entreprise sans quitter votre "
 "site web"
 
-msgid "The carousel is responsive and adapts to every page view and mobile devices"
+msgid ""
+"The carousel is responsive and adapts to every page view and mobile devices"
 msgstr ""
 "Le carrousel est réactif et s'adapte à toutes les pages et à tous les "
 "appareils mobiles"
@@ -417,18 +603,14 @@ msgstr ""
 msgid "Product review carousel"
 msgstr "Carrousel de revues de produits"
 
-# Owl
-msgid "Certificate widget"
-msgstr "Widget certificat"
+msgid "Widget with badges"
+msgstr "Widget avec badges"
 
-msgid "If you meet the program conditions visible on the main page of the panel, TrustMate will automatically display the badge in your store along with information about the current rating"
-msgstr ""
-"Si vous remplissez les conditions du programme visibles sur la page "
-"principale du panneau, TrustMate affichera automatiquement le badge dans "
-"votre magasin ainsi que des informations sur la notation actuelle"
+msgid "Want to present TrustMate-granted awards in style?"
+msgstr "Vous voulez présenter avec style les prix accordés par TrustMate ?"
 
-msgid "This will result in more buying interest from potential customers"
-msgstr "Cela suscitera un intérêt accru de la part des clients potentiels"
+msgid "Owl is here to help!"
+msgstr "Owl est là pour vous aider !"
 
 # FAQ section
 msgid "FAQ"
@@ -437,7 +619,9 @@ msgstr "FAQ"
 msgid "Can I ask only for company reviews"
 msgstr "Puis-je demander uniquement les avis des entreprises"
 
-msgid "Yes. You need to mark company invitation configuration as automatic and make sure no product invitation configuration is marked as such"
+msgid ""
+"Yes. You need to mark company invitation configuration as automatic and make "
+"sure no product invitation configuration is marked as such"
 msgstr ""
 "Oui, vous devez marquer la configuration de l'invitation de la société comme "
 "automatique et vous assurer qu'aucune configuration de l'invitation du "
@@ -446,13 +630,17 @@ msgstr ""
 msgid "Can I ask only for product reviews"
 msgstr "Puis-je demander uniquement des évaluations de produits"
 
-msgid "Yes. You need to mark product invitation configuration as automatic and make sure no company invitation configuration is marked as such"
+msgid ""
+"Yes. You need to mark product invitation configuration as automatic and make "
+"sure no company invitation configuration is marked as such"
 msgstr ""
 "Oui, vous devez marquer la configuration des invitations de produits comme "
 "automatique et vous assurer qu'aucune configuration d'invitation de société "
 "n'est marquée comme telle"
 
-msgid "Remember, for product invitations to work you need to load product feed in TrustMate settings"
+msgid ""
+"Remember, for product invitations to work you need to load product feed in "
+"TrustMate settings"
 msgstr ""
 "Rappelez-vous, pour que les invitations de produits fonctionnent, vous devez "
 "charger le flux de produits dans les paramètres de TrustMate"
@@ -460,12 +648,16 @@ msgstr ""
 msgid "Can I ask for both company and product reviews"
 msgstr "Puis-je demander des évaluations de l'entreprise et des produits"
 
-msgid "Yes. You need to mark both company and product invitation configurations as automatic"
+msgid ""
+"Yes. You need to mark both company and product invitation configurations as "
+"automatic"
 msgstr ""
 "Oui, vous devez marquer les configurations d'invitation de l'entreprise et "
 "du produit comme automatiques"
 
-msgid "Is such case we recommend configuring company invitations to send at least couple days befor product"
+msgid ""
+"Is such case we recommend configuring company invitations to send at least "
+"couple days befor product"
 msgstr ""
 "Dans ce cas, nous recommandons de configurer les invitations de l'entreprise "
 "pour qu'elles soient envoyées au moins deux jours avant le produit"
@@ -485,12 +677,16 @@ msgstr "Vous le trouverez dans la section <em>Intégration</em>"
 msgid "How can I add widget with grades and reviews"
 msgstr "Comment puis-je ajouter un widget avec des notes et des critiques"
 
-msgid "Widget which stick to screen edge can be turned on with one click in plugin configuration"
+msgid ""
+"Widget which stick to screen edge can be turned on with one click in plugin "
+"configuration"
 msgstr ""
 "Le widget qui colle au bord de l'écran peut être activé en un clic dans la "
 "configuration du plugin"
 
-msgid "All other widget you can embed on your site using Wordpress features: widgets and themes"
+msgid ""
+"All other widget you can embed on your site using Wordpress features: "
+"widgets and themes"
 msgstr ""
 "Tous les autres widgets peuvent être intégrés à votre site en utilisant les "
 "fonctionnalités de Wordpress : widgets et thèmes"
@@ -500,7 +696,9 @@ msgstr ""
 "Quand dois-je activer l'option \"Demander la permission d'envoyer une "
 "invitation de révision\""
 
-msgid "Always when you do not collect such consent in previous transaction steps and your rules document do not handle the issue"
+msgid ""
+"Always when you do not collect such consent in previous transaction steps "
+"and your rules document do not handle the issue"
 msgstr ""
 "Toujours lorsque vous ne recueillez pas ce consentement lors des étapes "
 "précédentes de la transaction et que vos règles ne traitent pas de cette "
@@ -509,7 +707,9 @@ msgstr ""
 msgid "How can I hide WooCommerce product reviews"
 msgstr "Comment puis-je masquer les avis sur les produits WooCommerce"
 
-msgid "You need to turn off default WooCommerce reviews in: <em>WooCommerce → Settings → Products → Enable product reviews</em>"
+msgid ""
+"You need to turn off default WooCommerce reviews in: <em>WooCommerce → "
+"Settings → Products → Enable product reviews</em>"
 msgstr ""
 "Vous devez désactiver les évaluations par défaut de WooCommerce dans la "
 "section : <em>WooCommerce → Settings → Products → Enable product reviews</em>"
@@ -517,7 +717,9 @@ msgstr ""
 msgid "Do you support WPML?"
 msgstr "Prenez-vous en charge WPML ?"
 
-msgid "Yes, but keep in mind that you need to add invitation configurations for all languages you want to use in TrustMate.io panel"
+msgid ""
+"Yes, but keep in mind that you need to add invitation configurations for all "
+"languages you want to use in TrustMate.io panel"
 msgstr ""
 "Oui, mais souvenez-vous que vous devez ajouter des configurations "
 "d'invitation pour toutes les langues que vous souhaitez utiliser dans le "
@@ -528,160 +730,138 @@ msgstr ""
 "Comment puis-je décider quels produits de ma catégorie sont envoyés à "
 "TrustMate.io ?"
 
-msgid "If you use multiple categories for your product the only way is to use primary category feature from Yoast SEO plugin"
+msgid ""
+"If you use multiple categories for your product the only way is to use "
+"primary category feature from Yoast SEO plugin"
 msgstr ""
 "Si vous utilisez plusieurs catégories pour votre produit, le seul moyen est "
 "d'utiliser la fonction de catégorie primaire du plugin Yoast SEO"
-msgid "Add another"
-msgstr "Ajouter un autre"
-
-msgid "Additional TrustMate account UUIDs per language"
-msgstr "UUIDs de compte TrustMate supplémentaires par langue"
-
-msgid "Amaze your customers with this modern, interactive widget!"
-msgstr "Épatez vos clients avec ce widget moderne et interactif !"
-
-msgid "A minimalistic widget displaying average rating next to a product description."
-msgstr "Un widget minimaliste affichant la note moyenne à côté de la description du produit."
-
-msgid "Attention grabber like no other."
-msgstr "Capteur d'attention comme aucun autre."
-
-msgid "Attract your customer attention with this dynamic widget."
-msgstr "Attirez l'attention de vos clients avec ce widget dynamique."
-
-msgid "Average rating, recent reviews and customer photos displayed on static cards directly on your website."
-msgstr "Note moyenne, avis récents et photos de clients affichés sur des cartes statiques directement sur votre site web."
-
-msgid "Average rating, recent reviews, customer images - everything in one place!"
-msgstr "Note moyenne, avis récents, images clients - tout au même endroit !"
-
-msgid "Average rating, results of product surveys, up to 50 recent reviews, expert evaluations, and the Q&A module - Hydra has everything in one place."
-msgstr "Note moyenne, résultats des enquêtes produits, jusqu'à 50 avis récents, évaluations d'experts et le module Q&R - Hydra a tout au même endroit."
-
-msgid "Bring your average rating to view and showcase the full review content by expanding this little widget."
-msgstr "Affichez votre note moyenne et présentez le contenu complet de l'avis en développant ce petit widget."
-
-msgid "Buyers will know right away that they are dealing with a trustworthy company when they enter your store."
-msgstr "Les acheteurs sauront immédiatement qu'ils ont affaire à une entreprise de confiance lorsqu'ils entreront dans votre boutique."
-
-msgid "Carousel - company reviews"
-msgstr "Carrousel - avis sur l'entreprise"
-
-msgid "Carousel - product reviews"
-msgstr "Carrousel - avis sur les produits"
-
-msgid "Catch your customers' attention with this immersive widget!"
-msgstr "Captez l'attention de vos clients avec ce widget immersif !"
-
-msgid "Company rating - top bar"
-msgstr "Évaluation de l'entreprise - barre supérieure"
-
-msgid "Create a star constellation in your product lists!"
-msgstr "Créez une constellation d'étoiles dans vos listes de produits !"
-
-msgid "Currently we only support Polylang for WooCommerce"
-msgstr "Actuellement, nous ne prenons en charge que Polylang pour WooCommerce"
-
-msgid "Description"
-msgstr "Description"
-
-msgid "Designed for those who want more."
-msgstr "Conçu pour ceux qui en veulent plus."
-
-msgid "Display product average rating on category pages and other product listings."
-msgstr "Affichez la note moyenne du produit sur les pages de catégories et autres listes de produits."
-
-msgid "Display your average rating and review count, showcase the most recent reviews and collect new ones with just a few clicks."
-msgstr "Affichez votre note moyenne et le nombre d'avis, présentez les avis les plus récents et collectez-en de nouveaux en quelques clics seulement."
-
-msgid "Display your average rating, number of reviews and present the most recent ones with this unmissable widget."
-msgstr "Affichez votre note moyenne, le nombre d'avis et présentez les plus récents avec ce widget incontournable."
-
-msgid "Enable instant company review form on thank you page - do not use with After successful order status"
-msgstr "Activer le formulaire d'avis instantané sur la page de remerciement - ne pas utiliser avec le statut Après commande réussie"
-
-msgid "Fits like a glove and works like a dream!"
-msgstr "S'adapte parfaitement et fonctionne à merveille !"
-
-msgid "Get your reviews noticed with this sliding widget."
-msgstr "Faites remarquer vos avis avec ce widget coulissant."
-
-msgid "Hornet allows customers to read reviews."
-msgstr "Hornet permet aux clients de lire les avis."
-
-msgid "Invalid data sent"
-msgstr "Données invalides envoyées"
-
-msgid "Lemur is a perfect way to demonstrate your average rating, and when expanded, also latest reviews and TrustMate-granted badges."
-msgstr "Lemur est un moyen parfait de démontrer votre note moyenne et, lorsqu'il est développé, également les derniers avis et les badges accordés par TrustMate."
-
-msgid "Let Alpaca give your website that wow factor!"
-msgstr "Laissez Alpaca donner à votre site web ce facteur wow !"
-
-msgid "Modular widget - product reviews, expert reviews, Q&A"
-msgstr "Widget modulaire - avis sur les produits, avis d'experts, questions et réponses"
-
-msgid "Name"
-msgstr "Nom"
-
-msgid "Neat and simple."
-msgstr "Net et simple."
-
-msgid "No matter if your customers want to read reviews or submit their own - Dodo's got you covered!"
-msgstr "Peu importe si vos clients veulent lire des avis ou soumettre les leurs - Dodo s'occupe de tout !"
-
-msgid "Not too little, not too much - just perfect!"
-msgstr "Ni trop peu, ni trop - juste parfait !"
-
-msgid "Owl's here to help!"
-msgstr "Owl est là pour vous aider !"
-
-msgid "Product"
-msgstr "Produit"
-
-msgid "Showcase your average rating and the most recent reviews on auto-scrolling tiles and make your website look even cooler!"
-msgstr "Présentez votre note moyenne et les avis les plus récents sur des tuiles à défilement automatique et rendez votre site web encore plus cool !"
-
-msgid "Showcase your review count and average rating with this simple widget."
-msgstr "Affichez le nombre d'avis et la note moyenne avec ce widget simple."
-
-msgid "Show off the number of reviews and display the average rating with this simple widget."
-msgstr "Montrez le nombre d'avis et affichez la note moyenne avec ce widget simple."
-
-msgid "Simple and effective."
-msgstr "Simple et efficace."
-
-msgid "Simply and intuitively."
-msgstr "Simplement et intuitivement."
-
-msgid "Sliding out widget with reviews"
-msgstr "Widget coulissant avec avis"
-
-msgid "Small but mighty!"
-msgstr "Petit mais puissant !"
-
-msgid "Type"
-msgstr "Type"
-
-msgid "Use this only if you have multiple TrustMate language accounts"
-msgstr "Utilisez ceci uniquement si vous avez plusieurs comptes linguistiques TrustMate"
-
-msgid "Want to present TrustMate-granted awards in style?"
-msgstr "Vous voulez présenter avec style les prix accordés par TrustMate ?"
-
-msgid "What's not to love about it?"
-msgstr "Qu'est-ce qu'il n'y a pas à aimer ?"
 
 msgid "Widgets that will be withdrawn"
 msgstr "Widgets qui seront retirés"
 
-msgid "Widget that displays the rating and reviews"
-msgstr "Widget qui affiche la note et les avis"
+# Product category mode
+msgid "Product category mode"
+msgstr "Mode de catégorie de produit"
 
-msgid "Widget with badges"
-msgstr "Widget avec badges"
+msgid ""
+"TrustMate requires a single category for each product. In older integration "
+"versions, only one category segment was sent, and for multi-category "
+"products, different segments were concatenated. This made it difficult to "
+"use TrustMate features based on product categories (hints, customer "
+"attributes, product polls). Using full path mode is recommended, but if you "
+"already use these features, reconfiguration may be required."
+msgstr ""
+"TrustMate exige une seule catégorie par produit. Dans les anciennes versions "
+"d'intégration, un seul segment de catégorie était envoyé et les segments "
+"étaient concaténés pour les produits multi-catégories. Cela rendait "
+"difficile l'utilisation des fonctionnalités TrustMate basées sur les "
+"catégories (indices, attributs client, sondages produit). Le mode chemin "
+"complet est recommandé ; si vous utilisez déjà ces fonctionnalités, une "
+"reconfiguration peut être nécessaire."
 
-msgid "Wow your customers with this versatile, modular widget!"
-msgstr "Impressionnez vos clients avec ce widget polyvalent et modulaire !"
+msgid "Short name"
+msgstr "Nom court"
 
+msgid "Full path"
+msgstr "Chemin complet"
+
+msgid "Hierarchical category path (e.g., Electronics > Phones > Smartphones)"
+msgstr ""
+"Chemin de catégorie hiérarchique (ex. Électronique > Téléphones > Smartphones)"
+
+#~ msgid "Invald data sent"
+#~ msgstr "Données invalides envoyées"
+
+#~ msgid ""
+#~ "Page-wide reviews similar to popular comments sections showing under your "
+#~ "product"
+#~ msgstr ""
+#~ "Des avis sur toute la page, similaires aux sections de commentaires "
+#~ "populaires, s'affichent sous votre produit"
+
+# Hornet
+#~ msgid ""
+#~ "Small widget that displays the average rating and the number of reviews"
+#~ msgstr "Petit widget qui affiche la note moyenne et le nombre d'avis"
+
+#~ msgid ""
+#~ "The stars will appear on the product card near the photo and on the "
+#~ "product tiles throughout the store"
+#~ msgstr ""
+#~ "Les étoiles apparaîtront sur la fiche produit près de la photo et sur les "
+#~ "carreaux de produits dans tout le magasin"
+
+#~ msgid ""
+#~ "The widget displays the current number of reviews about the product and "
+#~ "the current average rating"
+#~ msgstr ""
+#~ "Le widget affiche le nombre actuel d'avis sur le produit et la note "
+#~ "moyenne actuelle"
+
+#~ msgid ""
+#~ "It can be embedded next to the main product description on the product "
+#~ "sheet or in product lists in your store"
+#~ msgstr ""
+#~ "Il peut être intégré à côté de la description principale du produit sur "
+#~ "la fiche produit ou dans les listes de produits de votre boutique"
+
+#~ msgid "Benefits"
+#~ msgstr "Avantages"
+
+#~ msgid ""
+#~ "distinguishes the product by encouraging customers to click on it and "
+#~ "make purchases"
+#~ msgstr ""
+#~ "permet de distinguer le produit en incitant les clients à cliquer dessus "
+#~ "et à faire des achats"
+
+#~ msgid ""
+#~ "Static widget with customer reviews sending a message \"you can trust us\""
+#~ msgstr ""
+#~ "Widget statique avec des avis de clients qui envoient le message \"vous "
+#~ "pouvez nous faire confiance\""
+
+#~ msgid "Widget includes both company and product reviews"
+#~ msgstr "Le widget comprend les avis sur les entreprises et les produits"
+
+#~ msgid ""
+#~ "Anytime you can adjust widget outlook without developer help, even after "
+#~ "embedding it on your site"
+#~ msgstr ""
+#~ "À tout moment, vous pouvez régler les perspectives du widget sans l'aide "
+#~ "d'un développeur, même après l'avoir intégré à votre site"
+
+#~ msgid "Microdata"
+#~ msgstr "Microdonnées"
+
+#~ msgid ""
+#~ "If you enable microdata, widget will make your reviews understandable for "
+#~ "search engines like Google"
+#~ msgstr ""
+#~ "Si vous activez les microdonnées, le widget rendra vos commentaires "
+#~ "compréhensibles pour les moteurs de recherche comme Google"
+
+#~ msgid ""
+#~ "Search engine results with your site will be enriched with additional "
+#~ "data like average rating, stars, review count"
+#~ msgstr ""
+#~ "Les résultats des moteurs de recherche concernant votre site seront "
+#~ "enrichis de données supplémentaires comme l'évaluation moyenne, les "
+#~ "étoiles et le nombre d'avis"
+
+# Owl
+#~ msgid "Certificate widget"
+#~ msgstr "Widget certificat"
+
+#~ msgid ""
+#~ "If you meet the program conditions visible on the main page of the panel, "
+#~ "TrustMate will automatically display the badge in your store along with "
+#~ "information about the current rating"
+#~ msgstr ""
+#~ "Si vous remplissez les conditions du programme visibles sur la page "
+#~ "principale du panneau, TrustMate affichera automatiquement le badge dans "
+#~ "votre magasin ainsi que des informations sur la notation actuelle"
+
+#~ msgid "This will result in more buying interest from potential customers"
+#~ msgstr "Cela suscitera un intérêt accru de la part des clients potentiels"

@@ -8,7 +8,7 @@
  * Plugin Name: TrustMate.io integration for WooCommerce
  * Plugin URI: https://trustmate.io
  * Description: TrustMate.io integration with auto invitations
- * Version: 1.15.0
+ * Version: 1.16.0
  * Author: TrustMate.io dev team
  * License: GPLv2 or later
  */
@@ -39,6 +39,7 @@ include(__DIR__.'/embed_scripts.php');
 
 const BASE_URL = 'https://trustmate.io';
 const BASE_URL_DEV = 'http://trustmate.test';
+const WIDGET_BASE_URL = 'https://trustmate.pro';
 
 const TRUSTMATE_PAGE_CREATE_ACCOUNT = 'create_account';
 const TRUSTMATE_PAGE_SETUP_ACCOUNT = 'setup_account';
@@ -182,6 +183,7 @@ function trustmate_create_settings_page()
     register_setting('trustmate_basic_settings', 'trustmate_account_language_uuids');
     register_setting('trustmate_basic_settings', 'trustmate_instant_review');
     register_setting('trustmate_basic_settings', 'trustmate_base_url');
+    register_setting('trustmate_basic_settings', 'trustmate_category_path_mode', array('default' => 'legacy'));
     register_setting('trustmate_widget_settings', 'trustmate_widget_gorilla');
     register_setting('trustmate_widget_settings', 'trustmate_widget_hydra');
     register_setting('trustmate_widget_settings', 'trustmate_widget_muskrat');
@@ -267,6 +269,19 @@ function trustmate_get_api_base_url()
     return BASE_URL;
 }
 
+function trustmate_get_widget_base_url()
+{
+    if (get_option('trustmate_base_widget_url')) {
+        return get_option('trustmate_base_widget_url');
+    }
+
+    if ($_SERVER['HTTP_HOST'] === 'localhost:8000') {
+        return BASE_URL_DEV;
+    }
+
+    return WIDGET_BASE_URL;
+}
+
 function trustmate_create_account()
 {
     $params = array(
@@ -309,6 +324,7 @@ function trustmate_create_account()
     if ($response['response']['code'] == '200') {
         $result = json_decode($response['body']);
         update_option('trustmate_account_uuid', $result->uuid);
+        update_option('trustmate_category_path_mode', 'full_path');
 
         ?>
             <div class='notice notice-success'>
@@ -498,7 +514,7 @@ function defer_widget_js($html)
         return $html;
     }
 
-    if (strpos($html, trustmate_get_api_base_url().'/platforms/widget/') !== false) {
+    if (strpos($html, trustmate_get_widget_base_url().'/platforms/widget/') !== false) {
         return str_replace('></script>', ' defer></script>', $html);
     }
 

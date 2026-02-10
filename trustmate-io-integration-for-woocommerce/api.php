@@ -1,5 +1,27 @@
 <?php
 
+function trustmate_get_category_full_path($term_id)
+{
+    $term = get_term($term_id, 'product_cat');
+    if (is_wp_error($term) || !$term) {
+        return '';
+    }
+
+    $ancestors = get_ancestors($term->term_id, 'product_cat', 'taxonomy');
+    $ancestors = array_reverse($ancestors);
+
+    $path_parts = [];
+    foreach ($ancestors as $ancestor_id) {
+        $ancestor = get_term($ancestor_id, 'product_cat');
+        if ($ancestor && !is_wp_error($ancestor)) {
+            $path_parts[] = $ancestor->name;
+        }
+    }
+    $path_parts[] = $term->name;
+
+    return implode(' > ', $path_parts);
+}
+
 function trustmate_api_create_account($params)
 {
     $url = trustmate_get_api_base_url() . '/platforms/register';
@@ -30,30 +52,39 @@ function trustmate_create_invitation($order_id, $language = null)
         if ($product && $product->get_id()) {
 
             $parent = null;
-            $category = null;
-            if (class_exists('WPSEO_Primary_Term')) {
-                $product_id_for_category = $product->get_id();
-                if ($product->is_type('variation') && $product->get_parent_id()) {
-                    $product_id_for_category = $product->get_parent_id();
-                }
-                $wpseo_primary_term_id = yoast_get_primary_term_id('product_cat', $product_id_for_category);
-                $category_term = get_term($wpseo_primary_term_id);
-                $category = is_wp_error($category_term) ? null : $category_term->name;
-            }
-
             if ($product->is_type('variation') && $product->get_parent_id()) {
                 $parent = wc_get_product($product->get_parent_id());
             }
 
-            if (!$category) {
-                // For variable product try to get category from parent
-                if ($parent) {
-                    $term_names = wp_get_post_terms($parent->get_id(), 'product_cat', ['fields' => 'names']);
-                } else {
-                    $term_names = wp_get_post_terms($product->get_id(), 'product_cat', ['fields' => 'names']);
-                }
+            $category = null;
+            $category_mode = get_option('trustmate_category_path_mode', 'legacy');
+            $product_id_for_category = $parent ? $parent->get_id() : $product->get_id();
 
-                $category = $term_names ? join(' > ', $term_names) : '';
+            if ($category_mode === 'full_path') {
+                if (class_exists('WPSEO_Primary_Term')) {
+                    $primary_term_id = yoast_get_primary_term_id('product_cat', $product_id_for_category);
+                    if ($primary_term_id) {
+                        $category = trustmate_get_category_full_path($primary_term_id);
+                    }
+                }
+                if (!$category) {
+                    $terms = wp_get_post_terms($product_id_for_category, 'product_cat', ['fields' => 'ids']);
+                    if (!empty($terms) && !is_wp_error($terms)) {
+                        $category = trustmate_get_category_full_path($terms[0]);
+                    } else {
+                        $category = '';
+                    }
+                }
+            } else {
+                if (class_exists('WPSEO_Primary_Term')) {
+                    $wpseo_primary_term_id = yoast_get_primary_term_id('product_cat', $product_id_for_category);
+                    $category_term = get_term($wpseo_primary_term_id);
+                    $category = is_wp_error($category_term) ? null : $category_term->name;
+                }
+                if (!$category) {
+                    $term_names = wp_get_post_terms($product_id_for_category, 'product_cat', ['fields' => 'names']);
+                    $category = $term_names ? join(' > ', $term_names) : '';
+                }
             }
 
             $group = $product->get_parent_id();

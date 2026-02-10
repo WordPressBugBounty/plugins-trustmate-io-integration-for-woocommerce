@@ -340,13 +340,6 @@ msgstr ""
 msgid "Show grade and reviews on product page"
 msgstr "Pokaż ocenę i opinie na stronie produktu"
 
-msgid ""
-"Page-wide reviews similar to popular comments sections showing under your "
-"product"
-msgstr ""
-"Opinie wyświetlane pod produktem, na całą szerokość strony, przypominające "
-"sekcję z komentarzami"
-
 msgid "Remember, there are more widgets available"
 msgstr "Pamiętaj, jest więcej dostępnych widgetów"
 
@@ -390,6 +383,13 @@ msgstr ""
 msgid "Create a star constellation in your product lists!"
 msgstr "Stwórz gwiazdozbiór na swoich listach produktowych!"
 
+msgid ""
+"If it does not work automatically after enabling, it may need to be "
+"configured in the TrustMate client panel."
+msgstr ""
+"Jeśli po włączeniu nie działa samoczynnie, prawdopodobnie trzeba go "
+"skonfigurować w panelu klienta TrustMate."
+
 # Chupacabra
 msgid "Social Proof (big box)"
 msgstr "Social proof (duży box)"
@@ -404,11 +404,7 @@ msgstr ""
 msgid "Neat and simple."
 msgstr "Prosto i przejrzyście."
 
-msgid "Can I ask only for company reviews"
-msgstr "Czy mogę zapraszać tylko do oceny firmy"
-
 # Ferret2
-
 msgid "Carousel - company reviews"
 msgstr "Karuzela - opinie o firmie"
 
@@ -422,11 +418,7 @@ msgstr ""
 "Zaprezentuj średnią ocenę oraz najświeższe opinie na automatycznie "
 "przewijanych kaflach i spraw, żeby Twoja strona wyglądała jeszcze lepiej!"
 
-msgid "Can I ask only for product reviews"
-msgstr "Czy mogę zapraszać tylko do oceny produktów"
-
 # ProductFerret2
-
 msgid "Carousel - product reviews"
 msgstr "Karuzela - opinie o produktach"
 
@@ -481,11 +473,18 @@ msgstr "Intuicyjnie i prosto."
 msgid "Company rating - top bar"
 msgstr "Ocena firmy - pasek górny"
 
-msgid "Show off the number of reviews and display the average rating with this simple widget."
-msgstr "Pochwal się liczbą opinii i pokaż średnią ocen na tym prostym widgecie."
+msgid ""
+"Show off the number of reviews and display the average rating with this "
+"simple widget."
+msgstr ""
+"Pochwal się liczbą opinii i pokaż średnią ocen na tym prostym widgecie."
 
-msgid "Buyers will know right away that they are dealing with a trustworthy company when they enter your store."
-msgstr "Kupujący zaraz po wejściu na Twój sklep będą wiedzieli, że mają do czynienia z wiarygodną firmą."
+msgid ""
+"Buyers will know right away that they are dealing with a trustworthy company "
+"when they enter your store."
+msgstr ""
+"Kupujący zaraz po wejściu na Twój sklep będą wiedzieli, że mają do czynienia "
+"z wiarygodną firmą."
 
 # Alpaca
 msgid "Social Proof (pop-up reviews)"
@@ -529,8 +528,12 @@ msgstr "Odznaka - ocena produktu (krawędź)"
 msgid "Small but mighty!"
 msgstr "Mały, ale potężny!"
 
-msgid "Bring your average rating to view and showcase the full review content by expanding this little widget."
-msgstr "Wyświetl średnią ocenę i zaprezentuj pełną treść opinii, rozszerzając ten maleńki widget."
+msgid ""
+"Bring your average rating to view and showcase the full review content by "
+"expanding this little widget."
+msgstr ""
+"Wyświetl średnią ocenę i zaprezentuj pełną treść opinii, rozszerzając ten "
+"maleńki widget."
 
 # Lemur
 msgid "Sliding out widget with reviews"
@@ -546,7 +549,7 @@ msgstr ""
 "Zwinięty, wyświetla jedynie średnią ocenę a po rozwinięciu prezentuje "
 "najnowsze recenzje i przyznane przez TrustMate wyróżnienia."
 
-msgid "What’s not to love about it?"
+msgid "What is not to love about it?"
 msgstr "Pasuje wszędzie."
 
 # Ferret
@@ -591,12 +594,15 @@ msgstr "Widget z odznakami"
 msgid "Want to present TrustMate-granted awards in style?"
 msgstr "Chcesz stylowo prezentować nagrody przyznane przez TrustMate?"
 
-msgid "Owl’s here to help!"
+msgid "Owl is here to help!"
 msgstr "Owl chętnie Ci w tym pomoże!"
 
 # FAQ section
 msgid "FAQ"
 msgstr "Najczęściej zadawane pytania"
+
+msgid "Can I ask only for company reviews"
+msgstr "Czy mogę zapraszać tylko do oceny firmy"
 
 msgid ""
 "Yes. You need to mark company invitation configuration as automatic and make "
@@ -604,6 +610,9 @@ msgid ""
 msgstr ""
 "Tak. Wystarczy, że ustawisz konfigurację z oceną firmy 1-5 jako automatyczną "
 "oraz że żadna konfiguracja produktowa nie będzie ustawiona jako automatyczna"
+
+msgid "Can I ask only for product reviews"
+msgstr "Czy mogę zapraszać tylko do oceny produktów"
 
 msgid ""
 "Yes. You need to mark product invitation configuration as automatic and make "
@@ -710,3 +719,40 @@ msgstr ""
 
 msgid "Widgets that will be withdrawn"
 msgstr "Widgety, które zostaną wycofane"
+
+# Product category mode
+msgid "Product category mode"
+msgstr "Tryb kategorii produktu"
+
+msgid ""
+"TrustMate requires a single category for each product. In older integration "
+"versions, only one category segment was sent, and for multi-category "
+"products, different segments were concatenated. This made it difficult to "
+"use TrustMate features based on product categories (hints, customer "
+"attributes, product polls). Using full path mode is recommended, but if you "
+"already use these features, reconfiguration may be required."
+msgstr ""
+"TrustMate wymaga jednej kategorii dla każdego produktu. W starszych wersjach "
+"integracji wysyłany był tylko jeden segment kategorii, a gdy produkt był "
+"przypisany do wielu kategorii różne segmenty były ze sobą sklejane. To "
+"utrudniało wykorzystanie funkcjonalności TrustMate opartych o kategorie "
+"produktowe (podpowiedzi, atrybuty klienta, sondaże produktowe). "
+"Rekomendowane jest użycie trybu pełnej ścieżki, jednak jeśli już korzystasz "
+"ze wspomnianych funkcjonalności może być konieczna ich rekonfiguracja."
+
+msgid "Short name"
+msgstr "Krótka nazwa"
+
+msgid "Full path"
+msgstr "Pełna ścieżka"
+
+msgid "Hierarchical category path (e.g., Electronics > Phones > Smartphones)"
+msgstr ""
+"Hierarchiczna ścieżka kategorii (np. Elektronika > Telefony > Smartfony)"
+
+#~ msgid ""
+#~ "Page-wide reviews similar to popular comments sections showing under your "
+#~ "product"
+#~ msgstr ""
+#~ "Opinie wyświetlane pod produktem, na całą szerokość strony, "
+#~ "przypominające sekcję z komentarzami"

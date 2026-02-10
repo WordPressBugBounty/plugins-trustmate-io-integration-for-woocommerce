@@ -41,7 +41,9 @@ msgid "Save changes"
 msgstr "Lagre endringer"
 
 # Install
-msgid "To start collecting reviews you need TrustMate account. Fortunetly you can create it"
+msgid ""
+"To start collecting reviews you need TrustMate account. Fortunetly you can "
+"create it"
 msgstr ""
 "For å begynne å samle inn anmeldelser trenger du TrustMate-konto. Heldigvis "
 "kan du lage det"
@@ -131,26 +133,51 @@ msgstr "Kan ikke opprette konto"
 msgid "Registration address in WooCommerce Settings not complete"
 msgstr "Registreringsadressen i WooCommerce-innstillingene er ikke fullført"
 
-msgid "Something went wrong. Please try again or contact TrustMate customer service"
+msgid ""
+"Something went wrong. Please try again or contact TrustMate customer service"
 msgstr "Noe gikk galt. Prøv igjen eller kontakt TrustMate kundeservice"
 
-msgid "Widget activation failed. Please try again or contact TrustMate customer service"
+msgid ""
+"Widget activation failed. Please try again or contact TrustMate customer "
+"service"
 msgstr ""
 "Aktivering av widget mislyktes. Prøv igjen eller kontakt TrustMate "
 "kundeservice"
 
 # Config form
-msgid "Your TrustMate user code (UUID from TrustMate panel, Integration section)"
+msgid ""
+"Your TrustMate user code (UUID from TrustMate panel, Integration section)"
 msgstr ""
 "Din TrustMate-brukerkode (UUID fra TrustMate-panelet, integrasjonsdelen)"
+
+msgid "Additional TrustMate account UUIDs per language"
+msgstr "Ekstra TrustMate-konto UUID-er per språk"
+
+msgid "Use this only if you have multiple TrustMate language accounts"
+msgstr "Bruk dette bare hvis du har flere TrustMate-språkkontoer"
+
+msgid "Currently we only support Polylang for WooCommerce"
+msgstr "For øyeblikket støtter vi bare Polylang for WooCommerce"
+
+msgid "Add another"
+msgstr "Legg til en annen"
 
 msgid "Automatic review invitations"
 msgstr "Invitasjoner til automatiske gjennomganger"
 
-msgid "To quickly collect client reviews turn on automatic invitations"
-msgstr "For å samle inn kundeanmeldelser raskt, slå på automatiske invitasjoner"
+msgid ""
+"Enable instant company review form on thank you page - do not use with After "
+"successful order status"
+msgstr ""
+"Aktiver øyeblikkelig selskapsvurderingsskjema på takkesiden - ikke bruk med "
+"statusen Etter vellykket bestilling"
 
-msgid "While active, script sends invitations to your customers asking for review"
+msgid "To quickly collect client reviews turn on automatic invitations"
+msgstr ""
+"For å samle inn kundeanmeldelser raskt, slå på automatiske invitasjoner"
+
+msgid ""
+"While active, script sends invitations to your customers asking for review"
 msgstr ""
 "Mens skriptet er aktivt, sender det invitasjoner til kundene dine og ber om "
 "gjennomgang"
@@ -179,12 +206,16 @@ msgstr "Be om tillatelse til å sende invitasjon"
 msgid "In order to send review inviations you need customer consent"
 msgstr "For å sende anmeldelsesanmeldelser trenger du kundens samtykke"
 
-msgid "If you do not collect those consents by yourself (separate checkbox or proper regulations), turn this option on"
+msgid ""
+"If you do not collect those consents by yourself (separate checkbox or "
+"proper regulations), turn this option on"
 msgstr ""
 "Hvis du ikke innhenter disse samtykkene selv (separat avmerkingsboks eller "
 "riktige forskrifter), slår du på dette alternativet"
 
-msgid "If you do not directly ask customer for consent to send invitation, we suggest to extend your regulations with content from"
+msgid ""
+"If you do not directly ask customer for consent to send invitation, we "
+"suggest to extend your regulations with content from"
 msgstr ""
 "Hvis du ikke direkte ber kunden om samtykke til å sende invitasjon, foreslår "
 "vi at du utvider regelverket ditt med innhold fra"
@@ -207,6 +238,22 @@ msgstr "Etter merket som fullført"
 # Widget configuration
 msgid "Show reviews with widgets"
 msgstr "Vis anmeldelser med widgeter"
+
+msgid "Type"
+msgstr "Type"
+
+#, fuzzy
+msgid "Company"
+msgstr "Firmanavn"
+
+msgid "Product"
+msgstr "Produkt"
+
+msgid "Name"
+msgstr "Navn"
+
+msgid "Description"
+msgstr "Beskrivelse"
 
 msgid "Show badge with shop's grade"
 msgstr "Vis merke med butikkens karakter"
@@ -259,12 +306,16 @@ msgstr "kan få søkemotorer til å vise stjerner under produktresultat"
 msgid "Popping up reviews"
 msgstr "Dukker opp anmeldelser"
 
-msgid "Social proof widget with up to three types of popping up boxes which ensure your customers about quality of your services"
+msgid ""
+"Social proof widget with up to three types of popping up boxes which ensure "
+"your customers about quality of your services"
 msgstr ""
 "Sosialt bevis widget med opptil tre typer popup-bokser som sikrer kundene "
 "dine om kvaliteten på tjenestene dine"
 
-msgid "Position is configurable. Thanks to unconventional images and messages they are very noticable"
+msgid ""
+"Position is configurable. Thanks to unconventional images and messages they "
+"are very noticable"
 msgstr ""
 "Posisjonen kan konfigureres. Takket være ukonvensjonelle bilder og meldinger "
 "er de svært merkbare"
@@ -281,16 +332,12 @@ msgstr ""
 msgid "Show grade and reviews on product page"
 msgstr "Vis karakter og anmeldelser på produktsiden"
 
-msgid "Page-wide reviews similar to popular comments sections showing under your product"
-msgstr ""
-"Anmeldelser for hele siden som ligner på populære kommentarfelt som vises "
-"under produktet ditt"
-
 msgid "Remember, there are more widgets available"
 msgstr "Husk at det er flere widgets tilgjengelig"
 
 msgid "You can put them on your site using wordpress HTML widgets"
-msgstr "Du kan legge dem på nettstedet ditt ved hjelp av wordpress HTML-widgets"
+msgstr ""
+"Du kan legge dem på nettstedet ditt ved hjelp av wordpress HTML-widgets"
 
 msgid "Just copy the code from TrustMate panel widget section"
 msgstr "Bare kopier koden fra TrustMate-panelets widget-seksjon"
@@ -301,100 +348,241 @@ msgstr "Skru på"
 msgid "Click to show widget description"
 msgstr "Klikk for å vise widgetbeskrivelsen"
 
-# Hornet
-msgid "Small widget that displays the average rating and the number of reviews"
-msgstr "Liten widget som viser gjennomsnittlig vurdering og antall anmeldelser"
+msgid "Widget that displays the rating and reviews"
+msgstr "Widget som viser vurderingen og anmeldelsene"
 
-msgid "The stars will appear on the product card near the photo and on the product tiles throughout the store"
+msgid ""
+"A minimalistic widget displaying average rating next to a product "
+"description."
 msgstr ""
-"Stjernene vises på produktkortet i nærheten av bildet og på produktflisene i "
-"hele butikken"
+"En minimalistisk widget som viser gjennomsnittlig vurdering ved siden av en "
+"produktbeskrivelse."
 
-msgid "The widget displays the current number of reviews about the product and the current average rating"
+msgid "Hornet allows customers to read reviews."
+msgstr "Hornet lar kunder lese anmeldelser."
+
+msgid "Simple and effective."
+msgstr "Enkel og effektiv."
+
+msgid ""
+"Display product average rating on category pages and other product listings."
 msgstr ""
-"Widgeten viser nåværende antall vurderinger om produktet og gjennomsnittlig "
-"vurdering"
+"Vis produktets gjennomsnittlige vurdering på kategorisider og andre "
+"produktlister."
 
-msgid "It can be embedded next to the main product description on the product sheet or in product lists in your store"
+msgid "Create a star constellation in your product lists!"
+msgstr "Lag en stjernekonstell i produktlistene dine!"
+
+msgid ""
+"If it does not work automatically after enabling, it may need to be "
+"configured in the TrustMate client panel."
 msgstr ""
-"Den kan bygges inn ved siden av hovedproduktbeskrivelsen på produktarket "
-"eller i produktlister i butikken din"
-
-msgid "Benefits"
-msgstr "Fordeler"
-
-msgid "distinguishes the product by encouraging customers to click on it and make purchases"
-msgstr ""
-"skiller produktet ved å oppmuntre kunder til å klikke på det og foreta kjøp"
+"Hvis det ikke fungerer automatisk etter aktivering, kan det hende det må "
+"konfigureres i TrustMates kundepanel."
 
 # Chupacabra
-msgid "Widget social proof (large box)"
+#, fuzzy
+msgid "Social Proof (big box)"
 msgstr "Widget sosialt bevis (stor boks)"
 
-msgid "Static widget with customer reviews sending a message \"you can trust us\""
+msgid ""
+"Average rating, recent reviews and customer photos displayed on static cards "
+"directly on your website."
 msgstr ""
-"Statisk widget med kundeanmeldelser som sender en melding "
-"\"du kan stole på oss\""
+"Gjennomsnittlig vurdering, nylige anmeldelser og kundebilder vist på "
+"statiske kort direkte på nettstedet ditt."
 
-msgid "Widget includes both company and product reviews"
-msgstr "Widget inkluderer både firma- og produktanmeldelser"
+msgid "Neat and simple."
+msgstr "Ryddig og enkel."
 
-msgid "Anytime you can adjust widget outlook without developer help, even after embedding it on your site"
+msgid "Carousel - company reviews"
+msgstr "Karusell - selskapsvurderinger"
+
+#, fuzzy
+msgid "Catch your customer attention with this immersive widget!"
+msgstr "Fang kundenes oppmerksomhet med denne oppslukende widgeten!"
+
+msgid ""
+"Showcase your average rating and the most recent reviews on auto-scrolling "
+"tiles and make your website look even cooler!"
 msgstr ""
-"Når som helst kan du justere widgetens utsikter uten hjelp fra utviklere, "
-"selv etter at du har bygget den inn på nettstedet ditt"
+"Vis din gjennomsnittlige vurdering og de nyeste anmeldelsene på automatisk "
+"rullende fliser og få nettstedet ditt til å se enda kulere ut!"
 
-msgid "Microdata"
-msgstr "Microdata"
+msgid "Carousel - product reviews"
+msgstr "Karusell - produktanmeldelser"
 
-msgid "If you enable microdata, widget will make your reviews understandable for search engines like Google"
+msgid "Attract your customer attention with this dynamic widget."
+msgstr "Tiltrekk kundenes oppmerksomhet med denne dynamiske widgeten."
+
+msgid ""
+"Average rating, recent reviews, customer images - everything in one place!"
 msgstr ""
-"Hvis du aktiverer mikrodata, vil widgeten gjøre anmeldelsene dine "
-"forståelige for søkemotorer som Google"
+"Gjennomsnittlig vurdering, nylige anmeldelser, kundebilder - alt på ett sted!"
 
-msgid "Search engine results with your site will be enriched with additional data like average rating, stars, review count"
+msgid "Fits like a glove and works like a dream!"
+msgstr "Passer som en hanske og fungerer som en drøm!"
+
+# Dodo2
+msgid "Static box with rating (small / large)"
 msgstr ""
-"Søkemotorresultater på nettstedet ditt vil bli beriket med tilleggsdata som "
-"gjennomsnittlig vurdering, stjerner, antall anmeldelser"
+
+msgid "Showcase your review count and average rating with this simple widget."
+msgstr ""
+"Vis anmeldelsesantallet ditt og gjennomsnittlig vurdering med denne enkle "
+"widgeten."
+
+#, fuzzy
+msgid ""
+"No matter if your customers want to read reviews or submit their own - "
+"Dodo’s got you covered!"
+msgstr ""
+"Uansett om kundene dine vil lese anmeldelser eller sende inn sine egne - "
+"Dodo har deg dekket!"
+
+msgid "Not too little, not too much - just perfect!"
+msgstr "Verken for lite eller for mye - akkurat perfekt!"
+
+# Muskrat2
+msgid "Badge with the company's rating and grades distribution (edge)"
+msgstr ""
+
+msgid "Amaze your customers with this modern, interactive widget!"
+msgstr "Forbauser kundene dine med denne moderne, interaktive widgeten!"
+
+msgid ""
+"Display your average rating and review count, showcase the most recent "
+"reviews and collect new ones with just a few clicks."
+msgstr ""
+"Vis din gjennomsnittlige vurdering og anmeldelsesantall, presenter de nyeste "
+"anmeldelsene og samle nye med bare noen få klikk."
+
+msgid "Simply and intuitively."
+msgstr "Enkelt og intuitivt."
+
+msgid "Company rating - top bar"
+msgstr "Selskapsvurdering - toppfelt"
+
+msgid ""
+"Show off the number of reviews and display the average rating with this "
+"simple widget."
+msgstr ""
+"Vis frem antall anmeldelser og vis gjennomsnittlig vurdering med denne enkle "
+"widgeten."
+
+msgid ""
+"Buyers will know right away that they are dealing with a trustworthy company "
+"when they enter your store."
+msgstr ""
+"Kjøpere vil umiddelbart vite at de har å gjøre med et pålitelig selskap når "
+"de går inn i butikken din."
+
+# Alpaca
+msgid "Social Proof (pop-up reviews)"
+msgstr ""
+
+msgid "Attention grabber like no other."
+msgstr "Oppmerksomhetsfanger som ingen annen."
+
+msgid ""
+"Display your average rating, number of reviews and present the most recent "
+"ones with this unmissable widget."
+msgstr ""
+"Vis din gjennomsnittlige vurdering, antall anmeldelser og presenter de "
+"nyeste med denne uunngåelige widgeten."
+
+msgid "Let Alpaca give your website that wow factor!"
+msgstr "La Alpaca gi nettstedet ditt den wow-faktoren!"
+
+msgid "Modular widget - product reviews, expert reviews, Q&A"
+msgstr ""
+"Modulær widget - produktanmeldelser, ekspertanmeldelser, spørsmål og svar"
+
+msgid "Wow your customers with this versatile, modular widget!"
+msgstr "Imponér kundene dine med denne allsidige, modulære widgeten!"
+
+msgid ""
+"Average rating, results of product surveys, up to 50 recent reviews, expert "
+"evaluations, and the Q&A module - Hydra has everything in one place."
+msgstr ""
+"Gjennomsnittlig vurdering, resultater fra produktundersøkelser, opptil 50 "
+"nylige anmeldelser, ekspertvurderinger og spørsmål og svar-modulen - Hydra "
+"har alt på ett sted."
+
+msgid "Designed for those who want more."
+msgstr "Designet for de som vil ha mer."
+
+#, fuzzy
+msgid "Badge - product rating (edge)"
+msgstr "Vis merke med produktenes karakter"
+
+msgid "Small but mighty!"
+msgstr "Liten men mektig!"
+
+msgid ""
+"Bring your average rating to view and showcase the full review content by "
+"expanding this little widget."
+msgstr ""
+"Vis din gjennomsnittlige vurdering og presenter hele anmeldelsesinnholdet "
+"ved å utvide denne lille widgeten."
+
+msgid "Sliding out widget with reviews"
+msgstr "Utglidende widget med anmeldelser"
+
+msgid "Get your reviews noticed with this sliding widget."
+msgstr "Få anmeldelsene dine lagt merke til med denne glidende widgeten."
+
+msgid ""
+"Lemur is a perfect way to demonstrate your average rating, and when "
+"expanded, also latest reviews and TrustMate-granted badges."
+msgstr ""
+"Lemur er en perfekt måte å demonstrere din gjennomsnittlige vurdering på, og "
+"når den utvides, også de nyeste anmeldelsene og TrustMate-tildelte merker."
+
+msgid "What is not to love about it?"
+msgstr "Hva er det ikke å elske med det?"
 
 # Ferret
 msgid "Carousel"
 msgstr "Karusell"
 
-msgid "Dynamic \"carousel\" widget catches the eye of customers presenting up to the last 21 reviews. You set the scrolling speed of the visible ratings yourself"
+msgid ""
+"Dynamic \"carousel\" widget catches the eye of customers presenting up to "
+"the last 21 reviews. You set the scrolling speed of the visible ratings "
+"yourself"
 msgstr ""
 "Dynamisk \"karusell\"-widget fanger oppmerksomheten til kunder som "
 "presenterer opptil de siste 21 anmeldelsene. Du angir rullehastigheten for "
 "de synlige vurderingene selv"
 
-msgid "Using the carousel you increase the attractiveness of your website to search engines, e.g. Google"
+msgid ""
+"Using the carousel you increase the attractiveness of your website to search "
+"engines, e.g. Google"
 msgstr ""
 "Ved å bruke karusellen øker du attraktiviteten til nettstedet ditt for "
 "søkemotorer, for eksempel Google"
 
-msgid "Let customers read reviews about your company without leaving your website"
+msgid ""
+"Let customers read reviews about your company without leaving your website"
 msgstr ""
 "La kundene lese anmeldelser om bedriften din uten å forlate nettstedet ditt"
 
-msgid "The carousel is responsive and adapts to every page view and mobile devices"
+msgid ""
+"The carousel is responsive and adapts to every page view and mobile devices"
 msgstr ""
 "Karusellen er responsiv og tilpasser seg alle sidevisninger og mobile enheter"
 
 msgid "Product review carousel"
 msgstr "Karusell for produktanmeldelse"
 
-# Owl
-msgid "Certificate widget"
-msgstr "Kontrollprogram for sertifikat"
+msgid "Widget with badges"
+msgstr "Widget med merker"
 
-msgid "If you meet the program conditions visible on the main page of the panel, TrustMate will automatically display the badge in your store along with information about the current rating"
-msgstr ""
-"Hvis du oppfyller programbetingelsene som er synlige på hovedsiden til "
-"panelet, vil TrustMate automatisk vise merket i butikken din sammen med "
-"informasjon om gjeldende vurdering"
+msgid "Want to present TrustMate-granted awards in style?"
+msgstr "Vil du presentere TrustMate-tildelte priser med stil?"
 
-msgid "This will result in more buying interest from potential customers"
-msgstr "Dette vil resultere i mer kjøpsinteresse fra potensielle kunder"
+msgid "Owl is here to help!"
+msgstr "Owl er her for å hjelpe!"
 
 # FAQ section
 msgid "FAQ"
@@ -403,7 +591,9 @@ msgstr "FAQ"
 msgid "Can I ask only for company reviews"
 msgstr "Kan jeg bare be om bedriftsanmeldelser"
 
-msgid "Yes. You need to mark company invitation configuration as automatic and make sure no product invitation configuration is marked as such"
+msgid ""
+"Yes. You need to mark company invitation configuration as automatic and make "
+"sure no product invitation configuration is marked as such"
 msgstr ""
 "Ja. Du må merke konfigurasjonen av firmainvitasjonen som automatisk og sørge "
 "for at ingen konfigurasjon av produktinvitasjonen er merket som sådan"
@@ -411,12 +601,16 @@ msgstr ""
 msgid "Can I ask only for product reviews"
 msgstr "Kan jeg bare be om produktanmeldelser"
 
-msgid "Yes. You need to mark product invitation configuration as automatic and make sure no company invitation configuration is marked as such"
+msgid ""
+"Yes. You need to mark product invitation configuration as automatic and make "
+"sure no company invitation configuration is marked as such"
 msgstr ""
 "Ja. Du må merke konfigurasjon av produktinvitasjon som automatisk og sørge "
 "for at ingen konfigurasjon av firmainvitasjoner er merket som sådan"
 
-msgid "Remember, for product invitations to work you need to load product feed in TrustMate settings"
+msgid ""
+"Remember, for product invitations to work you need to load product feed in "
+"TrustMate settings"
 msgstr ""
 "Husk at for at produktinvitasjoner skal fungere, må du laste inn produktfeed "
 "i TrustMate-innstillingene"
@@ -424,12 +618,16 @@ msgstr ""
 msgid "Can I ask for both company and product reviews"
 msgstr "Kan jeg be om både firma- og produktanmeldelser"
 
-msgid "Yes. You need to mark both company and product invitation configurations as automatic"
+msgid ""
+"Yes. You need to mark both company and product invitation configurations as "
+"automatic"
 msgstr ""
 "Ja. Du må merke både firma- og produktinvitasjonskonfigurasjoner som "
 "automatiske"
 
-msgid "Is such case we recommend configuring company invitations to send at least couple days befor product"
+msgid ""
+"Is such case we recommend configuring company invitations to send at least "
+"couple days befor product"
 msgstr ""
 "Er det tilfelle, anbefaler vi å konfigurere firmainvitasjoner til å sende "
 "minst et par dager før produktet"
@@ -449,12 +647,16 @@ msgstr "Du finner den i <em>Integrasjon</em> seksjon"
 msgid "How can I add widget with grades and reviews"
 msgstr "Hvordan kan jeg legge til widget med karakterer og anmeldelser"
 
-msgid "Widget which stick to screen edge can be turned on with one click in plugin configuration"
+msgid ""
+"Widget which stick to screen edge can be turned on with one click in plugin "
+"configuration"
 msgstr ""
 "Widget som holder seg til skjermkanten kan slås på med ett klikk i plugin-"
 "konfigurasjon"
 
-msgid "All other widget you can embed on your site using Wordpress features: widgets and themes"
+msgid ""
+"All other widget you can embed on your site using Wordpress features: "
+"widgets and themes"
 msgstr ""
 "Alle andre widgeter du kan bygge inn på nettstedet ditt ved hjelp av "
 "Wordpress-funksjoner: widgets og temaer"
@@ -462,7 +664,9 @@ msgstr ""
 msgid "When should I enable \"Ask for permission to send review invitation\""
 msgstr "Når bør jeg aktivere «Be om tillatelse til å sende invitasjon»"
 
-msgid "Always when you do not collect such consent in previous transaction steps and your rules document do not handle the issue"
+msgid ""
+"Always when you do not collect such consent in previous transaction steps "
+"and your rules document do not handle the issue"
 msgstr ""
 "Alltid når du ikke innhenter slikt samtykke i tidligere transaksjonstrinn og "
 "regeldokumentet ditt ikke håndterer problemet"
@@ -470,7 +674,9 @@ msgstr ""
 msgid "How can I hide WooCommerce product reviews"
 msgstr "Hvordan kan jeg skjule WooCommerce-produktanmeldelser"
 
-msgid "You need to turn off default WooCommerce reviews in: <em>WooCommerce → Settings → Products → Enable product reviews</em>"
+msgid ""
+"You need to turn off default WooCommerce reviews in: <em>WooCommerce → "
+"Settings → Products → Enable product reviews</em>"
 msgstr ""
 "Du må slå av standard WooCommerce-anmeldelser i: <em>WooCommerce → "
 "Innstillinger → produkter → Aktiver produktanmeldelser</em>"
@@ -478,7 +684,9 @@ msgstr ""
 msgid "Do you support WPML?"
 msgstr "Støtter du WPML?"
 
-msgid "Yes, but keep in mind that you need to add invitation configurations for all languages you want to use in TrustMate.io panel"
+msgid ""
+"Yes, but keep in mind that you need to add invitation configurations for all "
+"languages you want to use in TrustMate.io panel"
 msgstr ""
 "Ja, men husk at du må legge til invitasjonskonfigurasjoner for alle språkene "
 "du vil bruke i TrustMate.io panel"
@@ -488,157 +696,134 @@ msgstr ""
 "Hvordan kan jeg bestemme hvilken i produktkategorien min som sendes til "
 "TrustMate.io?"
 
-msgid "If you use multiple categories for your product the only way is to use primary category feature from Yoast SEO plugin"
+msgid ""
+"If you use multiple categories for your product the only way is to use "
+"primary category feature from Yoast SEO plugin"
 msgstr ""
 "Hvis du bruker flere kategorier for produktet ditt, er den eneste måten å "
 "bruke primærkategorifunksjonen fra Yoast SEO-plugin"
-msgid "Add another"
-msgstr "Legg til en annen"
-
-msgid "Additional TrustMate account UUIDs per language"
-msgstr "Ekstra TrustMate-konto UUID-er per språk"
-
-msgid "Amaze your customers with this modern, interactive widget!"
-msgstr "Forbauser kundene dine med denne moderne, interaktive widgeten!"
-
-msgid "A minimalistic widget displaying average rating next to a product description."
-msgstr "En minimalistisk widget som viser gjennomsnittlig vurdering ved siden av en produktbeskrivelse."
-
-msgid "Attention grabber like no other."
-msgstr "Oppmerksomhetsfanger som ingen annen."
-
-msgid "Attract your customer attention with this dynamic widget."
-msgstr "Tiltrekk kundenes oppmerksomhet med denne dynamiske widgeten."
-
-msgid "Average rating, recent reviews and customer photos displayed on static cards directly on your website."
-msgstr "Gjennomsnittlig vurdering, nylige anmeldelser og kundebilder vist på statiske kort direkte på nettstedet ditt."
-
-msgid "Average rating, recent reviews, customer images - everything in one place!"
-msgstr "Gjennomsnittlig vurdering, nylige anmeldelser, kundebilder - alt på ett sted!"
-
-msgid "Average rating, results of product surveys, up to 50 recent reviews, expert evaluations, and the Q&A module - Hydra has everything in one place."
-msgstr "Gjennomsnittlig vurdering, resultater fra produktundersøkelser, opptil 50 nylige anmeldelser, ekspertvurderinger og spørsmål og svar-modulen - Hydra har alt på ett sted."
-
-msgid "Bring your average rating to view and showcase the full review content by expanding this little widget."
-msgstr "Vis din gjennomsnittlige vurdering og presenter hele anmeldelsesinnholdet ved å utvide denne lille widgeten."
-
-msgid "Buyers will know right away that they are dealing with a trustworthy company when they enter your store."
-msgstr "Kjøpere vil umiddelbart vite at de har å gjøre med et pålitelig selskap når de går inn i butikken din."
-
-msgid "Carousel - company reviews"
-msgstr "Karusell - selskapsvurderinger"
-
-msgid "Carousel - product reviews"
-msgstr "Karusell - produktanmeldelser"
-
-msgid "Catch your customers' attention with this immersive widget!"
-msgstr "Fang kundenes oppmerksomhet med denne oppslukende widgeten!"
-
-msgid "Company rating - top bar"
-msgstr "Selskapsvurdering - toppfelt"
-
-msgid "Create a star constellation in your product lists!"
-msgstr "Lag en stjernekonstell i produktlistene dine!"
-
-msgid "Currently we only support Polylang for WooCommerce"
-msgstr "For øyeblikket støtter vi bare Polylang for WooCommerce"
-
-msgid "Description"
-msgstr "Beskrivelse"
-
-msgid "Designed for those who want more."
-msgstr "Designet for de som vil ha mer."
-
-msgid "Display product average rating on category pages and other product listings."
-msgstr "Vis produktets gjennomsnittlige vurdering på kategorisider og andre produktlister."
-
-msgid "Display your average rating and review count, showcase the most recent reviews and collect new ones with just a few clicks."
-msgstr "Vis din gjennomsnittlige vurdering og anmeldelsesantall, presenter de nyeste anmeldelsene og samle nye med bare noen få klikk."
-
-msgid "Display your average rating, number of reviews and present the most recent ones with this unmissable widget."
-msgstr "Vis din gjennomsnittlige vurdering, antall anmeldelser og presenter de nyeste med denne uunngåelige widgeten."
-
-msgid "Enable instant company review form on thank you page - do not use with After successful order status"
-msgstr "Aktiver øyeblikkelig selskapsvurderingsskjema på takkesiden - ikke bruk med statusen Etter vellykket bestilling"
-
-msgid "Fits like a glove and works like a dream!"
-msgstr "Passer som en hanske og fungerer som en drøm!"
-
-msgid "Get your reviews noticed with this sliding widget."
-msgstr "Få anmeldelsene dine lagt merke til med denne glidende widgeten."
-
-msgid "Hornet allows customers to read reviews."
-msgstr "Hornet lar kunder lese anmeldelser."
-
-msgid "Lemur is a perfect way to demonstrate your average rating, and when expanded, also latest reviews and TrustMate-granted badges."
-msgstr "Lemur er en perfekt måte å demonstrere din gjennomsnittlige vurdering på, og når den utvides, også de nyeste anmeldelsene og TrustMate-tildelte merker."
-
-msgid "Let Alpaca give your website that wow factor!"
-msgstr "La Alpaca gi nettstedet ditt den wow-faktoren!"
-
-msgid "Modular widget - product reviews, expert reviews, Q&A"
-msgstr "Modulær widget - produktanmeldelser, ekspertanmeldelser, spørsmål og svar"
-
-msgid "Name"
-msgstr "Navn"
-
-msgid "Neat and simple."
-msgstr "Ryddig og enkel."
-
-msgid "No matter if your customers want to read reviews or submit their own - Dodo's got you covered!"
-msgstr "Uansett om kundene dine vil lese anmeldelser eller sende inn sine egne - Dodo har deg dekket!"
-
-msgid "Not too little, not too much - just perfect!"
-msgstr "Verken for lite eller for mye - akkurat perfekt!"
-
-msgid "Owl's here to help!"
-msgstr "Owl er her for å hjelpe!"
-
-msgid "Product"
-msgstr "Produkt"
-
-msgid "Showcase your average rating and the most recent reviews on auto-scrolling tiles and make your website look even cooler!"
-msgstr "Vis din gjennomsnittlige vurdering og de nyeste anmeldelsene på automatisk rullende fliser og få nettstedet ditt til å se enda kulere ut!"
-
-msgid "Showcase your review count and average rating with this simple widget."
-msgstr "Vis anmeldelsesantallet ditt og gjennomsnittlig vurdering med denne enkle widgeten."
-
-msgid "Show off the number of reviews and display the average rating with this simple widget."
-msgstr "Vis frem antall anmeldelser og vis gjennomsnittlig vurdering med denne enkle widgeten."
-
-msgid "Simple and effective."
-msgstr "Enkel og effektiv."
-
-msgid "Simply and intuitively."
-msgstr "Enkelt og intuitivt."
-
-msgid "Sliding out widget with reviews"
-msgstr "Utglidende widget med anmeldelser"
-
-msgid "Small but mighty!"
-msgstr "Liten men mektig!"
-
-msgid "Type"
-msgstr "Type"
-
-msgid "Use this only if you have multiple TrustMate language accounts"
-msgstr "Bruk dette bare hvis du har flere TrustMate-språkkontoer"
-
-msgid "Want to present TrustMate-granted awards in style?"
-msgstr "Vil du presentere TrustMate-tildelte priser med stil?"
-
-msgid "What's not to love about it?"
-msgstr "Hva er det ikke å elske med det?"
 
 msgid "Widgets that will be withdrawn"
 msgstr "Widgets som vil bli trukket tilbake"
 
-msgid "Widget that displays the rating and reviews"
-msgstr "Widget som viser vurderingen og anmeldelsene"
+# Product category mode
+msgid "Product category mode"
+msgstr "Produktkategorimodus"
 
-msgid "Widget with badges"
-msgstr "Widget med merker"
+msgid ""
+"TrustMate requires a single category for each product. In older integration "
+"versions, only one category segment was sent, and for multi-category "
+"products, different segments were concatenated. This made it difficult to "
+"use TrustMate features based on product categories (hints, customer "
+"attributes, product polls). Using full path mode is recommended, but if you "
+"already use these features, reconfiguration may be required."
+msgstr ""
+"TrustMate krever én kategori per produkt. I eldre integrasjonsversjoner ble "
+"bare ett kategorisegment sendt, og for produkter i flere kategorier ble "
+"segmenter konkatenert. Det vanskeliggjorde bruk av TrustMate-funksjoner "
+"basert på produktkategorier (hint, kundeattributter, produktundersøkelser). "
+"Full sti-modus anbefales; ved allerede brukte funksjoner kan rekonfigurering "
+"være nødvendig."
 
-msgid "Wow your customers with this versatile, modular widget!"
-msgstr "Imponér kundene dine med denne allsidige, modulære widgeten!"
+msgid "Short name"
+msgstr "Kort navn"
 
+msgid "Full path"
+msgstr "Full sti"
+
+msgid "Hierarchical category path (e.g., Electronics > Phones > Smartphones)"
+msgstr ""
+"Hierarkisk kategoristi (f.eks. Elektronikk > Telefoner > Smarttelefoner)"
+
+#~ msgid ""
+#~ "Page-wide reviews similar to popular comments sections showing under your "
+#~ "product"
+#~ msgstr ""
+#~ "Anmeldelser for hele siden som ligner på populære kommentarfelt som vises "
+#~ "under produktet ditt"
+
+# Hornet
+#~ msgid ""
+#~ "Small widget that displays the average rating and the number of reviews"
+#~ msgstr ""
+#~ "Liten widget som viser gjennomsnittlig vurdering og antall anmeldelser"
+
+#~ msgid ""
+#~ "The stars will appear on the product card near the photo and on the "
+#~ "product tiles throughout the store"
+#~ msgstr ""
+#~ "Stjernene vises på produktkortet i nærheten av bildet og på "
+#~ "produktflisene i hele butikken"
+
+#~ msgid ""
+#~ "The widget displays the current number of reviews about the product and "
+#~ "the current average rating"
+#~ msgstr ""
+#~ "Widgeten viser nåværende antall vurderinger om produktet og "
+#~ "gjennomsnittlig vurdering"
+
+#~ msgid ""
+#~ "It can be embedded next to the main product description on the product "
+#~ "sheet or in product lists in your store"
+#~ msgstr ""
+#~ "Den kan bygges inn ved siden av hovedproduktbeskrivelsen på produktarket "
+#~ "eller i produktlister i butikken din"
+
+#~ msgid "Benefits"
+#~ msgstr "Fordeler"
+
+#~ msgid ""
+#~ "distinguishes the product by encouraging customers to click on it and "
+#~ "make purchases"
+#~ msgstr ""
+#~ "skiller produktet ved å oppmuntre kunder til å klikke på det og foreta "
+#~ "kjøp"
+
+#~ msgid ""
+#~ "Static widget with customer reviews sending a message \"you can trust us\""
+#~ msgstr ""
+#~ "Statisk widget med kundeanmeldelser som sender en melding \"du kan stole "
+#~ "på oss\""
+
+#~ msgid "Widget includes both company and product reviews"
+#~ msgstr "Widget inkluderer både firma- og produktanmeldelser"
+
+#~ msgid ""
+#~ "Anytime you can adjust widget outlook without developer help, even after "
+#~ "embedding it on your site"
+#~ msgstr ""
+#~ "Når som helst kan du justere widgetens utsikter uten hjelp fra utviklere, "
+#~ "selv etter at du har bygget den inn på nettstedet ditt"
+
+#~ msgid "Microdata"
+#~ msgstr "Microdata"
+
+#~ msgid ""
+#~ "If you enable microdata, widget will make your reviews understandable for "
+#~ "search engines like Google"
+#~ msgstr ""
+#~ "Hvis du aktiverer mikrodata, vil widgeten gjøre anmeldelsene dine "
+#~ "forståelige for søkemotorer som Google"
+
+#~ msgid ""
+#~ "Search engine results with your site will be enriched with additional "
+#~ "data like average rating, stars, review count"
+#~ msgstr ""
+#~ "Søkemotorresultater på nettstedet ditt vil bli beriket med tilleggsdata "
+#~ "som gjennomsnittlig vurdering, stjerner, antall anmeldelser"
+
+# Owl
+#~ msgid "Certificate widget"
+#~ msgstr "Kontrollprogram for sertifikat"
+
+#~ msgid ""
+#~ "If you meet the program conditions visible on the main page of the panel, "
+#~ "TrustMate will automatically display the badge in your store along with "
+#~ "information about the current rating"
+#~ msgstr ""
+#~ "Hvis du oppfyller programbetingelsene som er synlige på hovedsiden til "
+#~ "panelet, vil TrustMate automatisk vise merket i butikken din sammen med "
+#~ "informasjon om gjeldende vurdering"
+
+#~ msgid "This will result in more buying interest from potential customers"
+#~ msgstr "Dette vil resultere i mer kjøpsinteresse fra potensielle kunder"

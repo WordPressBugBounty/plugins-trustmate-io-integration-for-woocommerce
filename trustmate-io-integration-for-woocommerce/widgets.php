@@ -62,15 +62,16 @@ $trustmate_widget_descriptions = array(
   'multihornet' => array(
     'Display product average rating on category pages and other product listings.',
     'Create a star constellation in your product lists!',
+    'If it does not work automatically after enabling, it may need to be configured in the TrustMate client panel.',
   ),
   'owl' => array(
     'Want to present TrustMate-granted awards in style?',
-    'Owl’s here to help!',
+    'Owl is here to help!',
   ),
   'lemur' => array(
     'Get your reviews noticed with this sliding widget.',
     'Lemur is a perfect way to demonstrate your average rating, and when expanded, also latest reviews and TrustMate-granted badges.',
-    'What’s not to love about it?',
+    'What is not to love about it?',
   ),
   'badger2' => array(
     'Small but mighty!',

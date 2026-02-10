@@ -182,6 +182,24 @@ function trustmate_render_config_form()
     <?php if (get_option('trustmate_base_url')): ?>
         <input type="hidden" name="trustmate_base_url" value="<?php echo get_option('trustmate_base_url') ?>"/>
     <?php endif ?>
+    </div>
+
+    <div class="form-section tm-card">
+    <label for="trustmate_category_path_mode">
+        <?php echo trustmate_tr('Product category mode') ?>
+    </label>
+    <p>
+        <?php echo trustmate_tr('TrustMate requires a single category for each product. In older integration versions, only one category segment was sent, and for multi-category products, different segments were concatenated. This made it difficult to use TrustMate features based on product categories (hints, customer attributes, product polls). Using full path mode is recommended, but if you already use these features, reconfiguration may be required.') ?>
+    </p>
+    <select id="trustmate_category_path_mode" name="trustmate_category_path_mode">
+        <option value="legacy" <?php selected('legacy', get_option('trustmate_category_path_mode', 'legacy')) ?>>
+            <?php echo trustmate_tr('Short name') ?>
+        </option>
+        <option value="full_path" <?php selected('full_path', get_option('trustmate_category_path_mode', 'legacy')) ?>>
+            <?php echo trustmate_tr('Full path') ?> - <?php echo trustmate_tr('Hierarchical category path (e.g., Electronics > Phones > Smartphones)') ?>
+        </option>
+    </select>
+
     <?php submit_button(trustmate_tr('Save changes')) ?>
     <div class="notice notice-info">
         <p>
