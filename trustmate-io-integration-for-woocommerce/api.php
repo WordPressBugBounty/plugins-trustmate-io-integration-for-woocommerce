@@ -88,11 +88,6 @@ function trustmate_create_invitation($order_id, $language = null)
             }
 
             $group = $product->get_parent_id();
-            // product variant currently doesn't work with wpml (even when WPML is turned off)
-            if (class_exists('SitePress')) {
-                global $sitepress;
-                $group = apply_filters('wpml_object_id', $product->get_id(), 'product', false, $sitepress->get_default_language());
-            }
 
             $thumb = wp_get_attachment_image_src($product->get_image_id(), 'thumbnail');
 

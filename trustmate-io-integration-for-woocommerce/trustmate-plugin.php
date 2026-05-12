@@ -8,7 +8,7 @@
  * Plugin Name: TrustMate.io integration for WooCommerce
  * Plugin URI: https://trustmate.io
  * Description: TrustMate.io integration with auto invitations
- * Version: 1.16.0
+ * Version: 1.16.1
  * Author: TrustMate.io dev team
  * License: GPLv2 or later
  */
@@ -32,10 +32,13 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 include(__DIR__.'/i18n.php');
 include(__DIR__.'/css/register_styles.php');
 include(__DIR__.'/api.php');
+include(__DIR__.'/info.php');
 include(__DIR__.'/install_form.php');
 include(__DIR__.'/config_form.php');
 include(__DIR__.'/widgets.php');
 include(__DIR__.'/embed_scripts.php');
+
+const TRUSTMATE_PLUGIN_VERSION = '1.16.1';
 
 const BASE_URL = 'https://trustmate.io';
 const BASE_URL_DEV = 'http://trustmate.test';
@@ -180,6 +183,7 @@ function trustmate_create_settings_page()
     add_options_page('TrustMate', 'Plugin Menu', 'manage_options', 'trustmate', 'trustmate_view_dispatcher');
     register_setting('trustmate_basic_settings', 'trustmate_invitations_enabled', array('default' => 1));
     register_setting('trustmate_basic_settings', 'trustmate_account_uuid');
+    register_setting('trustmate_basic_settings', 'trustmate_installation_key');
     register_setting('trustmate_basic_settings', 'trustmate_account_language_uuids');
     register_setting('trustmate_basic_settings', 'trustmate_instant_review');
     register_setting('trustmate_basic_settings', 'trustmate_base_url');
@@ -224,6 +228,8 @@ function trustmate_view_dispatcher()
             <?php echo trustmate_tr('Widgets') ?>
         </a>
     </nav><?php
+
+    trustmate_render_admin_notices();
 
     if ($action === TRUSTMATE_PAGE_CREATE_ACCOUNT) {
         trustmate_create_account();
@@ -324,6 +330,9 @@ function trustmate_create_account()
     if ($response['response']['code'] == '200') {
         $result = json_decode($response['body']);
         update_option('trustmate_account_uuid', $result->uuid);
+        if (isset($result->secret) && is_string($result->secret) && $result->secret !== '') {
+            update_option('trustmate_installation_key', $result->secret);
+        }
         update_option('trustmate_category_path_mode', 'full_path');
 
         ?>
@@ -418,6 +427,14 @@ function trustmate_get_order_language($order_id)
     }
 
     if (class_exists('SitePress')) {
+        $order = wc_get_order($order_id);
+        if ($order) {
+            $lang = $order->get_meta('wpml_language');
+            if ($lang) {
+                return $lang;
+            }
+        }
+
         $language_details = apply_filters('wpml_post_language_details', null, $order_id);
         if (isset($language_details['language_code'])) {
             return $language_details['language_code'];

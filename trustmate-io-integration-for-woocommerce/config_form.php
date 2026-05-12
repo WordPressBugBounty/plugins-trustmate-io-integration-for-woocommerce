@@ -17,11 +17,21 @@ function trustmate_render_config_form()
       TrustMate.io &dash; <?php echo trustmate_tr('settings') ?>
     </h2>
 
+    <?php if (trustmate_subscription_is_active()): ?>
+    <div class="tm-card" style="margin-bottom: 20px; padding: 12px 16px;">
+        <?php trustmate_render_subscription_info() ?>
+    </div>
+    <?php endif ?>
+
     <form method="post" action="options.php">
     <?php settings_fields('trustmate_basic_settings') ?>
     <div class="form-section tm-card">
       <label for="trustmate_account_uuid"><?php echo trustmate_tr('Your TrustMate user code (UUID from TrustMate panel, Integration section)') ?></label>
       <br><input type="text" id="trustmate_account_uuid" name="trustmate_account_uuid" value="<?php echo get_option('trustmate_account_uuid') ?>" required/>
+
+      <br><br>
+      <label for="trustmate_installation_key"><?php echo trustmate_tr('Installation key (optional — enables subscription status and update notifications)') ?></label>
+      <br><input type="text" id="trustmate_installation_key" name="trustmate_installation_key" value="<?php echo esc_attr(get_option('trustmate_installation_key')) ?>"/>
     </div>
 
     <?php if (class_exists('SitePress') || function_exists('pll_get_post_language')): ?>
@@ -200,7 +210,9 @@ function trustmate_render_config_form()
         </option>
     </select>
 
-    <?php submit_button(trustmate_tr('Save changes')) ?>
+    <p class="submit">
+        <input type="submit" name="submit" class="button button-primary button-hero" value="<?php echo esc_attr(trustmate_tr('Save changes')) ?>">
+    </p>
     <div class="notice notice-info">
         <p>
             <?php echo trustmate_tr('If you do not directly ask customer for consent to send invitation, we suggest to extend your regulations with content from') ?>

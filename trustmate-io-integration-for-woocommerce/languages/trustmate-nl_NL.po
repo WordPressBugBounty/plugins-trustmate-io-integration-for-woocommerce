@@ -759,6 +759,34 @@ msgid "Hierarchical category path (e.g., Electronics > Phones > Smartphones)"
 msgstr ""
 "Hiërarchisch categoriepad (bijv. Elektronica > Telefoons > Smartphones)"
 
+# Account info / version
+msgid "Subscription: %s"
+msgstr ""
+
+msgid "Days remaining: %d"
+msgstr ""
+
+msgid "Your subscription expires soon"
+msgstr ""
+
+msgid "Your subscription is inactive"
+msgstr ""
+
+msgid "New version of TrustMate plugin available: %s"
+msgstr ""
+
+msgid "Download"
+msgstr ""
+
+msgid "Your current subscription does not include some widgets. Enabled but unavailable widgets will not display to your customers."
+msgstr ""
+
+msgid "Not available in your subscription"
+msgstr ""
+
+msgid "Installation key (optional — enables subscription status and update notifications)"
+msgstr ""
+
 #~ msgid ""
 #~ "Page-wide reviews similar to popular comments sections showing under your "
 #~ "product"

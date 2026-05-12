@@ -750,6 +750,38 @@ msgid "Hierarchical category path (e.g., Electronics > Phones > Smartphones)"
 msgstr ""
 "Hierarchiczna ścieżka kategorii (np. Elektronika > Telefony > Smartfony)"
 
+# Account info / version
+msgid "Subscription: %s"
+msgstr "Abonament: %s"
+
+msgid "Days remaining: %d"
+msgstr "Pozostało dni: %d"
+
+msgid "Your subscription expires soon"
+msgstr "Twój abonament wkrótce wygasa"
+
+msgid "Your subscription is inactive"
+msgstr "Twój abonament jest nieaktywny"
+
+msgid "New version of TrustMate plugin available: %s"
+msgstr "Dostępna jest nowa wersja wtyczki TrustMate: %s"
+
+msgid "Download"
+msgstr "Pobierz"
+
+msgid "Your current subscription does not include some widgets. Enabled but unavailable widgets will not display to your customers."
+msgstr ""
+"Twój obecny abonament nie obejmuje niektórych widgetów. Włączone, ale "
+"niedostępne widgety nie będą się pokazywać u klientów."
+
+msgid "Not available in your subscription"
+msgstr "Niedostępne w Twoim abonamencie"
+
+msgid "Installation key (optional — enables subscription status and update notifications)"
+msgstr ""
+"Klucz instalacyjny (opcjonalny — umożliwia powiadomienia o stanie abonamentu "
+"i nowościach)"
+
 #~ msgid ""
 #~ "Page-wide reviews similar to popular comments sections showing under your "
 #~ "product"

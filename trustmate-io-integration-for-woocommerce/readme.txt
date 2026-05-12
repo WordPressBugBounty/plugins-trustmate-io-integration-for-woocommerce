@@ -2,7 +2,7 @@
 Contributors: TrustMate.io dev team
 Tags: reviews, opinions, surveys, products
 Tested up to: 6.9.1
-Stable tag: 1.16.0
+Stable tag: 1.16.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -79,6 +79,10 @@ In order to make the registration easier for you we will use the data you have p
 at your WooCommerce store. Creating an account is done with one click.
 
 == Changelog ==
+
+= 1.16.1 =
+* Added/fixed support for multiple TrustMate accounts per language for WPML users.
+* Added support for showing subsciption information.
 
 = 1.16.0 =
 * Added support for long product category paths. Read the new option description before enabling.

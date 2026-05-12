@@ -149,6 +149,11 @@ function trustmate_render_widget($widget_name, $widget_display_name, $image_path
         </div>
       </div>
       <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
+          <?php if (!trustmate_widget_is_available($widget_name)): ?>
+              <div class="notice notice-warning" style="margin: 0 0 10px 0; padding: 6px 12px;">
+                  <strong><?php echo trustmate_tr('Not available in your subscription') ?></strong>
+              </div>
+          <?php endif ?>
           <?php trustmate_render_switch(trustmate_tr('Turn on'), $widgetId) ?>
           <div class="my-1 mt-4"><?php echo trustmate_tr('Type') ?>: <span class="fw-bolder"><?php trustmate_render_type($widget_name) ?></span></div>
           <div class="my-1"><?php echo trustmate_tr('Name') ?>:
@@ -189,6 +194,13 @@ function trustmate_render_widgets()
 
     ?>
     <h2 class="mt-3"><?php echo trustmate_tr('Show reviews with widgets') ?></h2>
+    <?php if (trustmate_subscription_has_any_unavailable_widget()): ?>
+        <div class="notice notice-warning">
+            <p>
+                <?php echo trustmate_tr('Your current subscription does not include some widgets. Enabled but unavailable widgets will not display to your customers.') ?>
+            </p>
+        </div>
+    <?php endif ?>
     <form method="post" action="options.php">
       <?php settings_fields('trustmate_widget_settings'); ?>
       <div class="container-fluid">

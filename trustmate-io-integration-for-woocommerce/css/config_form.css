@@ -80,3 +80,10 @@
 .form-section-header {
     color: #999;
 }
+
+.tm-subscription-info {
+    font-size: 1.1em;
+}
+.tm-subscription-warning {
+    color: #d63638;
+}
