@@ -1,0 +1,858 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-25 08:15+0000\n"
+"PO-Revision-Date: 2025-04-28 02:39+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Slovenian <https://weblate.trustmate.io/projects/woocommerce-"
+"plugin/main/sl/>\n"
+"Language: sl_SL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
+"n%100==4 ? 2 : 3;\n"
+"X-Generator: Weblate 5.10.2\n"
+
+# Menu
+msgid "Create TrustMate account"
+msgstr "Ustvarite račun TrustMate"
+
+msgid "Settings"
+msgstr "Nastavitve"
+
+msgid "Widgets"
+msgstr "Gradniki"
+
+# Headers and buttons
+msgid "settings"
+msgstr "nastavitve"
+
+msgid "Configure plugin"
+msgstr "Konfiguracija vtičnika"
+
+msgid "If you already have TrustMate account"
+msgstr "Če že imate račun TrustMate"
+
+msgid "skip this step"
+msgstr "Preskoči ta korak"
+
+msgid "Save changes"
+msgstr "Shranjevanje sprememb"
+
+# Install
+msgid ""
+"To start collecting reviews you need TrustMate account. Fortunetly you can "
+"create it"
+msgstr ""
+"Če želite začeti zbirati ocene, potrebujete račun TrustMate. Na srečo ga "
+"lahko ustvarite"
+
+msgid "within one minute. We'll use data from WooCommerce"
+msgstr "v eni minuti. Uporabili bomo podatke iz WooCommerce"
+
+msgid "to make this process very easy"
+msgstr "da bo ta postopek zelo enostaven"
+
+msgid "Company details can be updated later in TrustMate panel"
+msgstr "Podrobnosti o podjetju lahko pozneje posodobite na plošči TrustMate"
+
+msgid "By registering I accept"
+msgstr "Z registracijo sprejemam"
+
+msgid "terms of service"
+msgstr "Pogoji storitve"
+
+msgid "including consent to be contacted by TrustMate customer service"
+msgstr "vključno s soglasjem za stik s službo za pomoč uporabnikom TrustMate"
+
+msgid "I going to ask clients for review by e-mail"
+msgstr "Stranke bom prosil za pregled po e-pošti"
+
+msgid "I accept"
+msgstr "Sprejemam"
+
+msgid "the data entrustment agreement"
+msgstr "Pogodba o poveritvi podatkov"
+
+msgid "Configure invitations and widgets"
+msgstr "Konfiguracija povabil in pripomočkov"
+
+msgid "Verify form below and click \"Create TrustMate account\""
+msgstr "Preverite spodnji obrazec in kliknite »Ustvari račun TrustMate«"
+
+msgid "Account data"
+msgstr "Podatki o računu"
+
+msgid "Company registration data"
+msgstr "Podatki o registraciji podjetja"
+
+msgid "Website address"
+msgstr "Naslov spletne strani"
+
+msgid "Owner's e-mail"
+msgstr "E-pošta lastnika"
+
+msgid "Company name"
+msgstr "Ime podjetja"
+
+msgid "Street"
+msgstr "Ulica"
+
+msgid "City"
+msgstr "Mesto"
+
+msgid "Zip code"
+msgstr "Poštna številka"
+
+msgid "Country"
+msgstr "Država"
+
+msgid "Tax identification number"
+msgstr "Davčna številka"
+
+# API related messages and erros
+msgid "Account created"
+msgstr "Račun ustvarjen"
+
+msgid "Please check your e-mail to set password for TrustMate account"
+msgstr ""
+"Prosimo, preverite svoj e-poštni naslov, da nastavite geslo za račun "
+"TrustMate"
+
+msgid "Account already exists"
+msgstr "Račun že obstaja"
+
+msgid "Invalid data sent"
+msgstr "Neveljavni podatki poslani"
+
+msgid "Unexpected error"
+msgstr "Nepričakovana napaka"
+
+msgid "Cannot create account"
+msgstr "Ni mogoče ustvariti računa"
+
+msgid "Registration address in WooCommerce Settings not complete"
+msgstr "Registracijski naslov v nastavitvah WooCommerce ni dokončan"
+
+msgid ""
+"Something went wrong. Please try again or contact TrustMate customer service"
+msgstr ""
+"Nekaj je šlo narobe. Poskusite znova ali se obrnite na službo za pomoč "
+"uporabnikom TrustMate"
+
+msgid ""
+"Widget activation failed. Please try again or contact TrustMate customer "
+"service"
+msgstr ""
+"Aktiviranje pripomočka ni uspelo. Poskusite znova ali se obrnite na službo "
+"za pomoč uporabnikom TrustMate"
+
+# Config form
+msgid ""
+"Your TrustMate user code (UUID from TrustMate panel, Integration section)"
+msgstr ""
+"Vaša uporabniška koda TrustMate (UUID iz plošče TrustMate, razdelek "
+"Integracija)"
+
+msgid "Additional TrustMate account UUIDs per language"
+msgstr "Dodatni UUID-ji računov TrustMate po jezikih"
+
+msgid "Use this only if you have multiple TrustMate language accounts"
+msgstr "To uporabljajte samo, če imate več jezikovnih računov TrustMate"
+
+msgid "Currently we only support Polylang for WooCommerce"
+msgstr "Trenutno podpiramo samo Polylang za WooCommerce"
+
+msgid "Add another"
+msgstr "Dodaj še enega"
+
+msgid "Automatic review invitations"
+msgstr "Samodejna povabila k pregledu"
+
+msgid ""
+"Enable instant company review form on thank you page - do not use with After "
+"successful order status"
+msgstr ""
+"Omogočite takojšnji obrazec za oceno podjetja na strani zahvale - ne "
+"uporabljajte s statusom Po uspešni naročili"
+
+msgid "To quickly collect client reviews turn on automatic invitations"
+msgstr "Hitro zbiranje mnenj strank Vklopite samodejna povabila"
+
+msgid ""
+"While active, script sends invitations to your customers asking for review"
+msgstr "Ko je skript aktiven, pošlje povabila strankam, ki prosijo za pregled"
+
+msgid "In TrustMate panel you can"
+msgstr "Na plošči TrustMate lahko"
+
+msgid "change invitation sending delay"
+msgstr "Spreminjanje zakasnitve pošiljanja povabila"
+
+msgid "set how many times customer is reminded to write a review"
+msgstr "Nastavite, kolikokrat je stranka opomnjena, naj napiše mnenje"
+
+msgid "adjust invitation colors to your brand"
+msgstr "prilagodite barve vabil svoji blagovni znamki"
+
+msgid "turn on and off product review invitations"
+msgstr "Vklop in izklop povabil k pregledu izdelka"
+
+msgid "and more!"
+msgstr "in še več!"
+
+msgid "Ask for permission to send invitation"
+msgstr "Prošnja za dovoljenje za pošiljanje povabila"
+
+msgid "In order to send review inviations you need customer consent"
+msgstr "Če želite poslati pozive k mnenju, potrebujete soglasje stranke"
+
+msgid ""
+"If you do not collect those consents by yourself (separate checkbox or "
+"proper regulations), turn this option on"
+msgstr ""
+"Če teh soglasij ne zbirate sami (ločeno potrditveno polje ali ustrezni "
+"predpisi), vklopite to možnost"
+
+msgid ""
+"If you do not directly ask customer for consent to send invitation, we "
+"suggest to extend your regulations with content from"
+msgstr ""
+"Če stranke ne prosite neposredno za soglasje za pošiljanje vabila, "
+"predlagamo, da svoje predpise razširite z vsebino"
+
+msgid "this file"
+msgstr "Ta datoteka"
+
+msgid "Disabled"
+msgstr "Onemogočen"
+
+msgid "After successful order"
+msgstr "Po uspešnem naročilu"
+
+msgid "After successful payment"
+msgstr "Po uspešnem plačilu"
+
+msgid "After marked as completed"
+msgstr "Po označenju kot dokončano"
+
+# Widget configuration
+msgid "Show reviews with widgets"
+msgstr "Prikaz mnenj s pripomočki"
+
+msgid "Type"
+msgstr "Vrsta"
+
+#, fuzzy
+msgid "Company"
+msgstr "Ime podjetja"
+
+msgid "Product"
+msgstr "Izdelek"
+
+msgid "Name"
+msgstr "Ime"
+
+msgid "Description"
+msgstr "Opis"
+
+msgid "Show badge with shop's grade"
+msgstr "Pokaži značko z oceno trgovine"
+
+msgid "Show sliding out widget with shop's grade"
+msgstr "Pokaži drsni pripomoček z oceno trgovine"
+
+msgid "Non-invasive badge is glued to screen's edge and takes little space"
+msgstr ""
+"Neinvazivna značka je prilepljena na rob zaslona in zavzema malo prostora"
+
+msgid "Click shows a modal with recent reviews"
+msgstr "Klik prikaže modal z nedavnimi mnenji"
+
+msgid "You can change display position in TrustMate panel"
+msgstr "Položaj zaslona lahko spremenite na plošči TrustMate"
+
+msgid "Why use it?"
+msgstr "Zakaj ga uporabljati?"
+
+msgid "sales increase"
+msgstr "povečanje prodaje"
+
+msgid "customers do not leave site searching for reviews"
+msgstr "stranke ne zapustijo spletnega mesta in iščejo mnenja"
+
+msgid "can boost your SEO"
+msgstr "lahko poveča vaš SEO"
+
+msgid "can make search engines show stars under your results"
+msgstr "lahko iskalniki prikažejo zvezdice pod vašimi rezultati"
+
+msgid "Show badge with products' grade"
+msgstr "Pokaži značko z oceno izdelka"
+
+msgid "Click shows a modal with recent reviews and grade distribution"
+msgstr "Klik prikaže modal z nedavnimi pregledi in porazdelitvijo ocen"
+
+msgid "Widget is a finishing touch on your product page"
+msgstr "Pripomoček je zaključek na strani vašega izdelka"
+
+msgid "product sales increase"
+msgstr "povečanje prodaje izdelkov"
+
+msgid "can boost your product SEO"
+msgstr "lahko poveča SEO vašega izdelka"
+
+msgid "can make search engines show stars under product result"
+msgstr "lahko iskalniki prikažejo zvezdice pod rezultatom izdelka"
+
+msgid "Popping up reviews"
+msgstr "Pojavne ocene"
+
+msgid ""
+"Social proof widget with up to three types of popping up boxes which ensure "
+"your customers about quality of your services"
+msgstr ""
+"Pripomoček za socialni dokaz z do tremi vrstami pojavnih polj, ki vašim "
+"strankam zagotavljajo kakovost vaših storitev"
+
+msgid ""
+"Position is configurable. Thanks to unconventional images and messages they "
+"are very noticable"
+msgstr ""
+"Položaj je nastavljiv. Zahvaljujoč nekonvencionalnim slikam in sporočilom so "
+"zelo opazni"
+
+msgid "If you want to use custom images contact us at support@trustmate.io"
+msgstr ""
+"Če želite uporabiti slike po meri, nas kontaktirajte na support@trustmate.io"
+
+msgid "Boxes does not take much space and are easy way to present your reviews"
+msgstr ""
+"Škatle ne zavzemajo veliko prostora in so enostaven način za predstavitev "
+"vaših mnenj"
+
+msgid "Show grade and reviews on product page"
+msgstr "Pokaži oceno in ocene na strani izdelka"
+
+msgid "Remember, there are more widgets available"
+msgstr "Ne pozabite, da je na voljo več pripomočkov"
+
+msgid "You can put them on your site using wordpress HTML widgets"
+msgstr ""
+"Lahko jih postavite na svoje spletno mesto z uporabo wordpress HTML "
+"pripomočkov"
+
+msgid "Just copy the code from TrustMate panel widget section"
+msgstr "Preprosto kopirajte kodo iz razdelka pripomočka plošče TrustMate"
+
+msgid "Turn on"
+msgstr "Vklopiti"
+
+msgid "Click to show widget description"
+msgstr "Kliknite, če želite prikazati opis pripomočka"
+
+msgid "Widget that displays the rating and reviews"
+msgstr "Widget, ki prikazuje oceno in ocene"
+
+msgid ""
+"A minimalistic widget displaying average rating next to a product "
+"description."
+msgstr ""
+"Minimalistični widget, ki prikazuje povprečno oceno poleg opisa izdelka."
+
+msgid "Hornet allows customers to read reviews."
+msgstr "Hornet omogoča strankam branje ocen."
+
+msgid "Simple and effective."
+msgstr "Preprosto in učinkovito."
+
+msgid ""
+"Display product average rating on category pages and other product listings."
+msgstr ""
+"Prikažite povprečno oceno izdelka na straneh kategorij in drugih seznamih "
+"izdelkov."
+
+msgid "Create a star constellation in your product lists!"
+msgstr "Ustvarite zvezdno ozvezdije na svojih seznamih izdelkov!"
+
+msgid ""
+"If it does not work automatically after enabling, it may need to be "
+"configured in the TrustMate client panel."
+msgstr ""
+"Če po omogočanju ne deluje samodejno, ga bo morda treba konfigurirati v "
+"odjemalski plošči TrustMate."
+
+# Chupacabra
+#, fuzzy
+msgid "Social Proof (big box)"
+msgstr "Socialni dokaz pripomočka (velika škatla)"
+
+msgid ""
+"Average rating, recent reviews and customer photos displayed on static cards "
+"directly on your website."
+msgstr ""
+"Povprečna ocena, nedavne ocene in fotografije strank prikazane na statičnih "
+"karticah neposredno na vaši spletni strani."
+
+msgid "Neat and simple."
+msgstr "Urejeno in preprosto."
+
+msgid "Carousel - company reviews"
+msgstr "Vrtiljak - ocene podjetja"
+
+#, fuzzy
+msgid "Catch your customer attention with this immersive widget!"
+msgstr "Pritegnite pozornost strank s tem potopnim widgetom!"
+
+msgid ""
+"Showcase your average rating and the most recent reviews on auto-scrolling "
+"tiles and make your website look even cooler!"
+msgstr ""
+"Pokažite svojo povprečno oceno in najnovejše ocene na samodejno drsečih "
+"ploščicah in naredite svojo spletno stran še bolj kul!"
+
+msgid "Carousel - product reviews"
+msgstr "Vrtiljak - ocene izdelkov"
+
+msgid "Attract your customer attention with this dynamic widget."
+msgstr "Pritegnite pozornost strank s tem dinamičnim widgetom."
+
+msgid ""
+"Average rating, recent reviews, customer images - everything in one place!"
+msgstr ""
+"Povprečna ocena, nedavne ocene, fotografije strank - vse na enem mestu!"
+
+msgid "Fits like a glove and works like a dream!"
+msgstr "Pristaja kot ulito in deluje kot sanje!"
+
+# Dodo2
+msgid "Static box with rating (small / large)"
+msgstr ""
+
+msgid "Showcase your review count and average rating with this simple widget."
+msgstr ""
+"Pokažite število svojih ocen in povprečno oceno s tem preprostim widgetom."
+
+#, fuzzy
+msgid ""
+"No matter if your customers want to read reviews or submit their own - "
+"Dodo’s got you covered!"
+msgstr ""
+"Ne glede na to, ali vaše stranke želijo brati ocene ali poslati svoje - Dodo "
+"vas pokriva!"
+
+msgid "Not too little, not too much - just perfect!"
+msgstr "Ne premalo, ne preveč - popolno!"
+
+# Muskrat2
+msgid "Badge with the company's rating and grades distribution (edge)"
+msgstr ""
+
+msgid "Amaze your customers with this modern, interactive widget!"
+msgstr "Presenetite svoje stranke s tem sodobnim, interaktivnim widgetom!"
+
+msgid ""
+"Display your average rating and review count, showcase the most recent "
+"reviews and collect new ones with just a few clicks."
+msgstr ""
+"Prikažite svojo povprečno oceno in število ocen, predstavite najnovejše "
+"ocene in zberite nove z le nekaj kliki."
+
+msgid "Simply and intuitively."
+msgstr "Preprosto in intuitivno."
+
+msgid "Company rating - top bar"
+msgstr "Ocena podjetja - zgornja vrstica"
+
+msgid ""
+"Show off the number of reviews and display the average rating with this "
+"simple widget."
+msgstr ""
+"Pohvalite se s številom ocen in prikažite povprečno oceno s tem preprostim "
+"widgetom."
+
+msgid ""
+"Buyers will know right away that they are dealing with a trustworthy company "
+"when they enter your store."
+msgstr ""
+"Kupci bodo takoj vedeli, da imajo opravka z zaupanja vredno podjetjem, ko "
+"vstopijo v vašo trgovino."
+
+# Alpaca
+msgid "Social Proof (pop-up reviews)"
+msgstr ""
+
+msgid "Attention grabber like no other."
+msgstr "Pritegne pozornost kot noben drug."
+
+msgid ""
+"Display your average rating, number of reviews and present the most recent "
+"ones with this unmissable widget."
+msgstr ""
+"Prikažite svojo povprečno oceno, število ocen in predstavite najnovejše s "
+"tem nepogrešljivim widgetom."
+
+msgid "Let Alpaca give your website that wow factor!"
+msgstr "Naj Alpaca da vaši spletni strani tisti wow faktor!"
+
+msgid "Modular widget - product reviews, expert reviews, Q&A"
+msgstr ""
+"Modularni widget - ocene izdelkov, strokovne ocene, vprašanja in odgovori"
+
+msgid "Wow your customers with this versatile, modular widget!"
+msgstr "Presenetite svoje stranke s tem vsestranim, modularnim widgetom!"
+
+msgid ""
+"Average rating, results of product surveys, up to 50 recent reviews, expert "
+"evaluations, and the Q&A module - Hydra has everything in one place."
+msgstr ""
+"Povprečna ocena, rezultati anket o izdelkih, do 50 nedavnih ocen, strokovne "
+"ocene in modul vprašanj in odgovorov - Hydra ima vse na enem mestu."
+
+msgid "Designed for those who want more."
+msgstr "Zasnovano za tiste, ki želijo več."
+
+#, fuzzy
+msgid "Badge - product rating (edge)"
+msgstr "Pokaži značko z oceno izdelka"
+
+msgid "Small but mighty!"
+msgstr "Majhen, a mogočen!"
+
+msgid ""
+"Bring your average rating to view and showcase the full review content by "
+"expanding this little widget."
+msgstr ""
+"Prikažite svojo povprečno oceno in predstavite celotno vsebino ocene z "
+"razširitvijo tega malega widgeta."
+
+msgid "Sliding out widget with reviews"
+msgstr "Drseči widget z ocenami"
+
+msgid "Get your reviews noticed with this sliding widget."
+msgstr "Naredite svoje ocene opazne s tem drsečim widgetom."
+
+msgid ""
+"Lemur is a perfect way to demonstrate your average rating, and when "
+"expanded, also latest reviews and TrustMate-granted badges."
+msgstr ""
+"Lemur je odličen način za prikaz vaše povprečne ocene in ob razširitvi tudi "
+"najnovejših ocen in značk, podeljenih s TrustMate."
+
+msgid "What is not to love about it?"
+msgstr "Kaj pri tem ne maram?"
+
+# Ferret
+msgid "Carousel"
+msgstr "Vrtiljak"
+
+msgid ""
+"Dynamic \"carousel\" widget catches the eye of customers presenting up to "
+"the last 21 reviews. You set the scrolling speed of the visible ratings "
+"yourself"
+msgstr ""
+"Dinamični pripomoček \"vrtiljak\" pritegne pozornost strank, ki "
+"predstavljajo do zadnjih 21 ocen. Hitrost drsenja vidnih ocen nastavite sami"
+
+msgid ""
+"Using the carousel you increase the attractiveness of your website to search "
+"engines, e.g. Google"
+msgstr ""
+"Z vrtiljakom povečate privlačnost svoje spletne strani za iskalnike, npr. "
+"Google"
+
+msgid ""
+"Let customers read reviews about your company without leaving your website"
+msgstr ""
+"Omogočite strankam, da preberejo mnenja o vašem podjetju, ne da bi zapustile "
+"vaše spletno mesto"
+
+msgid ""
+"The carousel is responsive and adapts to every page view and mobile devices"
+msgstr ""
+"Vrtiljak je odziven in se prilagaja vsakemu ogledu strani in mobilnim "
+"napravam"
+
+msgid "Product review carousel"
+msgstr "Vrtiljak za pregled izdelka"
+
+msgid "Widget with badges"
+msgstr "Widget z značkami"
+
+msgid "Want to present TrustMate-granted awards in style?"
+msgstr "Želite stilsko predstaviti nagrade, podeljene s TrustMate?"
+
+msgid "Owl is here to help!"
+msgstr "Owl je tukaj, da vam pomaga!"
+
+# FAQ section
+msgid "FAQ"
+msgstr "FAQ"
+
+msgid "Can I ask only for company reviews"
+msgstr "Lahko vprašam samo za ocene podjetij"
+
+msgid ""
+"Yes. You need to mark company invitation configuration as automatic and make "
+"sure no product invitation configuration is marked as such"
+msgstr ""
+"Da. Konfiguracijo povabila podjetja označiti morate kot samodejno in se "
+"prepričati, da nobena konfiguracija povabila izdelka ni označena kot taka"
+
+msgid "Can I ask only for product reviews"
+msgstr "Ali lahko vprašam samo za ocene izdelkov"
+
+msgid ""
+"Yes. You need to mark product invitation configuration as automatic and make "
+"sure no company invitation configuration is marked as such"
+msgstr ""
+"Da. Konfiguracijo povabila k izdelku označiti morate kot samodejno in se "
+"prepričati, da nobena konfiguracija povabila podjetja ni označena kot taka"
+
+msgid ""
+"Remember, for product invitations to work you need to load product feed in "
+"TrustMate settings"
+msgstr ""
+"Ne pozabite, da morajo povabila k izdelkom delovati, morate naložiti vir "
+"izdelka v nastavitvah TrustMate"
+
+msgid "Can I ask for both company and product reviews"
+msgstr "Ali lahko vprašam za ocene podjetij in izdelkov"
+
+msgid ""
+"Yes. You need to mark both company and product invitation configurations as "
+"automatic"
+msgstr ""
+"Da. Konfiguracije povabila podjetja in izdelka morate označiti kot samodejne"
+
+msgid ""
+"Is such case we recommend configuring company invitations to send at least "
+"couple days befor product"
+msgstr ""
+"V takem primeru priporočamo, da vabila podjetja pošljete vsaj nekaj dni pred "
+"izdelkom"
+
+msgid "Sending them together may lower conversion rate"
+msgstr "Če jih pošljete skupaj, lahko znižate stopnjo konverzije"
+
+msgid "What is UUID"
+msgstr "Kaj je UUID"
+
+msgid "UUID code is a unique identifier for your TrustMate's account"
+msgstr "Koda UUID je edinstven identifikator za račun vašega TrustMate."
+
+msgid "You will find it in <em>Integration</em> section"
+msgstr "Našli ga boste v razdelku <em>Integracija</em>"
+
+msgid "How can I add widget with grades and reviews"
+msgstr "Kako lahko dodam pripomoček z ocenami in ocenami"
+
+msgid ""
+"Widget which stick to screen edge can be turned on with one click in plugin "
+"configuration"
+msgstr ""
+"Pripomoček, ki se prilepi na rob zaslona, lahko vklopite z enim klikom v "
+"konfiguraciji vtičnika"
+
+msgid ""
+"All other widget you can embed on your site using Wordpress features: "
+"widgets and themes"
+msgstr ""
+"Vse druge pripomočke, ki jih lahko vdelate na svoje spletno mesto s "
+"funkcijami Wordpress: pripomočki in teme"
+
+msgid "When should I enable \"Ask for permission to send review invitation\""
+msgstr ""
+"Kdaj naj omogočim »Vprašaj za dovoljenje za pošiljanje povabila k pregledu«"
+
+msgid ""
+"Always when you do not collect such consent in previous transaction steps "
+"and your rules document do not handle the issue"
+msgstr ""
+"Vedno, če v prejšnjih korakih transakcije ne pridobite takšnega soglasja in "
+"vaš dokument s pravili ne obravnava težave."
+
+msgid "How can I hide WooCommerce product reviews"
+msgstr "Kako lahko skrijem ocene izdelkov WooCommerce"
+
+msgid ""
+"You need to turn off default WooCommerce reviews in: <em>WooCommerce → "
+"Settings → Products → Enable product reviews</em>"
+msgstr ""
+"Privzete ocene WooCommerce morate izklopiti v: <em>WooCommerce → nastavitvah "
+"→ izdelkih → omogočite ocene izdelkov</em>"
+
+msgid "Do you support WPML?"
+msgstr "Ali podpirate WPML?"
+
+msgid ""
+"Yes, but keep in mind that you need to add invitation configurations for all "
+"languages you want to use in TrustMate.io panel"
+msgstr ""
+"Da, vendar ne pozabite, da morate dodati konfiguracije povabil za vse "
+"jezike, ki jih želite uporabljati na TrustMate.io plošči"
+
+msgid "How I can decide which on my product category is sent to TrustMate.io?"
+msgstr ""
+"Kako se lahko odločim, katera kategorija izdelkov bo poslana TrustMate.io?"
+
+msgid ""
+"If you use multiple categories for your product the only way is to use "
+"primary category feature from Yoast SEO plugin"
+msgstr ""
+"Če za svoj izdelek uporabljate več kategorij, je edini način uporaba "
+"funkcije primarne kategorije iz vtičnika Yoast SEO"
+
+msgid "Widgets that will be withdrawn"
+msgstr "Widgeti, ki bodo umaknjeni"
+
+# Product category mode
+msgid "Product category mode"
+msgstr "Način kategorije izdelka"
+
+msgid ""
+"TrustMate requires a single category for each product. In older integration "
+"versions, only one category segment was sent, and for multi-category "
+"products, different segments were concatenated. This made it difficult to "
+"use TrustMate features based on product categories (hints, customer "
+"attributes, product polls). Using full path mode is recommended, but if you "
+"already use these features, reconfiguration may be required."
+msgstr ""
+"TrustMate zahteva eno kategorijo za vsak izdelek. V starejših različicah "
+"integracije je bil poslan le en segment kategorije; pri izdelkih v več "
+"kategorijah so bili segmenti združeni. To je oteževalo uporabo funkcij "
+"TrustMate po kategorijah (namigi, atributi kupca, ankete). Priporočen je "
+"način polne poti; pri že uporabljenih funkcijah bo morda potrebna "
+"rekonfiguracija."
+
+msgid "Short name"
+msgstr "Kratko ime"
+
+msgid "Full path"
+msgstr "Polna pot"
+
+msgid "Hierarchical category path (e.g., Electronics > Phones > Smartphones)"
+msgstr ""
+"Hierarhična pot kategorije (npr. Elektronika > Telefoni > Pametni telefoni)"
+
+# Account info / version
+msgid "Subscription: %s"
+msgstr ""
+
+msgid "Days remaining: %d"
+msgstr ""
+
+msgid "Your subscription expires soon"
+msgstr ""
+
+msgid "Your subscription is inactive"
+msgstr ""
+
+msgid "New version of TrustMate plugin available: %s"
+msgstr ""
+
+msgid "Download"
+msgstr ""
+
+msgid "Your current subscription does not include some widgets. Enabled but unavailable widgets will not display to your customers."
+msgstr ""
+
+msgid "Not available in your subscription"
+msgstr ""
+
+msgid "Installation key (optional — enables subscription status and update notifications)"
+msgstr ""
+
+#~ msgid ""
+#~ "Page-wide reviews similar to popular comments sections showing under your "
+#~ "product"
+#~ msgstr ""
+#~ "Mnenja na celotni strani, podobna priljubljenim razdelkom s komentarji, "
+#~ "ki so prikazani pod vašim izdelkom."
+
+# Hornet
+#~ msgid ""
+#~ "Small widget that displays the average rating and the number of reviews"
+#~ msgstr "Majhen pripomoček, ki prikazuje povprečno oceno in število mnenj"
+
+#~ msgid ""
+#~ "The stars will appear on the product card near the photo and on the "
+#~ "product tiles throughout the store"
+#~ msgstr ""
+#~ "Zvezdice bodo prikazane na kartici izdelka v bližini fotografije in na "
+#~ "ploščicah izdelka po vsej trgovini"
+
+#~ msgid ""
+#~ "The widget displays the current number of reviews about the product and "
+#~ "the current average rating"
+#~ msgstr ""
+#~ "Pripomoček prikazuje trenutni števil ocen o izdelku in trenutni povprečno "
+#~ "oceno"
+
+#~ msgid ""
+#~ "It can be embedded next to the main product description on the product "
+#~ "sheet or in product lists in your store"
+#~ msgstr ""
+#~ "Vdelate ga lahko poleg glavnega opisa izdelka na listu izdelka ali na "
+#~ "sezname izdelkov v vaši trgovini"
+
+#~ msgid "Benefits"
+#~ msgstr "Koristi"
+
+#~ msgid ""
+#~ "distinguishes the product by encouraging customers to click on it and "
+#~ "make purchases"
+#~ msgstr ""
+#~ "razlikuje izdelek tako, da spodbuja stranke, da kliknejo nanj in opravijo "
+#~ "nakupe"
+
+#~ msgid ""
+#~ "Static widget with customer reviews sending a message \"you can trust us\""
+#~ msgstr ""
+#~ "Statični pripomoček s pregledi strank, ki pošiljajo sporočilo \"lahko nam "
+#~ "zaupate\""
+
+#~ msgid "Widget includes both company and product reviews"
+#~ msgstr "Pripomoček vključuje ocene podjetij in izdelkov"
+
+#~ msgid ""
+#~ "Anytime you can adjust widget outlook without developer help, even after "
+#~ "embedding it on your site"
+#~ msgstr ""
+#~ "Kadar koli lahko prilagodite Outlook pripomočka brez pomoči razvijalca, "
+#~ "tudi po vdeljavi na spletno mesto"
+
+#~ msgid "Microdata"
+#~ msgstr "Mikrodata"
+
+#~ msgid ""
+#~ "If you enable microdata, widget will make your reviews understandable for "
+#~ "search engines like Google"
+#~ msgstr ""
+#~ "Če omogočite mikropodatke, bo pripomoček naredil vaše ocene razumljive za "
+#~ "iskalnike, kot je Google"
+
+#~ msgid ""
+#~ "Search engine results with your site will be enriched with additional "
+#~ "data like average rating, stars, review count"
+#~ msgstr ""
+#~ "Rezultati iskalnikov z vašim spletnim mestom bodo obogateni z dodatnimi "
+#~ "podatki, kot so povprečna ocena, zvezdice, število pregledov."
+
+# Owl
+#~ msgid "Certificate widget"
+#~ msgstr "Pripomoček za potrdilo"
+
+#~ msgid ""
+#~ "If you meet the program conditions visible on the main page of the panel, "
+#~ "TrustMate will automatically display the badge in your store along with "
+#~ "information about the current rating"
+#~ msgstr ""
+#~ "Če izpolnjujete programske pogoje, ki so vidni na glavni strani plošče, "
+#~ "bo TrustMate samodejno prikazal značko v vaši trgovini skupaj z "
+#~ "informacijami o trenutni oceni"
+
+#~ msgid "This will result in more buying interest from potential customers"
+#~ msgstr "To bo povzročilo večje nakupno zanimanje potencialnih kupcev"

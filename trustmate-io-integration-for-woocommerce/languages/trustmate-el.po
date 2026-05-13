@@ -1,0 +1,903 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-24 14:20+0000\n"
+"PO-Revision-Date: 2026-05-08 06:39+0000\n"
+"Last-Translator: App Translator <bot-panel-app-"
+"translator@bots.noreply.weblate.org>\n"
+"Language-Team: Greek <https://weblate.trustmate.io/projects/"
+"woocommerce-plugin/main/el/>\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.10.2\n"
+
+# Menu
+msgid "Create TrustMate account"
+msgstr "Δημιουργία λογαριασμού TrustMate"
+
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+msgid "Widgets"
+msgstr "Widgets"
+
+# Headers and buttons
+msgid "settings"
+msgstr "ρυθμίσεις"
+
+msgid "Configure plugin"
+msgstr "Ρύθμιση plugin"
+
+msgid "If you already have TrustMate account"
+msgstr "Αν έχετε ήδη λογαριασμό TrustMate"
+
+msgid "skip this step"
+msgstr "παραλείψτε αυτό το βήμα"
+
+msgid "Save changes"
+msgstr "Αποθήκευση αλλαγών"
+
+# Install
+msgid ""
+"To start collecting reviews you need TrustMate account. Fortunetly you can "
+"create it"
+msgstr ""
+"Για να ξεκινήσετε την συλλογή κριτικών, χρειάζεστε λογαριασμό TrustMate. "
+"Ευτυχώς, μπορείτε να τον δημιουργήσετε"
+
+msgid "within one minute. We'll use data from WooCommerce"
+msgstr "μέσα σε ένα λεπτό. Θα χρησιμοποιήσουμε δεδομένα από την WooCommerce"
+
+msgid "to make this process very easy"
+msgstr "για να κάνουμε αυτήν την διαδικασία πολύ εύκολη"
+
+msgid "Company details can be updated later in TrustMate panel"
+msgstr ""
+"Τα δεδομένα της εταιρίας μπορούν να ενημερωθούν αργότερα στον πίνακα της "
+"TrustMate"
+
+msgid "By registering I accept"
+msgstr "Με την εγγραφή μου, αποδέχομαι"
+
+msgid "terms of service"
+msgstr "τους όρους της υπηρεσίας"
+
+msgid "including consent to be contacted by TrustMate customer service"
+msgstr ""
+"συμπεριλαμβανομένης της συγκατάθεσης μου να επικοινωνήσει μαζί μου η "
+"εξυπηρέτηση πελατών της TrustMate"
+
+msgid "I going to ask clients for review by e-mail"
+msgstr "Θα ζητήσω από τους πελάτες μου κριτικές μέσω e-mail"
+
+msgid "I accept"
+msgstr "Δέχομαι"
+
+msgid "the data entrustment agreement"
+msgstr "την συμφωνία παραχώρησης δεδομένων"
+
+msgid "Configure invitations and widgets"
+msgstr "Ρύθμιση προσκλήσεων και widgets"
+
+msgid "Verify form below and click \"Create TrustMate account\""
+msgstr ""
+"Επιβεβαιώστε τα στοιχεία της φόρμας παρακάτω και επιλέξτε «Δημιουργία "
+"λογαριασμού TrustMate»"
+
+msgid "Account data"
+msgstr "Δεδομένα λογαριασμού"
+
+msgid "Company registration data"
+msgstr "Δεδομένα εγγραφής εταιρίας"
+
+msgid "Website address"
+msgstr "Διεύθυνση ιστοσελίδας"
+
+msgid "Owner's e-mail"
+msgstr "E-mail ιδιοκτήτη"
+
+msgid "Company name"
+msgstr "Όνομα εταιρίας"
+
+msgid "Street"
+msgstr "Οδός"
+
+msgid "City"
+msgstr "Πόλη"
+
+msgid "Zip code"
+msgstr "Ταχυδρομικός κώδικας"
+
+msgid "Country"
+msgstr "Χώρα"
+
+msgid "Tax identification number"
+msgstr "Αριθμός φορολογικού μητρώου"
+
+# API related messages and erros
+msgid "Account created"
+msgstr "Ο λογαριασμός δημιουργήθηκε"
+
+msgid "Please check your e-mail to set password for TrustMate account"
+msgstr ""
+"Παρακαλούμε ελέγξτε το e-mail σας για να δημιουργήσετε τον κωδικό για τον "
+"λογαριασμό TrustMate σας"
+
+msgid "Account already exists"
+msgstr "Ο λογαριασμός υπάρχει ήδη"
+
+msgid "Invalid data sent"
+msgstr "Στάλθηκαν μη έγκυρα δεδομένα"
+
+msgid "Unexpected error"
+msgstr "Απροσδόκητο σφάλμα"
+
+msgid "Cannot create account"
+msgstr "Αποτυχία δημιουργίας λογαριασμού"
+
+msgid "Registration address in WooCommerce Settings not complete"
+msgstr "Η εγγραφή διεύθυνσης στις Ρυθμίσεις WooCommerce δεν ολοκληρώθηκε"
+
+msgid ""
+"Something went wrong. Please try again or contact TrustMate customer service"
+msgstr ""
+"Εμφανίστηκε σφάλμα στην διαδικασία. Παρακαλούμε δοκιμάστε ξανά ή "
+"επικοινωνήστε με την εξυπηρέτηση πελατών της TrustMate"
+
+msgid ""
+"Widget activation failed. Please try again or contact TrustMate customer "
+"service"
+msgstr ""
+"Απέτυχε η ενεργοποίηση του widget. Παρακαλούμε δοκιμάστε ξανά ή "
+"επικοινωνήστε με την εξυπηρέτηση πελατών της TrustMate"
+
+# Config form
+msgid ""
+"Your TrustMate user code (UUID from TrustMate panel, Integration section)"
+msgstr ""
+"Ο κωδικός χρήστη TrustMate σας (UUID από τον πίνακα TrustMate, ενότητα "
+"Ενσωμάτωση)"
+
+msgid "Additional TrustMate account UUIDs per language"
+msgstr "Επιπλέον UUID λογαριασμών TrustMate ανά γλώσσα"
+
+msgid "Use this only if you have multiple TrustMate language accounts"
+msgstr "Χρησιμοποιήστε το μόνο αν έχετε πολλούς λογαριασμούς γλώσσας TrustMate"
+
+msgid "Currently we only support Polylang for WooCommerce"
+msgstr "Επί του παρόντος υποστηρίζουμε μόνο το Polylang για WooCommerce"
+
+msgid "Add another"
+msgstr "Προσθήκη άλλου"
+
+msgid "Automatic review invitations"
+msgstr "Αυτόματες προσκλήσεις κριτικών"
+
+msgid ""
+"Enable instant company review form on thank you page - do not use with After "
+"successful order status"
+msgstr ""
+"Ενεργοποίηση άμεσης φόρμας κριτικής εταιρείας στη σελίδα ευχαριστιών - μην "
+"χρησιμοποιείτε με την κατάσταση Μετά από επιτυχημένη παραγγελία"
+
+msgid "To quickly collect client reviews turn on automatic invitations"
+msgstr ""
+"Για να συλλέξετε γρήγορα κριτικές πελατών, ενεργοποιήστε τις αυτόματες "
+"προσκλήσεις"
+
+msgid ""
+"While active, script sends invitations to your customers asking for review"
+msgstr ""
+"Όσο είναι ενεργό, ένα script στέλνει προσκλήσεις στους πελάτες σας, ζητώντας "
+"κριτικές"
+
+msgid "In TrustMate panel you can"
+msgstr "Στον πίνακα TrustMate, μπορείτε"
+
+msgid "change invitation sending delay"
+msgstr "να αλλάξετε την καθυστέρηση αποστολής προσκλήσεων"
+
+msgid "set how many times customer is reminded to write a review"
+msgstr ""
+"να ρυθμίσετε πόσες φορές θα υπενθυμίσετε σε έναν πελάτη να γράψει μια κριτική"
+
+msgid "adjust invitation colors to your brand"
+msgstr "να προσαρμόσετε τα χρώματα των προσκλήσεων στην μάρκα σας"
+
+msgid "turn on and off product review invitations"
+msgstr ""
+"να ενεργοποιήσετε ή να απενεργοποιήσετε τις προσκλήσεις κριτικών προϊόντων"
+
+msgid "and more!"
+msgstr "και ακόμα περισσότερα!"
+
+msgid "Ask for permission to send invitation"
+msgstr "Αίτημα άδειας για την αποστολή προσκλήσεων"
+
+msgid "In order to send review inviations you need customer consent"
+msgstr ""
+"Για να στείλετε προσκλήσεις για κριτικές, χρειάζεστε την συγκατάθεση του "
+"πελάτη"
+
+msgid ""
+"If you do not collect those consents by yourself (separate checkbox or "
+"proper regulations), turn this option on"
+msgstr ""
+"Αν δεν συλλέγετε τις συγκαταθέσεις εσείς (διαφορετικό checkbox ή σωστοί "
+"κανονισμοί), ενεργοποιήστε αυτήν την επιλογή"
+
+msgid ""
+"If you do not directly ask customer for consent to send invitation, we "
+"suggest to extend your regulations with content from"
+msgstr ""
+"Αν δεν ζητάτε άμεσα την συγκατάθεση των πελατών σας για την αποστολή "
+"προσκλήσεων, προτείνουμε να επεκτείνετε τους κανονισμούς σας με περιεχόμενο "
+"από"
+
+msgid "this file"
+msgstr "αυτό το αρχείο"
+
+msgid "Disabled"
+msgstr "Απενεργοποιημένο"
+
+msgid "After successful order"
+msgstr "Μετά την επιτυχημένη παραγγελία"
+
+msgid "After successful payment"
+msgstr "Μετά την επιτυχημένη πληρωμή"
+
+msgid "After marked as completed"
+msgstr "Μετά την κατηγοριοποίηση ως ολοκληρωμένο"
+
+# Widget configuration
+msgid "Show reviews with widgets"
+msgstr "Προβολή κριτικών με widgets"
+
+msgid "Type"
+msgstr "Τύπος"
+
+msgid "Company"
+msgstr "Εταιρεία"
+
+msgid "Product"
+msgstr "Προϊόν"
+
+msgid "Name"
+msgstr "Όνομα"
+
+msgid "Description"
+msgstr "Περιγραφή"
+
+msgid "Show badge with shop's grade"
+msgstr "Προβολή εμβλήματος με βαθμό καταστήματος"
+
+msgid "Show sliding out widget with shop's grade"
+msgstr "Προβολή κυλιόμενου widget με βαθμό καταστήματος"
+
+msgid "Non-invasive badge is glued to screen's edge and takes little space"
+msgstr ""
+"Ένα διακριτικό έμβλημα μένει κολλημένο στην άκρη της οθόνης και πιάνει πολύ "
+"λίγο χώρο"
+
+msgid "Click shows a modal with recent reviews"
+msgstr "Το κλικ προβάλλει ένα modal με πρόσφατες κριτικές"
+
+msgid "You can change display position in TrustMate panel"
+msgstr "Μπορείτε να αλλάξετε την θέση προβολής στον πίνακα TrustMate"
+
+msgid "Why use it?"
+msgstr "Γιατί να το χρησιμοποιήσετε;"
+
+msgid "sales increase"
+msgstr "αύξηση πωλήσεων"
+
+msgid "customers do not leave site searching for reviews"
+msgstr "οι πελάτες δεν αφήνουν την ιστοσελίδα σας αναζητώντας κριτικές"
+
+msgid "can boost your SEO"
+msgstr "μπορεί να ενισχύσει το SEO σας"
+
+msgid "can make search engines show stars under your results"
+msgstr ""
+"μπορεί να κάνει τις μηχανές αναζήτησης να προβάλλουν αστέρια κάτω από τα "
+"αποτελέσματά σας"
+
+msgid "Show badge with products' grade"
+msgstr "Προβολή εμβλήματος με βαθμό προϊόντων"
+
+msgid "Click shows a modal with recent reviews and grade distribution"
+msgstr ""
+"Το κλικ προβάλλει ένα modal με πρόσφατες κριτικές και κατανομή βαθμολογιών"
+
+msgid "Widget is a finishing touch on your product page"
+msgstr "Το widget είναι μια τελική πινελιά στην σελίδα προϊόντος σας"
+
+msgid "product sales increase"
+msgstr "αύξηση πωλήσεων προϊόντων"
+
+msgid "can boost your product SEO"
+msgstr "μπορεί να ενισχύσει το SEO των προϊόντων σας"
+
+msgid "can make search engines show stars under product result"
+msgstr ""
+"μπορεί να κάνει τις μηχανές αναζήτησης να προβάλλουν αστέρια κάτω από τα "
+"αποτελέσματα προϊόντων"
+
+msgid "Popping up reviews"
+msgstr "Αναδυόμενες κριτικές"
+
+msgid ""
+"Social proof widget with up to three types of popping up boxes which ensure "
+"your customers about quality of your services"
+msgstr ""
+"Widget κοινωνικής απόδειξης με μέχρι τρεις τύπους αναδυόμενων κουτιών που "
+"εξασφαλίζουν ότι οι πελάτες σας ξέρουν την ποιότητα των υπηρεσιών σας"
+
+msgid ""
+"Position is configurable. Thanks to unconventional images and messages they "
+"are very noticable"
+msgstr ""
+"Η θέση είναι ρυθμιζόμενη. Χάρη στην χρήση μη συμβατικών εικόνων και "
+"μηνυμάτων, είναι σίγουρο ότι ο πελάτης θα τα παρατηρήσει"
+
+msgid "If you want to use custom images contact us at support@trustmate.io"
+msgstr ""
+"Αν θέλετε να χρησιμοποιήσετε προσαρμοσμένες εικόνες, επικοινωνήστε μαζί μας "
+"στο support@trustmate.io"
+
+msgid "Boxes does not take much space and are easy way to present your reviews"
+msgstr ""
+"Τα κουτιά δεν πιάνουν πολύ χώρο και είναι ένας εύκολος τρόπος να "
+"παρουσιάσετε τις κριτικές σας"
+
+msgid "Show grade and reviews on product page"
+msgstr "Προβολή βαθμού και κριτικών στην σελίδα προϊόντος"
+
+msgid "Remember, there are more widgets available"
+msgstr "Να θυμάστε, υπάρχουν περισσότερα widget διαθέσιμα"
+
+msgid "You can put them on your site using wordpress HTML widgets"
+msgstr ""
+"Μπορείτε να τα τοποθετήσετε στην ιστοσελίδα σας χρησιμοποιώντας wordpress "
+"HTML widgets"
+
+msgid "Just copy the code from TrustMate panel widget section"
+msgstr "Απλά αντιγράψτε τον κώδικα από το τμήμα widget στον πίνακα TrustMate"
+
+msgid "Turn on"
+msgstr "Ενεργοποίηση"
+
+msgid "Click to show widget description"
+msgstr "Κάντε κλικ για την προβολή της περιγραφής του widget"
+
+msgid "Widget that displays the rating and reviews"
+msgstr "Widget που εμφανίζει τη βαθμολογία και τις κριτικές"
+
+msgid ""
+"A minimalistic widget displaying average rating next to a product "
+"description."
+msgstr ""
+"Ένα μινιμαλιστικό widget που εμφανίζει τη μέση βαθμολογία δίπλα στην "
+"περιγραφή του προϊόντος."
+
+msgid "Hornet allows customers to read reviews."
+msgstr "Το Hornet επιτρέπει στους πελάτες να διαβάζουν κριτικές."
+
+msgid "Simple and effective."
+msgstr "Απλό και αποτελεσματικό."
+
+msgid ""
+"Display product average rating on category pages and other product listings."
+msgstr ""
+"Εμφάνιση μέσης βαθμολογίας προϊόντος σε σελίδες κατηγοριών και άλλες λίστες "
+"προϊόντων."
+
+msgid "Create a star constellation in your product lists!"
+msgstr "Δημιουργήστε έναν αστερισμό στις λίστες προϊόντων σας!"
+
+msgid ""
+"If it does not work automatically after enabling, it may need to be "
+"configured in the TrustMate client panel."
+msgstr ""
+"Εάν δεν λειτουργεί αυτόματα μετά την ενεργοποίηση, ίσως χρειαστεί να "
+"ρυθμιστεί στο πάνελ πελάτη TrustMate."
+
+# Chupacabra
+msgid "Social Proof (big box)"
+msgstr "Κοινωνική Απόδειξη (μεγάλο κουτί)"
+
+msgid ""
+"Average rating, recent reviews and customer photos displayed on static cards "
+"directly on your website."
+msgstr ""
+"Μέση βαθμολογία, πρόσφατες κριτικές και φωτογραφίες πελατών που εμφανίζονται "
+"σε στατικές κάρτες απευθείας στον ιστότοπό σας."
+
+msgid "Neat and simple."
+msgstr "Καθαρό και απλό."
+
+msgid "Carousel - company reviews"
+msgstr "Καρουσέλ - κριτικές εταιρείας"
+
+msgid "Catch your customer attention with this immersive widget!"
+msgstr "Τραβήξτε την προσοχή του πελάτη σας με αυτό το εντυπωσιακό widget!"
+
+msgid ""
+"Showcase your average rating and the most recent reviews on auto-scrolling "
+"tiles and make your website look even cooler!"
+msgstr ""
+"Παρουσιάστε τη μέση βαθμολογία σας και τις πιο πρόσφατες κριτικές σε "
+"αυτόματα κυλιόμενα πλακίδια και κάντε τον ιστότοπό σας να φαίνεται ακόμα πιο "
+"cool!"
+
+msgid "Carousel - product reviews"
+msgstr "Καρουσέλ - κριτικές προϊόντων"
+
+msgid "Attract your customer attention with this dynamic widget."
+msgstr "Προσελκύστε την προσοχή των πελατών σας με αυτό το δυναμικό widget."
+
+msgid ""
+"Average rating, recent reviews, customer images - everything in one place!"
+msgstr ""
+"Μέση βαθμολογία, πρόσφατες κριτικές, εικόνες πελατών - όλα σε ένα μέρος!"
+
+msgid "Fits like a glove and works like a dream!"
+msgstr "Ταιριάζει σαν γάντι και λειτουργεί σαν όνειρο!"
+
+# Dodo2
+msgid "Static box with rating (small / large)"
+msgstr "Στατικό κουτί με αξιολόγηση (μικρό / μεγάλο)"
+
+msgid "Showcase your review count and average rating with this simple widget."
+msgstr ""
+"Παρουσιάστε τον αριθμό κριτικών και τη μέση βαθμολογία σας με αυτό το απλό "
+"widget."
+
+msgid ""
+"No matter if your customers want to read reviews or submit their own - "
+"Dodo’s got you covered!"
+msgstr ""
+"Ανεξάρτητα από το αν οι πελάτες σας θέλουν να διαβάσουν κριτικές ή να "
+"υποβάλουν τις δικές τους - η Dodo σας καλύπτει!"
+
+msgid "Not too little, not too much - just perfect!"
+msgstr "Ούτε πολύ λίγο, ούτε πολύ - ακριβώς τέλειο!"
+
+# Muskrat2
+msgid "Badge with the company's rating and grades distribution (edge)"
+msgstr ""
+"Σήμα με την αξιολόγηση της εταιρείας και την κατανομή βαθμολογιών (άκρη)"
+
+msgid "Amaze your customers with this modern, interactive widget!"
+msgstr "Εκπλήξτε τους πελάτες σας με αυτό το μοντέρνο, διαδραστικό widget!"
+
+msgid ""
+"Display your average rating and review count, showcase the most recent "
+"reviews and collect new ones with just a few clicks."
+msgstr ""
+"Εμφανίστε τη μέση βαθμολογία και τον αριθμό κριτικών σας, παρουσιάστε τις "
+"πιο πρόσφατες κριτικές και συλλέξτε νέες με λίγα μόνο κλικ."
+
+msgid "Simply and intuitively."
+msgstr "Απλά και διαισθητικά."
+
+msgid "Company rating - top bar"
+msgstr "Βαθμολογία εταιρείας - επάνω γραμμή"
+
+msgid ""
+"Show off the number of reviews and display the average rating with this "
+"simple widget."
+msgstr ""
+"Επιδείξτε τον αριθμό κριτικών και εμφανίστε τη μέση βαθμολογία με αυτό το "
+"απλό widget."
+
+msgid ""
+"Buyers will know right away that they are dealing with a trustworthy company "
+"when they enter your store."
+msgstr ""
+"Οι αγοραστές θα ξέρουν αμέσως ότι έχουν να κάνουν με μια αξιόπιστη εταιρεία "
+"όταν μπουν στο κατάστημά σας."
+
+# Alpaca
+msgid "Social Proof (pop-up reviews)"
+msgstr "Κοινωνική Απόδειξη (αναδυόμενες κριτικές)"
+
+msgid "Attention grabber like no other."
+msgstr "Προσελκύει την προσοχή όπως κανένα άλλο."
+
+msgid ""
+"Display your average rating, number of reviews and present the most recent "
+"ones with this unmissable widget."
+msgstr ""
+"Εμφανίστε τη μέση βαθμολογία σας, τον αριθμό κριτικών και παρουσιάστε τις "
+"πιο πρόσφατες με αυτό το απαραίτητο widget."
+
+msgid "Let Alpaca give your website that wow factor!"
+msgstr "Αφήστε το Alpaca να δώσει στον ιστότοπό σας εκείνο το wow παράγοντα!"
+
+msgid "Modular widget - product reviews, expert reviews, Q&A"
+msgstr ""
+"Αρθρωτό widget - κριτικές προϊόντων, κριτικές ειδικών, ερωτήσεις και "
+"απαντήσεις"
+
+msgid "Wow your customers with this versatile, modular widget!"
+msgstr "Εντυπωσιάστε τους πελάτες σας με αυτό το ευέλικτο, αρθρωτό widget!"
+
+msgid ""
+"Average rating, results of product surveys, up to 50 recent reviews, expert "
+"evaluations, and the Q&A module - Hydra has everything in one place."
+msgstr ""
+"Μέση βαθμολογία, αποτελέσματα ερευνών προϊόντων, έως 50 πρόσφατες κριτικές, "
+"αξιολογήσεις ειδικών και η ενότητα ερωτήσεων και απαντήσεων - η Hydra έχει "
+"τα πάντα σε ένα μέρος."
+
+msgid "Designed for those who want more."
+msgstr "Σχεδιασμένο για όσους θέλουν περισσότερα."
+
+msgid "Badge - product rating (edge)"
+msgstr "Σήμα - αξιολόγηση προϊόντος (άκρη)"
+
+msgid "Small but mighty!"
+msgstr "Μικρό αλλά ισχυρό!"
+
+msgid ""
+"Bring your average rating to view and showcase the full review content by "
+"expanding this little widget."
+msgstr ""
+"Εμφανίστε τη μέση βαθμολογία σας και παρουσιάστε το πλήρες περιεχόμενο της "
+"κριτικής επεκτείνοντας αυτό το μικρό widget."
+
+msgid "Sliding out widget with reviews"
+msgstr "Συρόμενο widget με κριτικές"
+
+msgid "Get your reviews noticed with this sliding widget."
+msgstr "Κάντε τις κριτικές σας να ξεχωρίσουν με αυτό το συρόμενο widget."
+
+msgid ""
+"Lemur is a perfect way to demonstrate your average rating, and when "
+"expanded, also latest reviews and TrustMate-granted badges."
+msgstr ""
+"Το Lemur είναι ένας τέλειος τρόπος να δείξετε τη μέση βαθμολογία σας και, "
+"όταν επεκταθεί, επίσης τις πιο πρόσφατες κριτικές και τα σήματα που "
+"χορηγήθηκαν από το TrustMate."
+
+msgid "What is not to love about it?"
+msgstr "Τι να μην αγαπήσεις σε αυτό;"
+
+# Ferret
+msgid "Carousel"
+msgstr "Καρουζέλ"
+
+msgid ""
+"Dynamic \"carousel\" widget catches the eye of customers presenting up to "
+"the last 21 reviews. You set the scrolling speed of the visible ratings "
+"yourself"
+msgstr ""
+"Ένα δυναμικό widget «καρουζέλ» που τραβάει το μάτι του πελάτη, "
+"παρουσιάζοντας μέχρι και 21 πρόσφατες κριτικές. Ρυθμίζετε εσείς την ταχύτητα "
+"κύλισης των βαθμολογιών"
+
+msgid ""
+"Using the carousel you increase the attractiveness of your website to search "
+"engines, e.g. Google"
+msgstr ""
+"Χρησιμοποιώντας το καρουζέλ, αυξάνετε την ελκυστικότητα της ιστοσελίδας σας "
+"για μηχανές αναζήτησης, όπως της Google"
+
+msgid ""
+"Let customers read reviews about your company without leaving your website"
+msgstr ""
+"Επιτρέψτε στους πελάτες να διαβάζουν κριτικές της εταιρίας σας χωρίς να "
+"φεύγουν από την ιστοσελίδα σας"
+
+msgid ""
+"The carousel is responsive and adapts to every page view and mobile devices"
+msgstr ""
+"Το καρουζέλ είναι δυναμικό και προσαρμόζεται σε κάθε προβολή σελίδας και "
+"κινητή συσκευή"
+
+msgid "Product review carousel"
+msgstr "Καρουζέλ κριτικών προϊόντων"
+
+msgid "Widget with badges"
+msgstr "Widget με σήματα"
+
+msgid "Want to present TrustMate-granted awards in style?"
+msgstr ""
+"Θέλετε να παρουσιάσετε με στυλ τα βραβεία που χορηγήθηκαν από το TrustMate;"
+
+msgid "Owl is here to help!"
+msgstr "Το Owl είναι εδώ για να βοηθήσει!"
+
+# FAQ section
+msgid "FAQ"
+msgstr "Συχνές Ερωτήσεις"
+
+msgid "Can I ask only for company reviews"
+msgstr "Μπορώ να ζητήσω μόνο κριτικές εταιρίας"
+
+msgid ""
+"Yes. You need to mark company invitation configuration as automatic and make "
+"sure no product invitation configuration is marked as such"
+msgstr ""
+"Ναι. Πρέπει να επιλέξετε την αυτόματη ρύθμιση προσκλήσεων εταιρίας και να "
+"επιβεβαιώσετε ότι δεν υπάρχει αντίστοιχη ρύθμιση στις προσκλήσεις προϊόντων"
+
+msgid "Can I ask only for product reviews"
+msgstr "Μπορώ να ζητήσω μόνο κριτικές προϊόντος"
+
+msgid ""
+"Yes. You need to mark product invitation configuration as automatic and make "
+"sure no company invitation configuration is marked as such"
+msgstr ""
+"Ναι. Πρέπει να επιλέξετε την αυτόματη ρύθμιση προσκλήσεων προϊόντος και να "
+"επιβεβαιώσετε ότι δεν υπάρχει αντίστοιχη ρύθμιση στις προσκλήσεις εταιρίας"
+
+msgid ""
+"Remember, for product invitations to work you need to load product feed in "
+"TrustMate settings"
+msgstr ""
+"Να θυμάστε, για να λειτουργούν οι προσκλήσεις προϊόντων, πρέπει να φορτώσετε "
+"το feed προϊόντων στις ρυθμίσεις TrustMate"
+
+msgid "Can I ask for both company and product reviews"
+msgstr "Μπορώ να ζητήσω κριτικές εταιρίας και προϊόντων"
+
+msgid ""
+"Yes. You need to mark both company and product invitation configurations as "
+"automatic"
+msgstr ""
+"Ναι. Χρειάζεται να επιλέξετε την αυτόματη ρύθμιση για προσκλήσεις εταιρίας "
+"και προϊόντων"
+
+msgid ""
+"Is such case we recommend configuring company invitations to send at least "
+"couple days befor product"
+msgstr ""
+"Σε αυτήν την περίπτωση, προτείνουμε την ρύθμιση αποστολής προσκλήσεων "
+"εταιρίας τουλάχιστον δυο μέρες πριν από αυτή του προϊόντος"
+
+msgid "Sending them together may lower conversion rate"
+msgstr ""
+"Το να στείλετε και τις δύο ταυτόχρονα μπορεί να μειώσει τον ρυθμό μετατροπών"
+
+msgid "What is UUID"
+msgstr "Τί είναι το UUID"
+
+msgid "UUID code is a unique identifier for your TrustMate's account"
+msgstr ""
+"Ο κωδικός UUID είναι ένα μοναδικό αναγνωριστικό για τον λογαριασμό TrustMate "
+"σας"
+
+msgid "You will find it in <em>Integration</em> section"
+msgstr "Θα το βρείτε στο τμήμα <em>Ενσωμάτωση</em>"
+
+msgid "How can I add widget with grades and reviews"
+msgstr "Πώς μπορώ να προσθέσω widget με βαθμούς και κριτικές"
+
+msgid ""
+"Widget which stick to screen edge can be turned on with one click in plugin "
+"configuration"
+msgstr ""
+"Widget που κολλάει στην άκρη της οθόνης μπορεί να ενεργοποιηθεί με ένα κλικ "
+"στην ρύθμιση plugin"
+
+msgid ""
+"All other widget you can embed on your site using Wordpress features: "
+"widgets and themes"
+msgstr ""
+"Όλα τα άλλα widget μπορείτε να τα ενσωματώσετε στην ιστοσελίδα σας "
+"χρησιμοποιώντας τα χαρακτηριστικά Wordpress: widgets και θέματα"
+
+msgid "When should I enable \"Ask for permission to send review invitation\""
+msgstr ""
+"Πότε πρέπει να ενεργοποιήσω το «Αίτημα άδειας για την αποστολή προσκλήσεων»"
+
+msgid ""
+"Always when you do not collect such consent in previous transaction steps "
+"and your rules document do not handle the issue"
+msgstr ""
+"Πάντα, όταν δεν συλλέγετε αυτήν την συγκατάθεση σε προηγούμενα βήματα της "
+"συναλλαγής, και το έγγραφο των κανονισμών σας δεν διαχειρίζεται το θέμα"
+
+msgid "How can I hide WooCommerce product reviews"
+msgstr "Πώς μπορώ να κρύψω κριτικές προϊόντος WooCommerce"
+
+msgid ""
+"You need to turn off default WooCommerce reviews in: <em>WooCommerce → "
+"Settings → Products → Enable product reviews</em>"
+msgstr ""
+"Πρέπει να απενεργοποιήσετε τις προεπιλεγμένες κριτικές WooCommerce στο: "
+"<em>WooCommerce → Ρυθμίσεις → Προϊόντα → Ενεργοποίηση κριτικών προϊόντος</em>"
+
+msgid "Do you support WPML?"
+msgstr "Υποστηρίζετε WPML;"
+
+msgid ""
+"Yes, but keep in mind that you need to add invitation configurations for all "
+"languages you want to use in TrustMate.io panel"
+msgstr ""
+"Ναι, αλλά να θυμάστε ότι πρέπει να προσθέσετε ρυθμίσεις προσκλήσεων για όλες "
+"τις γλώσσες που θέλετε να χρησιμοποιήσετε στον πίνακα TrustMate.io"
+
+msgid "How I can decide which on my product category is sent to TrustMate.io?"
+msgstr ""
+"Πώς μπορώ να αποφασίσω ποια από τις κατηγορίες προϊόντος μου θα στέλνεται "
+"στην TrustMate.io;"
+
+msgid ""
+"If you use multiple categories for your product the only way is to use "
+"primary category feature from Yoast SEO plugin"
+msgstr ""
+"Αν χρησιμοποιείτε πολλαπλές κατηγορίες για το προϊόν σας, ο μόνος τρόπος "
+"είναι να χρησιμοποιείτε την λειτουργία βασικής κατηγορίας του Yoast SEO "
+"plugin"
+
+msgid "Widgets that will be withdrawn"
+msgstr "Widgets που θα αποσυρθούν"
+
+# Product category mode
+msgid "Product category mode"
+msgstr "Λειτουργία κατηγορίας προϊόντος"
+
+msgid ""
+"TrustMate requires a single category for each product. In older integration "
+"versions, only one category segment was sent, and for multi-category "
+"products, different segments were concatenated. This made it difficult to "
+"use TrustMate features based on product categories (hints, customer "
+"attributes, product polls). Using full path mode is recommended, but if you "
+"already use these features, reconfiguration may be required."
+msgstr ""
+"Το TrustMate απαιτεί μία κατηγορία για κάθε προϊόν. Στις παλαιότερες "
+"εκδόσεις ολοκλήρωσης, μόνο ένα τμήμα κατηγορίας αποστελλόταν, και για "
+"προϊόντα πολλαπλών κατηγοριών, διαφορετικά τμήματα συνδυάζονταν. Αυτό "
+"καθιστούσε δύσκολη τη χρήση χαρακτηριστικών του TrustMate που βασίζονται "
+"στις κατηγορίες προϊόντων (υποδείξεις, χαρακτηριστικά πελατών, δημοσκοπήσεις "
+"προϊόντων). Συνιστάται η χρήση λειτουργίας πλήρους διαδρομής, αλλά αν ήδη "
+"χρησιμοποιείτε αυτές τις λειτουργίες, μπορεί να απαιτείται αναδιαμόρφωση."
+
+msgid "Short name"
+msgstr "Σύντομο όνομα"
+
+msgid "Full path"
+msgstr "Πλήρης διαδρομή"
+
+msgid "Hierarchical category path (e.g., Electronics > Phones > Smartphones)"
+msgstr ""
+"Ιεραρχική διαδρομή κατηγορίας (π.χ. Ηλεκτρονικά > Τηλέφωνα > Smartphones)"
+
+# Account info / version
+msgid "Subscription: %s"
+msgstr "Συνδρομή: %s"
+
+msgid "Days remaining: %d"
+msgstr "Μέρες που απομένουν: %d"
+
+msgid "Your subscription expires soon"
+msgstr "Η συνδρομή σας λήγει σύντομα"
+
+msgid "Your subscription is inactive"
+msgstr "Η συνδρομή σας είναι ανενεργή"
+
+msgid "New version of TrustMate plugin available: %s"
+msgstr "Νέα έκδοση του πρόσθετου TrustMate διαθέσιμη: %s"
+
+msgid "Download"
+msgstr "Λήψη"
+
+msgid "Your current subscription does not include some widgets. Enabled but unavailable widgets will not display to your customers."
+msgstr ""
+"Η τρέχουσα συνδρομή σας δεν περιλαμβάνει ορισμένα widgets. Ενεργοποιημένα "
+"αλλά μη διαθέσιμα widgets δεν θα εμφανίζονται στους πελάτες σας."
+
+msgid "Not available in your subscription"
+msgstr "Δεν είναι διαθέσιμο στη συνδρομή σας"
+
+msgid "Installation key (optional — enables subscription status and update notifications)"
+msgstr ""
+"Κλειδί εγκατάστασης (προαιρετικό — ενεργοποιεί την κατάσταση συνδρομής και "
+"τις ειδοποιήσεις ενημερώσεων)"
+
+#~ msgid "Invald data sent"
+#~ msgstr "Στάλθηκαν μη έγκυρα δεδομένα"
+
+#~ msgid ""
+#~ "Page-wide reviews similar to popular comments sections showing under your "
+#~ "product"
+#~ msgstr ""
+#~ "Κριτικές που πιάνουν όλη την σελίδα, σαν τμήματα δημοφιλών σχολίων, "
+#~ "εμφανίζονται κάτω από το προϊόν σας"
+
+# Hornet
+#~ msgid ""
+#~ "Small widget that displays the average rating and the number of reviews"
+#~ msgstr ""
+#~ "Ένα μικρό widget που εμφανίζει την μέση βαθμολογία και το πλήθος των "
+#~ "κριτικών"
+
+#~ msgid ""
+#~ "The stars will appear on the product card near the photo and on the "
+#~ "product tiles throughout the store"
+#~ msgstr ""
+#~ "Τα αστέρια θα εμφανιστούν στην κάρτα προϊόντος δίπλα στην φωτογραφία, και "
+#~ "στους τίτλους προϊόντων σε όλο το κατάστημα"
+
+#~ msgid ""
+#~ "The widget displays the current number of reviews about the product and "
+#~ "the current average rating"
+#~ msgstr ""
+#~ "Το widget προβάλλει τον τρέχον αριθμό κριτικών του προϊόντος και την "
+#~ "τρέχουσα μέση βαθμολογία"
+
+#~ msgid ""
+#~ "It can be embedded next to the main product description on the product "
+#~ "sheet or in product lists in your store"
+#~ msgstr ""
+#~ "Μπορεί να ενσωματωθεί δίπλα στην κεντρική περιγραφή του προϊόντος στον "
+#~ "πίνακα προϊόντος ή στις λίστες προϊόντων στο κατάστημά σας"
+
+#~ msgid "Benefits"
+#~ msgstr "Οφέλη"
+
+#~ msgid ""
+#~ "distinguishes the product by encouraging customers to click on it and "
+#~ "make purchases"
+#~ msgstr ""
+#~ "ξεχωρίζει το προϊόν ενθαρρύνοντας τους πελάτες να κάνουν κλικ και να "
+#~ "αγοράσουν"
+
+#~ msgid ""
+#~ "Static widget with customer reviews sending a message \"you can trust us\""
+#~ msgstr ""
+#~ "Στατικό widget με κριτικές πελατών που στέλνει το μήνυμα «μπορείτε να μας "
+#~ "εμπιστευτείτε»"
+
+#~ msgid "Widget includes both company and product reviews"
+#~ msgstr "Το widget περιλαμβάνει κριτικές εταιρίας και προϊόντων"
+
+#~ msgid ""
+#~ "Anytime you can adjust widget outlook without developer help, even after "
+#~ "embedding it on your site"
+#~ msgstr ""
+#~ "Μπορείτε να προσαρμόσετε την εμφάνιση του widget οποιαδήποτε στιγμή χωρίς "
+#~ "την βοήθεια προγραμματιστή, ακόμα και μετά την ενσωμάτωση στην ιστοσελίδα "
+#~ "σας"
+
+#~ msgid "Microdata"
+#~ msgstr "Microdata"
+
+#~ msgid ""
+#~ "If you enable microdata, widget will make your reviews understandable for "
+#~ "search engines like Google"
+#~ msgstr ""
+#~ "Αν ενεργοποιήσετε τα microdata, το widget θα κάνει τις κριτικές σας "
+#~ "κατανοητές για μηχανές αναζήτησης όπως της Google"
+
+#~ msgid ""
+#~ "Search engine results with your site will be enriched with additional "
+#~ "data like average rating, stars, review count"
+#~ msgstr ""
+#~ "Τα αποτελέσματα μηχανών αναζήτησης με την ιστοσελίδα σας θα πλουτιστούν "
+#~ "με επιπρόσθετα δεδομένα όπως μέση βαθμολογία, αστέρια, πλήθος κριτικών"
+
+# Owl
+#~ msgid "Certificate widget"
+#~ msgstr "Widget πιστοποίησης"
+
+#~ msgid ""
+#~ "If you meet the program conditions visible on the main page of the panel, "
+#~ "TrustMate will automatically display the badge in your store along with "
+#~ "information about the current rating"
+#~ msgstr ""
+#~ "Αν πληρείτε τις προϋποθέσεις του προγράμματος που φαίνονται στην κεντρική "
+#~ "σελίδα του πίνακα, η TrustMate θα προβάλλει αυτόματα το έμβλημα στο "
+#~ "κατάστημά σας μαζί με πληροφορίες για την τρέχουσα βαθμολογία"
+
+#~ msgid "This will result in more buying interest from potential customers"
+#~ msgstr ""
+#~ "Αυτό θα έχει ως αποτέλεσμα περισσότερο αγοραστικό ενδιαφέρον από εν "
+#~ "δυνάμει πελάτες"
