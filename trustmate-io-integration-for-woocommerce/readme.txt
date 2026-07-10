@@ -1,8 +1,8 @@
 === TrustMate.io - WooCommerce integration ===
 Contributors: TrustMate.io dev team
 Tags: reviews, opinions, surveys, products
-Tested up to: 6.9.1
-Stable tag: 1.16.2
+Tested up to: 7.0.1
+Stable tag: 1.17.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -79,6 +79,10 @@ In order to make the registration easier for you we will use the data you have p
 at your WooCommerce store. Creating an account is done with one click.
 
 == Changelog ==
+
+= 1.17.0 =
+* Added Multihornet support for variable products
+* Allow requiring separate user consent for review invitation
 
 = 1.16.2 =
 * Fix package build and info.php error

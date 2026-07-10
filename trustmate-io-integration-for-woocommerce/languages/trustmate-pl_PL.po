@@ -782,6 +782,12 @@ msgstr ""
 "Klucz instalacyjny (opcjonalny — umożliwia powiadomienia o stanie abonamentu "
 "i nowościach)"
 
+msgid "I agree to receive a review request"
+msgstr "Wyrażam zgodę na otrzymanie prośby o wystawienie opinii"
+
+msgid "Require customer consent at checkout before sending review invitations"
+msgstr "Wymagaj zgody klienta na checkoucie przed wysłaniem zaproszeń do opinii"
+
 #~ msgid ""
 #~ "Page-wide reviews similar to popular comments sections showing under your "
 #~ "product"

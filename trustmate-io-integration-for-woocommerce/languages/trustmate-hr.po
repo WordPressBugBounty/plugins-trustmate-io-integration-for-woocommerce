@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-23 16:03+0000\n"
-"PO-Revision-Date: 2026-05-08 06:39+0000\n"
+"PO-Revision-Date: 2026-07-08 02:45+0000\n"
 "Last-Translator: App Translator <bot-panel-app-"
 "translator@bots.noreply.weblate.org>\n"
 "Language-Team: Croatian <https://weblate.trustmate.io/projects/"
@@ -768,6 +768,13 @@ msgid "Installation key (optional — enables subscription status and update not
 msgstr ""
 "Instalacijski ključ (neobavezno — omogućuje status pretplate i obavijesti o "
 "ažuriranjima)"
+
+msgid "I agree to receive a review request"
+msgstr "Slažem se primiti zahtjev za recenziju"
+
+msgid "Require customer consent at checkout before sending review invitations"
+msgstr ""
+"Zatražite suglasnost kupca pri naplati prije slanja pozivnica za recenzije"
 
 #~ msgid ""
 #~ "Page-wide reviews similar to popular comments sections showing under your "

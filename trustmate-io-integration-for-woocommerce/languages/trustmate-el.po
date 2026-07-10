@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-24 14:20+0000\n"
-"PO-Revision-Date: 2026-05-08 06:39+0000\n"
+"PO-Revision-Date: 2026-07-08 02:45+0000\n"
 "Last-Translator: App Translator <bot-panel-app-"
 "translator@bots.noreply.weblate.org>\n"
 "Language-Team: Greek <https://weblate.trustmate.io/projects/"
@@ -801,6 +801,14 @@ msgid "Installation key (optional — enables subscription status and update not
 msgstr ""
 "Κλειδί εγκατάστασης (προαιρετικό — ενεργοποιεί την κατάσταση συνδρομής και "
 "τις ειδοποιήσεις ενημερώσεων)"
+
+msgid "I agree to receive a review request"
+msgstr "Συμφωνώ να λάβω αίτημα αξιολόγησης"
+
+msgid "Require customer consent at checkout before sending review invitations"
+msgstr ""
+"Απαιτείται συγκατάθεση πελάτη κατά το ταμείο πριν από την αποστολή "
+"προσκλήσεων για αξιολογήσεις"
 
 #~ msgid "Invald data sent"
 #~ msgstr "Στάλθηκαν μη έγκυρα δεδομένα"

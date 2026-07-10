@@ -1,5 +1,12 @@
 <?php
 
+// Variable and grouped products are registered on the platform only through their children,
+// so the parent id exists there as a group id, never as a product local id.
+function trustmate_is_product_group($product)
+{
+    return in_array($product->get_type(), ['variable', 'grouped'], true);
+}
+
 function trustmate_render_widget_alpaca()
 {
     $language_param = class_exists('SitePress') ? '?language='.ICL_LANGUAGE_CODE : '';
@@ -27,7 +34,7 @@ function trustmate_render_widget_badger2()
             "%s/platforms/widget/badger2/script/%s?%s=%s{$language_param}",
             trustmate_get_widget_base_url(),
             trustmate_get_current_uuid(),
-            $product->get_type() === 'variable' ? 'group' : 'product',
+            trustmate_is_product_group($product) ? 'group' : 'product',
             $product->get_id()
         );
         wp_enqueue_script('trustmate-badger2', $script_src);
@@ -122,7 +129,7 @@ function trustmate_render_widget_product_ferret2()
             "%s/platforms/widget/productFerret2/script/%s?%s=%s{$language_param}",
             trustmate_get_widget_base_url(),
             trustmate_get_current_uuid(),
-            $product->get_type() === 'variable' ? 'group' : 'product',
+            trustmate_is_product_group($product) ? 'group' : 'product',
             $product->get_id()
         );
         wp_enqueue_script('trustmate-product-ferret2', $script_src);
@@ -141,7 +148,7 @@ function trustmate_render_widget_hydra()
             "%s/platforms/widget/hydra/script/%s?%s=%s{$language_param}",
             trustmate_get_widget_base_url(),
             trustmate_get_current_uuid(),
-            $product->get_type() === 'variable' ? 'group' : 'product',
+            trustmate_is_product_group($product) ? 'group' : 'product',
             $product->get_id()
         );
         wp_enqueue_script('trustmate-hydra', $script_src);
@@ -167,7 +174,16 @@ function trustmate_render_widget_owl()
 function trustmate_insert_multihornet_wrappers() {
     global $product;
 
-    if (get_option('trustmate_widget_multihornet') && $product->get_type() == 'simple') {
+    if (!get_option('trustmate_widget_multihornet') || !$product) {
+        return;
+    }
+
+    if (trustmate_is_product_group($product)) {
+        echo sprintf(
+            "<div class='tm-widget-hornet-wrapper' data-group-id='%s'></div>",
+            $product->get_id()
+        );
+    } elseif ($product->get_type() === 'simple') {
         echo sprintf(
             "<div class='tm-widget-hornet-wrapper' data-product-id='%s'></div>",
             $product->get_id()
@@ -183,6 +199,7 @@ function trustmate_render_widget_multihornet()
                 defer
                 data-parent='.product'
                 data-id='data-product-id'
+                data-group-id='data-group-id'
                 data-target='.price'
                 src='%s/platforms/widget/multihornet/script/%s'>
             </script>",
@@ -203,7 +220,7 @@ function trustmate_render_widget_hornet()
         $script_src = sprintf("%s/platforms/%s/widget/hornet/script?%s=%s{$language_param}",
             trustmate_get_widget_base_url(),
             trustmate_get_current_uuid(),
-            $product->get_type() === 'variable' ? 'group' : 'product',
+            trustmate_is_product_group($product) ? 'group' : 'product',
             $product->get_id()
         );
         echo "<script>

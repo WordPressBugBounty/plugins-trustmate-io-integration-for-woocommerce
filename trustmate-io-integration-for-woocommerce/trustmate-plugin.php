@@ -8,7 +8,7 @@
  * Plugin Name: TrustMate.io integration for WooCommerce
  * Plugin URI: https://trustmate.io
  * Description: TrustMate.io integration with auto invitations
- * Version: 1.16.2
+ * Version: 1.17.0
  * Author: TrustMate.io dev team
  * License: GPLv2 or later
  */
@@ -37,8 +37,9 @@ include(__DIR__.'/install_form.php');
 include(__DIR__.'/config_form.php');
 include(__DIR__.'/widgets.php');
 include(__DIR__.'/embed_scripts.php');
+include(__DIR__.'/checkout_consent.php');
 
-const TRUSTMATE_PLUGIN_VERSION = '1.16.2';
+const TRUSTMATE_PLUGIN_VERSION = '1.17.0';
 
 const BASE_URL = 'https://trustmate.io';
 const BASE_URL_DEV = 'http://trustmate.test';
@@ -188,6 +189,7 @@ function trustmate_create_settings_page()
     register_setting('trustmate_basic_settings', 'trustmate_instant_review');
     register_setting('trustmate_basic_settings', 'trustmate_base_url');
     register_setting('trustmate_basic_settings', 'trustmate_category_path_mode', array('default' => 'legacy'));
+    register_setting('trustmate_basic_settings', 'trustmate_require_review_consent');
     register_setting('trustmate_widget_settings', 'trustmate_widget_gorilla');
     register_setting('trustmate_widget_settings', 'trustmate_widget_hydra');
     register_setting('trustmate_widget_settings', 'trustmate_widget_muskrat');

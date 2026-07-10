@@ -1,499 +1,604 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-24 05:39+0000\n"
-"PO-Revision-Date: 2022-09-09 16:43+0000\n"
-"Last-Translator: Björn Ironside <plxproductions5r@gmail.com>\n"
-"Language-Team: Swedish <http://trans.trustmate.io/projects/"
-"woocommerce-plugin/main/sv_SV/>\n"
+"POT-Creation-Date: 2026-07-08 02:47+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
 "Language: sv_SV\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.5.3\n"
+"X-Generator: Translate Toolkit 3.15.0\n"
+
 
 # Menu
 msgid "Create TrustMate account"
-msgstr "Skapa TrustMate konto"
+msgstr ""
 
 msgid "Settings"
-msgstr "Inställningar"
+msgstr ""
 
 msgid "Widgets"
-msgstr "Widgetar"
+msgstr ""
 
 # Headers and buttons
 msgid "settings"
-msgstr "inställningar"
+msgstr ""
 
 msgid "Configure plugin"
-msgstr "Konfigurera plugin"
+msgstr ""
 
 msgid "If you already have TrustMate account"
-msgstr "Om du redan har ett TrustMate-konto"
+msgstr ""
 
 msgid "skip this step"
-msgstr "hoppa över detta steg"
+msgstr ""
 
 msgid "Save changes"
-msgstr "Spara ändringar"
+msgstr ""
 
 # Install
 msgid "To start collecting reviews you need TrustMate account. Fortunetly you can create it"
 msgstr ""
-"För att börja samla in recensioner behöver du ett TrustMate-konto. "
-"Lyckligtvis kan du skapa den"
 
 msgid "within one minute. We'll use data from WooCommerce"
-msgstr "inom en minut. Vi kommer att använda data från WooCommerce"
+msgstr ""
 
 msgid "to make this process very easy"
-msgstr "för att göra denna process mycket enkel"
+msgstr ""
 
 msgid "Company details can be updated later in TrustMate panel"
-msgstr "Företagsinformation kan uppdateras senare i TrustMate-panelen"
+msgstr ""
 
 msgid "By registering I accept"
-msgstr "Genom att registrera accepterar jag"
+msgstr ""
 
 msgid "terms of service"
-msgstr "användarvillkor"
+msgstr ""
 
 msgid "including consent to be contacted by TrustMate customer service"
-msgstr "inklusive samtycke till att bli kontaktad av TrustMates kundtjänst"
+msgstr ""
 
 msgid "I going to ask clients for review by e-mail"
-msgstr "Jag kommer att be kunder om recension via e-post"
+msgstr ""
 
 msgid "I accept"
-msgstr "Jag accepterar"
+msgstr ""
 
 msgid "the data entrustment agreement"
-msgstr "avtalet om uppgiftsförtroende"
+msgstr ""
 
 msgid "Configure invitations and widgets"
-msgstr "Konfigurera inbjudningar och widgetar"
+msgstr ""
 
 msgid "Verify form below and click \"Create TrustMate account\""
-msgstr "Bekräfta formulär nedan och klicka på \"Skapa TrustMate konto\""
+msgstr ""
 
 msgid "Account data"
-msgstr "Kontodata"
+msgstr ""
 
 msgid "Company registration data"
-msgstr "Företagsregistreringsuppgifter"
+msgstr ""
 
 msgid "Website address"
-msgstr "Webbadress"
+msgstr ""
 
 msgid "Owner's e-mail"
-msgstr "Ägarens e-postadress"
+msgstr ""
 
 msgid "Company name"
-msgstr "Företagsnamn"
+msgstr ""
 
 msgid "Street"
-msgstr "Gata"
+msgstr ""
 
 msgid "City"
-msgstr "Stad"
+msgstr ""
 
 msgid "Zip code"
-msgstr "Postkod"
+msgstr ""
 
 msgid "Country"
-msgstr "Land"
+msgstr ""
 
 msgid "Tax identification number"
-msgstr "Skatteregistreringsnummer"
+msgstr ""
 
 # API related messages and erros
 msgid "Account created"
-msgstr "Konto skapat"
+msgstr ""
 
 msgid "Please check your e-mail to set password for TrustMate account"
-msgstr "Kontrollera din e-post för att sätta lösenordet för TrustMate kontot"
+msgstr ""
 
 msgid "Account already exists"
-msgstr "Kontot existerar redan"
+msgstr ""
 
-msgid "Invald data sent"
-msgstr "Ogiltig data har skickats"
+msgid "Invalid data sent"
+msgstr ""
 
 msgid "Unexpected error"
-msgstr "Oväntat fel"
+msgstr ""
 
 msgid "Cannot create account"
-msgstr "Kan inte skapa konto"
+msgstr ""
 
 msgid "Registration address in WooCommerce Settings not complete"
-msgstr "Registreringsadressen i WooCommerce-inställningarna är inte fullständig"
+msgstr ""
 
 msgid "Something went wrong. Please try again or contact TrustMate customer service"
-msgstr "Något gick fel. Försök igen eller kontakta TrustMates kundtjänst"
+msgstr ""
 
 msgid "Widget activation failed. Please try again or contact TrustMate customer service"
 msgstr ""
-"Widgetaktivering misslyckades. Försök igen eller kontakta TrustMates "
-"kundtjänst"
 
 # Config form
 msgid "Your TrustMate user code (UUID from TrustMate panel, Integration section)"
 msgstr ""
-"Din TrustMate-användarkod (UUID från TrustMate-panelen, "
-"Integrationsavsnittet)"
+
+msgid "Additional TrustMate account UUIDs per language"
+msgstr ""
+
+msgid "Use this only if you have multiple TrustMate language accounts"
+msgstr ""
+
+msgid "Currently we only support Polylang for WooCommerce"
+msgstr ""
+
+msgid "Add another"
+msgstr ""
 
 msgid "Automatic review invitations"
-msgstr "Automatiska recensionsinbjudningar"
+msgstr ""
+
+msgid "Enable instant company review form on thank you page - do not use with After successful order status"
+msgstr ""
 
 msgid "To quickly collect client reviews turn on automatic invitations"
 msgstr ""
-"Aktivera automatiska inbjudningar för att snabbt samla in kundrecensioner"
 
 msgid "While active, script sends invitations to your customers asking for review"
 msgstr ""
-"Medan det är aktivt skickar skriptet inbjudningar till dina kunder och ber "
-"om recension"
 
 msgid "In TrustMate panel you can"
-msgstr "I TrustMate-panelen kan du"
+msgstr ""
 
 msgid "change invitation sending delay"
-msgstr "ändra fördröjningen för att skicka inbjudan"
+msgstr ""
 
 msgid "set how many times customer is reminded to write a review"
-msgstr "välja hur många gånger kunden blir påmind om att skriva en recension"
+msgstr ""
 
 msgid "adjust invitation colors to your brand"
-msgstr "anpassa inbjudningsfärgerna till ditt varumärke"
+msgstr ""
 
 msgid "turn on and off product review invitations"
-msgstr "slå på och av inbjudningar för produktrecension"
+msgstr ""
 
 msgid "and more!"
-msgstr "och mer!"
+msgstr ""
 
 msgid "Ask for permission to send invitation"
-msgstr "Be om tillstånd att skicka inbjudan"
+msgstr ""
 
 msgid "In order to send review inviations you need customer consent"
 msgstr ""
-"För att kunna skicka recensionsinbjudningar behöver du kundens medgivande"
 
 msgid "If you do not collect those consents by yourself (separate checkbox or proper regulations), turn this option on"
 msgstr ""
-"Om du inte samlar in dessa samtycken själv (separat kryssruta eller lämpliga "
-"regler), aktivera det här alternativet"
 
 msgid "If you do not directly ask customer for consent to send invitation, we suggest to extend your regulations with content from"
 msgstr ""
-"Om du inte direkt ber kunden om samtycke för att skicka inbjudan, föreslår "
-"vi att du utökar dina regler med innehåll från"
 
 msgid "this file"
-msgstr "denna fil"
+msgstr ""
 
 msgid "Disabled"
-msgstr "Inaktiverad"
+msgstr ""
 
 msgid "After successful order"
-msgstr "Efter lyckad beställning"
+msgstr ""
 
 msgid "After successful payment"
-msgstr "Efter lyckad betalning"
+msgstr ""
 
 msgid "After marked as completed"
-msgstr "Efter markerad som fullständig"
+msgstr ""
 
 # Widget configuration
 msgid "Show reviews with widgets"
-msgstr "Visa recensioner med widgets"
+msgstr ""
+
+msgid "Type"
+msgstr ""
+
+msgid "Company"
+msgstr ""
+
+msgid "Product"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Description"
+msgstr ""
 
 msgid "Show badge with shop's grade"
-msgstr "Visa märke med butikens betyg"
+msgstr ""
 
 msgid "Show sliding out widget with shop's grade"
-msgstr "Visa utskjutande widget med butikens betyg"
+msgstr ""
 
 msgid "Non-invasive badge is glued to screen's edge and takes little space"
-msgstr "Diskret märke placeras på skärmens kant och tar liten plats"
+msgstr ""
 
 msgid "Click shows a modal with recent reviews"
-msgstr "Klick visar en modul med senaste recensioner"
+msgstr ""
 
 msgid "You can change display position in TrustMate panel"
-msgstr "Du kan ändra visningsposition i TrustMate-panelen"
+msgstr ""
 
 msgid "Why use it?"
-msgstr "Varför använda det?"
+msgstr ""
 
 msgid "sales increase"
-msgstr "ökad försäljning"
+msgstr ""
 
 msgid "customers do not leave site searching for reviews"
-msgstr "kunder lämnar inte webbplatsen för att söka efter recensioner"
+msgstr ""
 
 msgid "can boost your SEO"
-msgstr "kan öka din SEO"
+msgstr ""
 
 msgid "can make search engines show stars under your results"
-msgstr "kan få sökmotorer att visa stjärnor under dina resultat"
+msgstr ""
 
 msgid "Show badge with products' grade"
-msgstr "Visa märke med produktens betyg"
+msgstr ""
 
 msgid "Click shows a modal with recent reviews and grade distribution"
-msgstr "Click visar en modal med senaste recensioner och betygsfördelning"
+msgstr ""
 
 msgid "Widget is a finishing touch on your product page"
-msgstr "Widget är en finputsning på din produktsida"
+msgstr ""
 
 msgid "product sales increase"
-msgstr "ökad produktförsäljning"
+msgstr ""
 
 msgid "can boost your product SEO"
-msgstr "kan öka din produkt SEO"
+msgstr ""
 
 msgid "can make search engines show stars under product result"
-msgstr "kan få sökmotorer att visa stjärnor under produktresultat"
+msgstr ""
 
 msgid "Popping up reviews"
-msgstr "Recensioner poppar upp"
+msgstr ""
 
 msgid "Social proof widget with up to three types of popping up boxes which ensure your customers about quality of your services"
 msgstr ""
-"Socialt bevis widget med upp till tre typer av popup-rutor som försäkrar "
-"dina kunder om kvaliteten på dina tjänster"
 
 msgid "Position is configurable. Thanks to unconventional images and messages they are very noticable"
 msgstr ""
-"Positionen kan konfigureras. Tack vare okonventionella bilder och "
-"meddelanden märks de lätt"
 
 msgid "If you want to use custom images contact us at support@trustmate.io"
 msgstr ""
-"Om du vill använda anpassade bilder kontakta oss på support@trustmate.io"
 
 msgid "Boxes does not take much space and are easy way to present your reviews"
 msgstr ""
-"Rutor tar inte mycket plats och är ett enkelt sätt att presentera dina "
-"recensioner"
 
 msgid "Show grade and reviews on product page"
-msgstr "Visa betyg och recensioner på produktsidan"
-
-msgid "Page-wide reviews similar to popular comments sections showing under your product"
 msgstr ""
-"Sidomfattande recensioner likt populära kommentarsavsnitt som visas under "
-"din produkt"
 
 msgid "Remember, there are more widgets available"
-msgstr "Kom ihåg att det finns fler widgets tillgängliga"
+msgstr ""
 
 msgid "You can put them on your site using wordpress HTML widgets"
-msgstr "Du kan placera dem på din webbplats med hjälp av wordpress HTML-widgets"
+msgstr ""
 
 msgid "Just copy the code from TrustMate panel widget section"
-msgstr "Kopiera bara koden från TrustMates-panelens widgetsektion"
+msgstr ""
 
 msgid "Turn on"
-msgstr "Aktivera"
+msgstr ""
 
 msgid "Click to show widget description"
-msgstr "Klicka för att visa widgetbeskrivning"
+msgstr ""
 
 # Hornet
-msgid "Small widget that displays the average rating and the number of reviews"
+msgid "Widget that displays the rating and reviews"
 msgstr ""
-"Liten widget som visar det genomsnittliga betyget och antalet recensioner"
 
-msgid "The stars will appear on the product card near the photo and on the product tiles throughout the store"
+msgid "A minimalistic widget displaying average rating next to a product description."
 msgstr ""
-"Stjärnorna kommer att synas på produktkortet nära bilden och på "
-"produktrutorna i hela butiken"
 
-msgid "The widget displays the current number of reviews about the product and the current average rating"
+msgid "Hornet allows customers to read reviews."
 msgstr ""
-"Widgeten visar det aktuella antalet recensioner om produkten och det "
-"aktuella genomsnittliga betyget"
 
-msgid "It can be embedded next to the main product description on the product sheet or in product lists in your store"
+msgid "Simple and effective."
 msgstr ""
-"Den kan bäddas in bredvid den översiktliga produktbeskrivningen på "
-"produktbladet eller i produktlistor i din butik"
 
-msgid "Benefits"
-msgstr "Fördelar"
-
-msgid "distinguishes the product by encouraging customers to click on it and make purchases"
+# MultiHornet
+msgid "Display product average rating on category pages and other product listings."
 msgstr ""
-"särskiljer produkten genom att uppmuntra kunder att klicka på den och köpa"
+
+msgid "Create a star constellation in your product lists!"
+msgstr ""
+
+msgid "If it does not work automatically after enabling, it may need to be configured in the TrustMate client panel."
+msgstr ""
 
 # Chupacabra
-msgid "Widget social proof (large box)"
-msgstr "Widget socialt bevis (stor ruta)"
-
-msgid "Static widget with customer reviews sending a message \"you can trust us\""
+msgid "Social Proof (big box)"
 msgstr ""
-"Statisk widget med kundrecensioner som skickar meddelandet \"du kan lita på "
-"oss\""
 
-msgid "Widget includes both company and product reviews"
-msgstr "Widget innehåller både företags- och produktrecensioner"
-
-msgid "Anytime you can adjust widget outlook without developer help, even after embedding it on your site"
+msgid "Average rating, recent reviews and customer photos displayed on static cards directly on your website."
 msgstr ""
-"Du kan när som helst justera widgetens utseende utan utvecklarhjälp, även "
-"efter att ha bäddat in den på din webbplats"
 
-msgid "Microdata"
-msgstr "Mikrodata"
-
-msgid "If you enable microdata, widget will make your reviews understandable for search engines like Google"
+msgid "Neat and simple."
 msgstr ""
-"Om du aktiverar mikrodata kommer widgeten att göra dina recensioner läsbara "
-"för sökmotorer som Google"
 
-msgid "Search engine results with your site will be enriched with additional data like average rating, stars, review count"
+# Ferret2
+msgid "Carousel - company reviews"
 msgstr ""
-"Sökmotorresultat med din webbplats kommer att berikas med ytterligare data "
-"som genomsnittligt betyg, stjärnor, antal recensioner"
+
+msgid "Catch your customer attention with this immersive widget!"
+msgstr ""
+
+msgid "Showcase your average rating and the most recent reviews on auto-scrolling tiles and make your website look even cooler!"
+msgstr ""
+
+# ProductFerret2
+msgid "Carousel - product reviews"
+msgstr ""
+
+msgid "Attract your customer attention with this dynamic widget."
+msgstr ""
+
+msgid "Average rating, recent reviews, customer images - everything in one place!"
+msgstr ""
+
+msgid "Fits like a glove and works like a dream!"
+msgstr ""
+
+# Dodo2
+msgid "Static box with rating (small / large)"
+msgstr ""
+
+msgid "Showcase your review count and average rating with this simple widget."
+msgstr ""
+
+msgid "No matter if your customers want to read reviews or submit their own - Dodo’s got you covered!"
+msgstr ""
+
+msgid "Not too little, not too much - just perfect!"
+msgstr ""
+
+# Muskrat2
+msgid "Badge with the company's rating and grades distribution (edge)"
+msgstr ""
+
+msgid "Amaze your customers with this modern, interactive widget!"
+msgstr ""
+
+msgid "Display your average rating and review count, showcase the most recent reviews and collect new ones with just a few clicks."
+msgstr ""
+
+msgid "Simply and intuitively."
+msgstr ""
+
+# Bee
+msgid "Company rating - top bar"
+msgstr ""
+
+msgid "Show off the number of reviews and display the average rating with this simple widget."
+msgstr ""
+
+msgid "Buyers will know right away that they are dealing with a trustworthy company when they enter your store."
+msgstr ""
+
+# Alpaca
+msgid "Social Proof (pop-up reviews)"
+msgstr ""
+
+msgid "Attention grabber like no other."
+msgstr ""
+
+msgid "Display your average rating, number of reviews and present the most recent ones with this unmissable widget."
+msgstr ""
+
+msgid "Let Alpaca give your website that wow factor!"
+msgstr ""
+
+# Hydra
+msgid "Modular widget - product reviews, expert reviews, Q&A"
+msgstr ""
+
+msgid "Wow your customers with this versatile, modular widget!"
+msgstr ""
+
+msgid "Average rating, results of product surveys, up to 50 recent reviews, expert evaluations, and the Q&A module - Hydra has everything in one place."
+msgstr ""
+
+msgid "Designed for those who want more."
+msgstr ""
+
+# Badger2
+msgid "Badge - product rating (edge)"
+msgstr ""
+
+msgid "Small but mighty!"
+msgstr ""
+
+msgid "Bring your average rating to view and showcase the full review content by expanding this little widget."
+msgstr ""
+
+# Lemur
+msgid "Sliding out widget with reviews"
+msgstr ""
+
+msgid "Get your reviews noticed with this sliding widget."
+msgstr ""
+
+msgid "Lemur is a perfect way to demonstrate your average rating, and when expanded, also latest reviews and TrustMate-granted badges."
+msgstr ""
+
+msgid "What is not to love about it?"
+msgstr ""
 
 # Ferret
 msgid "Carousel"
-msgstr "Karusell"
+msgstr ""
 
 msgid "Dynamic \"carousel\" widget catches the eye of customers presenting up to the last 21 reviews. You set the scrolling speed of the visible ratings yourself"
 msgstr ""
-"Dynamisk \"karusell\"-widget fångar kundernas uppmärksamhet och presenterar "
-"upp till de senaste 21 recensionerna. Du ställer själv in "
-"rullningshastigheten för de synliga betygen"
 
 msgid "Using the carousel you increase the attractiveness of your website to search engines, e.g. Google"
 msgstr ""
-"Genom att använda karusellen ökar du din webbsidas attraktivitet hos "
-"sökmotorer, t.ex. Google"
 
 msgid "Let customers read reviews about your company without leaving your website"
 msgstr ""
-"Låt kunder läsa recensioner om ditt företag utan att lämna din webbplats"
 
 msgid "The carousel is responsive and adapts to every page view and mobile devices"
 msgstr ""
-"Karusellen är känslig och anpassar sig till varje sidvisning och mobila "
-"enheter"
 
 msgid "Product review carousel"
-msgstr "Produktrecensionskarusell"
+msgstr ""
 
 # Owl
-msgid "Certificate widget"
-msgstr "Certifikatwidget"
-
-msgid "If you meet the program conditions visible on the main page of the panel, TrustMate will automatically display the badge in your store along with information about the current rating"
+msgid "Widget with badges"
 msgstr ""
-"Om du uppfyller programvillkoren som är synliga på panelens huvudsida kommer "
-"TrustMate automatiskt att visa märket i din butik tillsammans med "
-"information om aktuellt betyg"
 
-msgid "This will result in more buying interest from potential customers"
-msgstr "Detta kommer att resultera i mer köpintresse från potentiella kunder"
+msgid "Want to present TrustMate-granted awards in style?"
+msgstr ""
+
+msgid "Owl is here to help!"
+msgstr ""
 
 # FAQ section
 msgid "FAQ"
-msgstr "Vanliga frågor"
+msgstr ""
 
 msgid "Can I ask only for company reviews"
-msgstr "Kan jag bara be om företagsrecensioner"
+msgstr ""
 
 msgid "Yes. You need to mark company invitation configuration as automatic and make sure no product invitation configuration is marked as such"
 msgstr ""
-"Ja. Du måste markera inställningen för företagsinbjudning som automatisk och "
-"se till att ingen produktinbjudningskonfiguration är markerad som sådan"
 
 msgid "Can I ask only for product reviews"
-msgstr "Kan jag bara be om produktrecensioner"
+msgstr ""
 
 msgid "Yes. You need to mark product invitation configuration as automatic and make sure no company invitation configuration is marked as such"
 msgstr ""
-"Ja. Du måste markera inställningen för produktinbjudning som automatisk och "
-"se till att ingen företagsinbjudningskonfiguration är markerad som sådan"
 
 msgid "Remember, for product invitations to work you need to load product feed in TrustMate settings"
 msgstr ""
-"Kom ihåg att för att produktinbjudningar ska fungera måste du ladda "
-"produktflödet i TrustMate-inställningarna"
 
 msgid "Can I ask for both company and product reviews"
-msgstr "Kan jag be om både företags- och produktrecensioner"
+msgstr ""
 
 msgid "Yes. You need to mark both company and product invitation configurations as automatic"
 msgstr ""
-"Ja. Du måste markera inställningen för både företags- och "
-"produktinbjudningar som automatiska"
 
 msgid "Is such case we recommend configuring company invitations to send at least couple days befor product"
 msgstr ""
-"I sådana fall rekommenderar vi att du konfigurerar företagsinbjudningar att "
-"skickas minst ett par dagar före produkten"
 
 msgid "Sending them together may lower conversion rate"
-msgstr "Att skicka dem tillsammans kan sänka konverteringsfrekvensen"
+msgstr ""
 
 msgid "What is UUID"
-msgstr "Vad är UUID"
+msgstr ""
 
 msgid "UUID code is a unique identifier for your TrustMate's account"
-msgstr "UUID-koden är en unik identifierare för ditt TrustMates konto"
+msgstr ""
 
 msgid "You will find it in <em>Integration</em> section"
-msgstr "Du hittar den i avsnittet <em>Integration</em>"
+msgstr ""
 
 msgid "How can I add widget with grades and reviews"
-msgstr "Hur kan jag lägga till widget med betyg och recensioner"
+msgstr ""
 
 msgid "Widget which stick to screen edge can be turned on with one click in plugin configuration"
 msgstr ""
-"Widget som håller sig till skärmkanten kan slås på med ett klick i plugin-"
-"konfigurationen"
 
 msgid "All other widget you can embed on your site using Wordpress features: widgets and themes"
 msgstr ""
-"Alla andra widgetar kan du bädda in på din webbplats med hjälp av Wordpress-"
-"funktioner: widgets och teman"
 
 msgid "When should I enable \"Ask for permission to send review invitation\""
-msgstr "När bör jag aktivera \"Be om tillåtelse att skicka recensionsinbjudan\""
+msgstr ""
 
 msgid "Always when you do not collect such consent in previous transaction steps and your rules document do not handle the issue"
 msgstr ""
-"Alltid när du inte samlar in sådant samtycke i tidigare transaktionssteg och "
-"ditt regeldokument inte hanterar ärendet"
 
 msgid "How can I hide WooCommerce product reviews"
-msgstr "Hur kan jag dölja WooCommerce produktrecensioner"
+msgstr ""
 
 msgid "You need to turn off default WooCommerce reviews in: <em>WooCommerce → Settings → Products → Enable product reviews</em>"
 msgstr ""
-"Du måste stänga av standard WooCommerce-recensioner i: <em>WooCommerce → "
-"Inställningar → Produkter → Aktivera produktrecensioner</em>"
 
 msgid "Do you support WPML?"
-msgstr "Stöder ni WPML?"
+msgstr ""
 
 msgid "Yes, but keep in mind that you need to add invitation configurations for all languages you want to use in TrustMate.io panel"
 msgstr ""
-"Ja, men kom ihåg att du måste lägga till inbjudningskonfigurationer för alla "
-"språk du vill använda i TrustMate.io-panelen"
 
 msgid "How I can decide which on my product category is sent to TrustMate.io?"
 msgstr ""
-"Hur kan jag välja vilken av min produktkategori som skickas till TrustMate."
-"io?"
 
 msgid "If you use multiple categories for your product the only way is to use primary category feature from Yoast SEO plugin"
 msgstr ""
-"Om du använder flera kategorier för din produkt är det enda sättet att "
-"använda huvudkategorifunktionen från Yoast SEO-plugin"
+
+msgid "Widgets that will be withdrawn"
+msgstr ""
+
+# Product category mode
+msgid "Product category mode"
+msgstr ""
+
+msgid "TrustMate requires a single category for each product. In older integration versions, only one category segment was sent, and for multi-category products, different segments were concatenated. This made it difficult to use TrustMate features based on product categories (hints, customer attributes, product polls). Using full path mode is recommended, but if you already use these features, reconfiguration may be required."
+msgstr ""
+
+msgid "Short name"
+msgstr ""
+
+msgid "Full path"
+msgstr ""
+
+msgid "Hierarchical category path (e.g., Electronics > Phones > Smartphones)"
+msgstr ""
+
+# Account info / version
+msgid "Subscription: %s"
+msgstr ""
+
+msgid "Days remaining: %d"
+msgstr ""
+
+msgid "Your subscription expires soon"
+msgstr ""
+
+msgid "Your subscription is inactive"
+msgstr ""
+
+msgid "New version of TrustMate plugin available: %s"
+msgstr ""
+
+msgid "Download"
+msgstr ""
+
+msgid "Your current subscription does not include some widgets. Enabled but unavailable widgets will not display to your customers."
+msgstr ""
+
+msgid "Not available in your subscription"
+msgstr ""
+
+msgid "Installation key (optional — enables subscription status and update notifications)"
+msgstr ""
+
+msgid "I agree to receive a review request"
+msgstr ""
+
+msgid "Require customer consent at checkout before sending review invitations"
+msgstr ""

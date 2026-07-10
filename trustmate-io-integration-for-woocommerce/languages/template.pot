@@ -589,3 +589,9 @@ msgstr ""
 
 msgid "Installation key (optional — enables subscription status and update notifications)"
 msgstr ""
+
+msgid "I agree to receive a review request"
+msgstr ""
+
+msgid "Require customer consent at checkout before sending review invitations"
+msgstr ""

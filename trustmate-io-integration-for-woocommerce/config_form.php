@@ -175,6 +175,11 @@ function trustmate_render_config_form()
         <?php echo trustmate_tr('Enable instant company review form on thank you page - do not use with After successful order status') ?>
     </label>
     <br><br>
+    <label for="trustmate_require_review_consent">
+        <input id="trustmate_require_review_consent" name="trustmate_require_review_consent" value="1" type="checkbox" <?php if (get_option('trustmate_require_review_consent')): ?>checked<?php endif ?>>
+        <?php echo trustmate_tr('Require customer consent at checkout before sending review invitations') ?>
+    </label>
+    <br><br>
     <p>
         <?php echo trustmate_tr('To quickly collect client reviews turn on automatic invitations') ?>.
         <?php echo trustmate_tr('While active, script sends invitations to your customers asking for review') ?>.

@@ -44,6 +44,10 @@ function trustmate_create_invitation($order_id, $language = null)
         return;
     }
 
+    if (get_option('trustmate_require_review_consent') && !trustmate_order_has_review_consent($order)) {
+        return;
+    }
+
     $items = $order->get_items();
 
     $products_data = array();
@@ -349,6 +353,16 @@ function trustmate_papi_get_base_url()
     }
 
     return str_replace('://', '://papi.', $api_url);
+}
+
+function trustmate_order_has_review_consent($order)
+{
+    if ($order->get_meta('_trustmate_review_consent') === 'yes') {
+        return true;
+    }
+
+    $block_value = $order->get_meta('_wc_order/trustmate/review-consent');
+    return in_array($block_value, array(true, '1', 1, 'true'), true);
 }
 
 function trustmate_is_from_marketplace($email)
