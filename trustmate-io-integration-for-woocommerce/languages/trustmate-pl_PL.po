@@ -788,6 +788,43 @@ msgstr "Wyrażam zgodę na otrzymanie prośby o wystawienie opinii"
 msgid "Require customer consent at checkout before sending review invitations"
 msgstr "Wymagaj zgody klienta na checkoucie przed wysłaniem zaproszeń do opinii"
 
+msgid "NEW"
+msgstr "NOWOŚĆ"
+
+msgid "Works with the Hydra widget."
+msgstr "Działa z widgetem Hydra."
+
+
+msgid "Turn it on"
+msgstr "Włącz"
+
+msgid "Server-side rendered widgets - even better SEO and GEO visibility"
+msgstr ""
+"Widgety renderowane po stronie serwera - jeszcze lepsza widoczność "
+"SEO+GEO"
+
+msgid ""
+"Ratings and reviews are placed straight into the page code, so they "
+"can also be read by crawlers that do not run JavaScript - AI "
+"assistants among them. Extra visibility in search results and in what "
+"AI tools say about your shop."
+msgstr ""
+"Oceny i opinie trafiają wprost do kodu strony, dzięki czemu "
+"przeczytają je również roboty, które nie uruchamiają JavaScriptu - w "
+"tym asystenci AI. Dodatkowa widoczność w wynikach wyszukiwania i w "
+"tym, co narzędzia AI mówią o Twoim sklepie."
+
+msgid ""
+"This is a new feature. It adds a request to TrustMate while your pages "
+"load, and it makes your pages noticeably heavier, because the widget "
+"content now travels with them. If TrustMate is ever unavailable, your "
+"widgets simply keep working the way they do today."
+msgstr ""
+"To nowa funkcja. Przy ładowaniu stron wysyła zapytanie do TrustMate i "
+"zauważalnie zwiększa rozmiar stron, bo treść widgetów jest teraz "
+"przesyłana razem z nimi. Jeśli TrustMate będzie chwilowo niedostępny, "
+"widgety po prostu działają tak jak dotychczas."
+
 #~ msgid ""
 #~ "Page-wide reviews similar to popular comments sections showing under your "
 #~ "product"

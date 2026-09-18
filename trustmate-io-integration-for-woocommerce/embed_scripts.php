@@ -7,18 +7,58 @@ function trustmate_is_product_group($product)
     return in_array($product->get_type(), ['variable', 'grouped'], true);
 }
 
+function trustmate_widget_query($product = null)
+{
+    $query = array();
+
+    if ($product) {
+        $key = trustmate_is_product_group($product) ? 'group' : 'product';
+        $query[$key] = $product->get_id();
+    }
+
+    if ($language = trustmate_ssr_current_language()) {
+        $query['language'] = $language;
+    }
+
+    return $query;
+}
+
+// Emits the widget container and enqueues the platform loader. With server-side rendering enabled
+// the container is filled here, and the loader is told so twice: html-embedded=1 keeps it from
+// shipping a second copy of the markup, data-tm-ssr keeps it from overwriting the markup it finds.
+function trustmate_render_widget_container($widget_key, $type, $container_id, $handle, $query = array())
+{
+    $html = null;
+
+    if (trustmate_ssr_enabled() && trustmate_ssr_supported($widget_key)) {
+        $html = trustmate_ssr_get($type, $query);
+    }
+
+    if ($html === null) {
+        echo "<div id='" . esc_attr($container_id) . "'></div>";
+        wp_enqueue_script($handle, trustmate_ssr_script_url($type, $query));
+
+        return;
+    }
+
+    // Printed unescaped on purpose: the fragment carries its own <style> and JSON-LD,
+    // which wp_kses would strip. It comes from trustmate_get_widget_base_url() - the very
+    // same origin we already load widget JS from.
+    echo "<div id='" . esc_attr($container_id) . "' data-tm-ssr='1'>" . $html . "</div>";
+    $query['html-embedded'] = 1;
+    wp_enqueue_script($handle, trustmate_ssr_script_url($type, $query));
+}
+
 function trustmate_render_widget_alpaca()
 {
-    $language_param = class_exists('SitePress') ? '?language='.ICL_LANGUAGE_CODE : '';
-
     if (get_option('trustmate_widget_alpaca')) {
-        echo "<div id='tm-widget-alpaca'></div>";
-        $script_src = sprintf(
-            "%s/platforms/widget/alpaca/script/%s{$language_param}",
-            trustmate_get_widget_base_url(),
-            trustmate_get_current_uuid()
+        trustmate_render_widget_container(
+            'alpaca',
+            'alpaca',
+            'tm-widget-alpaca',
+            'trustmate-alpaca',
+            trustmate_widget_query()
         );
-        wp_enqueue_script('trustmate-alpaca', $script_src);
     }
 }
 
@@ -26,94 +66,80 @@ function trustmate_render_widget_badger2()
 {
     global $product;
 
-    $language_param = class_exists('SitePress') ? '&language='.ICL_LANGUAGE_CODE : '';
-
-    if (is_product() && get_option('trustmate_widget_badger2')) {
-        echo "<div id='tm-widget-badger2'></div>";
-        $script_src = sprintf(
-            "%s/platforms/widget/badger2/script/%s?%s=%s{$language_param}",
-            trustmate_get_widget_base_url(),
-            trustmate_get_current_uuid(),
-            trustmate_is_product_group($product) ? 'group' : 'product',
-            $product->get_id()
+    if (is_product() && $product && get_option('trustmate_widget_badger2')) {
+        trustmate_render_widget_container(
+            'badger2',
+            'badger2',
+            'tm-widget-badger2',
+            'trustmate-badger2',
+            trustmate_widget_query($product)
         );
-        wp_enqueue_script('trustmate-badger2', $script_src);
     }
 }
 
 function trustmate_render_widget_muskrat2()
 {
-    $language_param = class_exists('SitePress') ? '?language='.ICL_LANGUAGE_CODE : '';
-
     if (get_option('trustmate_widget_muskrat2')) {
-        echo "<div id='tm-widget-muskrat2'></div>";
-        $script_src = sprintf(
-            "%s/platforms/widget/muskrat2/script/%s{$language_param}",
-            trustmate_get_widget_base_url(),
-            trustmate_get_current_uuid()
+        trustmate_render_widget_container(
+            'muskrat2',
+            'muskrat2',
+            'tm-widget-muskrat2',
+            'trustmate-muskrat2',
+            trustmate_widget_query()
         );
-        wp_enqueue_script('trustmate-muskrat2', $script_src);
     }
 }
 
 function trustmate_render_widget_bee()
 {
-    $language_param = class_exists('SitePress') ? '?language='.ICL_LANGUAGE_CODE : '';
-
     if (get_option('trustmate_widget_bee')) {
-        echo "<div id='tm-widget-bee'></div>";
-        $script_src = sprintf(
-            "%s/platforms/widget/bee/script/%s{$language_param}",
-            trustmate_get_widget_base_url(),
-            trustmate_get_current_uuid()
+        trustmate_render_widget_container(
+            'bee',
+            'bee',
+            'tm-widget-bee',
+            'trustmate-bee',
+            trustmate_widget_query()
         );
-        wp_enqueue_script('trustmate-bee', $script_src);
     }
 }
 
 function trustmate_render_widget_lemur()
 {
-    $language_param = class_exists('SitePress') ? '?language='.ICL_LANGUAGE_CODE : '';
-
     if (get_option('trustmate_widget_lemur')) {
-        echo "<div id='tm-widget-lemur'></div>";
-        $script_src = sprintf(
-            "%s/platforms/widget/lemur/script/%s{$language_param}",
-            trustmate_get_widget_base_url(),
-            trustmate_get_current_uuid()
+        trustmate_render_widget_container(
+            'lemur',
+            'lemur',
+            'tm-widget-lemur',
+            'trustmate-lemur',
+            trustmate_widget_query()
         );
-        wp_enqueue_script('trustmate-lemur', $script_src);
     }
 }
 
 // Uses option for v1 but still renders v2
 function trustmate_render_widget_chupacabra()
 {
-    $language_param = class_exists('SitePress') ? '?language='.ICL_LANGUAGE_CODE : '';
-
     if (get_option('trustmate_widget_chupacabra')) {
-        echo "<div id='tm-widget-chupacabra2'></div>";
-        $script_src = sprintf(
-            "%s/platforms/widget/chupacabra2/script/%s{$language_param}",
-            trustmate_get_widget_base_url(),
-            trustmate_get_current_uuid()
+        trustmate_render_widget_container(
+            'chupacabra',
+            'chupacabra2',
+            'tm-widget-chupacabra2',
+            'trustmate-chupacabra',
+            trustmate_widget_query()
         );
-        wp_enqueue_script('trustmate-chupacabra', $script_src);
     }
 }
 
 function trustmate_render_widget_ferret2()
 {
-    $language_param = class_exists('SitePress') ? '?language='.ICL_LANGUAGE_CODE : '';
-
     if (get_option('trustmate_widget_ferret2')) {
-        echo "<div id='tm-widget-ferret2'></div>";
-        $script_src = sprintf(
-            "%s/platforms/widget/ferret2/script/%s{$language_param}",
-            trustmate_get_widget_base_url(),
-            trustmate_get_current_uuid()
+        trustmate_render_widget_container(
+            'ferret2',
+            'ferret2',
+            'tm-widget-ferret2',
+            'trustmate-ferret2',
+            trustmate_widget_query()
         );
-        wp_enqueue_script('trustmate-ferret2', $script_src);
     }
 }
 
@@ -121,18 +147,14 @@ function trustmate_render_widget_product_ferret2()
 {
     global $product;
 
-    $language_param = class_exists('SitePress') ? '&language='.ICL_LANGUAGE_CODE : '';
-
-    if (is_product() && get_option('trustmate_widget_product_ferret2')) {
-        echo "<div id='tm-widget-productFerret2'></div>";
-        $script_src = sprintf(
-            "%s/platforms/widget/productFerret2/script/%s?%s=%s{$language_param}",
-            trustmate_get_widget_base_url(),
-            trustmate_get_current_uuid(),
-            trustmate_is_product_group($product) ? 'group' : 'product',
-            $product->get_id()
+    if (is_product() && $product && get_option('trustmate_widget_product_ferret2')) {
+        trustmate_render_widget_container(
+            'product_ferret2',
+            'productFerret2',
+            'tm-widget-productFerret2',
+            'trustmate-product-ferret2',
+            trustmate_widget_query($product)
         );
-        wp_enqueue_script('trustmate-product-ferret2', $script_src);
     }
 }
 
@@ -140,34 +162,28 @@ function trustmate_render_widget_hydra()
 {
     global $product;
 
-    $language_param = class_exists('SitePress') ? '&language='.ICL_LANGUAGE_CODE : '';
-
-    if (is_product() && get_option('trustmate_widget_hydra')) {
-        echo "<div id='tm-widget-hydra'></div>";
-        $script_src = sprintf(
-            "%s/platforms/widget/hydra/script/%s?%s=%s{$language_param}",
-            trustmate_get_widget_base_url(),
-            trustmate_get_current_uuid(),
-            trustmate_is_product_group($product) ? 'group' : 'product',
-            $product->get_id()
+    if (is_product() && $product && get_option('trustmate_widget_hydra')) {
+        trustmate_render_widget_container(
+            'hydra',
+            'hydra',
+            'tm-widget-hydra',
+            'trustmate-hydra',
+            trustmate_widget_query($product)
         );
-        wp_enqueue_script('trustmate-hydra', $script_src);
     }
 }
 
 // Uses option for v1 but still renders v2
 function trustmate_render_widget_owl()
 {
-    $language_param = class_exists('SitePress') ? '?language='.ICL_LANGUAGE_CODE : '';
-
     if (get_option('trustmate_widget_owl')) {
-        echo "<div id='tm-widget-owl2'></div>";
-        $script_src = sprintf(
-            "%s/platforms/widget/owl2/script/%s{$language_param}",
-            trustmate_get_widget_base_url(),
-            trustmate_get_current_uuid()
+        trustmate_render_widget_container(
+            'owl',
+            'owl2',
+            'tm-widget-owl2',
+            'trustmate-owl',
+            trustmate_widget_query()
         );
-        wp_enqueue_script('trustmate-owl', $script_src);
     }
 }
 
@@ -213,15 +229,13 @@ function trustmate_render_widget_hornet()
 {
     global $product;
 
-    $language_param = class_exists('SitePress') ? '&language='.ICL_LANGUAGE_CODE : '';
-
-    if (is_product() && get_option('trustmate_widget_hornet')) {
-        echo "<div id='tm-widget-hornet'></div>";
-        $script_src = sprintf("%s/platforms/%s/widget/hornet/script?%s=%s{$language_param}",
-            trustmate_get_widget_base_url(),
-            trustmate_get_current_uuid(),
-            trustmate_is_product_group($product) ? 'group' : 'product',
-            $product->get_id()
+    if (is_product() && $product && get_option('trustmate_widget_hornet')) {
+        trustmate_render_widget_container(
+            'hornet',
+            'hornet',
+            'tm-widget-hornet',
+            'trustmate-hornet',
+            trustmate_widget_query($product)
         );
         echo "<script>
                 (() => {
@@ -232,7 +246,6 @@ function trustmate_render_widget_hornet()
                     window.setTimeout(styleHornet, 10, true);
                 })();
             </script>";
-        wp_enqueue_script('trustmate-hornet', $script_src);
     }
 
     if (get_option('trustmate_widget_gorilla') || get_option('trustmate_widget_product_ferret') || get_option('trustmate_widget_product_ferret2') || get_option('trustmate_widget_hydra')) {

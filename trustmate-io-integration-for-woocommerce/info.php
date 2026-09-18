@@ -74,7 +74,13 @@ add_action('add_option_trustmate_account_uuid', 'trustmate_account_info_clear_ca
 add_action('add_option_trustmate_installation_key', 'trustmate_account_info_clear_cache');
 
 add_action('admin_init', function () {
-    if (isset($_GET['clear_tm_cache']) && $_GET['clear_tm_cache'] === '1' && current_user_can('manage_options')) {
+    if (
+        isset($_GET['clear_tm_cache'])
+        && $_GET['clear_tm_cache'] === '1'
+        && current_user_can('manage_options')
+        && isset($_GET['_wpnonce'])
+        && wp_verify_nonce(sanitize_text_field(wp_unslash($_GET['_wpnonce'])), 'trustmate_clear_cache')
+    ) {
         trustmate_account_info_clear_cache();
         delete_transient(TRUSTMATE_VERSION_TRANSIENT);
     }

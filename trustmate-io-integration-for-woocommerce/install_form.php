@@ -4,8 +4,8 @@ function trustmate_render_setup_choice()
 {
     wp_enqueue_style( 'config_form_style' );
 
-    $setup_account_page = add_query_arg('action', TRUSTMATE_PAGE_SETUP_ACCOUNT);
-    $create_account_page = add_query_arg('action', TRUSTMATE_PAGE_CREATE_ACCOUNT);
+    $setup_account_page = remove_query_arg('_wpnonce', add_query_arg('action', TRUSTMATE_PAGE_SETUP_ACCOUNT));
+    $create_account_page = remove_query_arg('_wpnonce', add_query_arg('action', TRUSTMATE_PAGE_CREATE_ACCOUNT));
 
     ?>
     <section class="tm-install">
@@ -28,6 +28,7 @@ function trustmate_render_setup_choice()
             <?php echo trustmate_tr('Company details can be updated later in TrustMate panel') ?>.
         </p>
         <form action="<?php echo wp_kses_post($create_account_page) ?>" method="POST">
+            <?php wp_nonce_field('trustmate_create_account') ?>
             <b class="form-section-header"><?php echo trustmate_tr('Account data') ?></b>
             <div class="form-section">
                 <label for="url"><?php echo trustmate_tr('Website address') ?></label><br>

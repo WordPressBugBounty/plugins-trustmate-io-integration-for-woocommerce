@@ -225,9 +225,39 @@ function trustmate_update_settings($instant_reviews)
     ));
 }
 
+// Saving the settings form writes several reported options in a row, and each write would otherwise
+// send its own pair of requests - carrying the half-saved state, since options.php stores them one
+// by one. One report at shutdown carries the final state instead.
+function trustmate_papi_install_deferred()
+{
+    static $scheduled = false;
+
+    if ($scheduled) {
+        return;
+    }
+
+    $scheduled = true;
+    add_action('shutdown', 'trustmate_papi_install_reported_change');
+}
+
+// Resetting the plugin clears the uuid, and reporting that as an install would only blank the uuid
+// on a shop record that stays flagged as installed.
+function trustmate_papi_install_reported_change()
+{
+    if (!get_option('trustmate_account_uuid')) {
+        return;
+    }
+
+    trustmate_papi_install();
+}
+
 function trustmate_papi_install()
 {
     global $wp_version;
+
+    if (!function_exists('get_plugins')) {
+        require_once ABSPATH . 'wp-admin/includes/plugin.php';
+    }
 
     $invitations_option = get_option('trustmate_invitations_enabled');
     $parsed_url = parse_url(get_site_url());
@@ -282,7 +312,11 @@ function trustmate_papi_install()
         'hornet' => (int) get_option('trustmate_widget_hornet'),
         'multihornet' => (int) get_option('trustmate_widget_multihornet'),
         'owl' => (int) get_option('trustmate_widget_owl'),
+        'ssr' => (int) get_option('trustmate_widget_ssr'),
         'instant_review' => (int) get_option('trustmate_instant_review'),
+        'require_review_consent' => (int) (bool) get_option('trustmate_require_review_consent'),
+        'category_path_mode' => get_option('trustmate_category_path_mode', 'legacy'),
+        'language_accounts' => count((array) json_decode((string) get_option('trustmate_account_language_uuids'), true)),
     );
 
     $woo_version = 'None';
@@ -295,15 +329,19 @@ function trustmate_papi_install()
             $trustmate_version = $details['Version'];
         }
         if (
-            strpos($details['Name'], 'Rank Math') !== false
-            || strpos($details['Name'], 'Yoast SEO') !== false
-            || strpos($details['Name'], 'Polylang for WooCommerce') !== false
-            || $details['Name'] == 'Polylang'
-            || strpos($details['Name'], 'WooCommerce Multilingual & Multicurrency with WPML') !== false
-            || strpos($details['Name'], 'WPML Multilingual & Multicurrency for WooCommerce') !== false
-            || strpos($details['Name'], 'Translate Multilingual sites – TranslatePress') !== false
-            || strpos($details['Name'], 'Translate WordPress and go Multilingual – Weglot') !== false
-            || strpos($details['Name'], 'Translate WordPress with GTranslate') !== false
+            is_plugin_active($key)
+            && (
+                strpos($details['Name'], 'Rank Math') !== false
+                || strpos($details['Name'], 'Yoast SEO') !== false
+                || strpos($details['Name'], 'Polylang for WooCommerce') !== false
+                || $details['Name'] == 'Polylang'
+                || strpos($details['Name'], 'WPML Multilingual CMS') !== false
+                || strpos($details['Name'], 'WooCommerce Multilingual & Multicurrency with WPML') !== false
+                || strpos($details['Name'], 'WPML Multilingual & Multicurrency for WooCommerce') !== false
+                || strpos($details['Name'], 'Translate Multilingual sites – TranslatePress') !== false
+                || strpos($details['Name'], 'Translate WordPress and go Multilingual – Weglot') !== false
+                || strpos($details['Name'], 'Translate WordPress with GTranslate') !== false
+            )
         ) {
             $additional_info[$details['Name']] = 1;
         }

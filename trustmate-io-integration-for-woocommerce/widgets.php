@@ -168,6 +168,31 @@ function trustmate_render_widget($widget_name, $widget_display_name, $image_path
     </div>
 <?php }
 
+function trustmate_render_ssr_section()
+{
+    wp_enqueue_style('switch_style');
+    ?>
+    <div class="tm-card" style="margin: 20px 0; padding: 16px 20px; border-left: 4px solid #2271b1;">
+      <div class="fs-4 fw-bolder mb-2">
+        <?php echo trustmate_tr('Server-side rendered widgets - even better SEO and GEO visibility') ?>
+        <span class="badge bg-secondary align-middle" style="font-size: 0.55em; vertical-align: middle;">
+          <?php echo trustmate_tr('NEW') ?>
+        </span>
+      </div>
+      <p class="fs-6 mb-3">
+        <?php echo trustmate_tr('Ratings and reviews are placed straight into the page code, so they can also be read by crawlers that do not run JavaScript - AI assistants among them. Extra visibility in search results and in what AI tools say about your shop.') ?>
+      </p>
+      <?php trustmate_render_switch(trustmate_tr('Turn it on'), 'trustmate_widget_ssr') ?>
+      <p class="fs-6 mt-3 mb-1">
+        <?php echo trustmate_tr('Works with the Hydra widget.') ?>
+      </p>
+      <p class="fs-6 mb-0 opacity-75">
+        <?php echo trustmate_tr('This is a new feature. It adds a request to TrustMate while your pages load, and it makes your pages noticeably heavier, because the widget content now travels with them. If TrustMate is ever unavailable, your widgets simply keep working the way they do today.') ?>
+      </p>
+    </div>
+    <?php
+}
+
 function trustmate_render_widgets()
 {
     $widgets = [
@@ -194,6 +219,9 @@ function trustmate_render_widgets()
 
     ?>
     <h2 class="mt-3"><?php echo trustmate_tr('Show reviews with widgets') ?></h2>
+
+    <?php trustmate_render_ssr_section() ?>
+
     <?php if (trustmate_subscription_has_any_unavailable_widget()): ?>
         <div class="notice notice-warning">
             <p>

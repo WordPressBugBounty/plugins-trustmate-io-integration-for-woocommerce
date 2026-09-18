@@ -8,7 +8,7 @@
  * Plugin Name: TrustMate.io integration for WooCommerce
  * Plugin URI: https://trustmate.io
  * Description: TrustMate.io integration with auto invitations
- * Version: 1.17.0
+ * Version: 1.18.0
  * Author: TrustMate.io dev team
  * License: GPLv2 or later
  */
@@ -36,10 +36,11 @@ include(__DIR__.'/info.php');
 include(__DIR__.'/install_form.php');
 include(__DIR__.'/config_form.php');
 include(__DIR__.'/widgets.php');
+include(__DIR__.'/ssr.php');
 include(__DIR__.'/embed_scripts.php');
 include(__DIR__.'/checkout_consent.php');
 
-const TRUSTMATE_PLUGIN_VERSION = '1.17.0';
+const TRUSTMATE_PLUGIN_VERSION = '1.18.0';
 
 const BASE_URL = 'https://trustmate.io';
 const BASE_URL_DEV = 'http://trustmate.test';
@@ -206,6 +207,7 @@ function trustmate_create_settings_page()
     register_setting('trustmate_widget_settings', 'trustmate_widget_product_ferret2');
     register_setting('trustmate_widget_settings', 'trustmate_widget_owl', array('default' => 1));
     register_setting('trustmate_widget_settings', 'trustmate_widget_hornet');
+    register_setting('trustmate_widget_settings', 'trustmate_widget_ssr');
 }
 
 function trustmate_view_dispatcher()
@@ -215,6 +217,14 @@ function trustmate_view_dispatcher()
 
     if (isset($_GET['action'])) {
         $action = sanitize_text_field($_GET['action']);
+    }
+
+    if ($action === TRUSTMATE_PAGE_CREATE_ACCOUNT) {
+        check_admin_referer('trustmate_create_account');
+    }
+
+    if ($action === TRUSTMATE_PAGE_RESET_PLUGIN) {
+        check_admin_referer('trustmate_reset_plugin');
     }
 
     ?><nav class="nav-tab-wrapper">
@@ -235,7 +245,7 @@ function trustmate_view_dispatcher()
 
     if ($action === TRUSTMATE_PAGE_CREATE_ACCOUNT) {
         trustmate_create_account();
-        trustmate_papi_install();
+        trustmate_papi_install_deferred();
         return;
     }
 
@@ -270,7 +280,8 @@ function trustmate_get_api_base_url()
         return get_option('trustmate_base_url');
     }
 
-    if ($_SERVER['HTTP_HOST'] === 'localhost:8000') {
+    // Also reached from WP-Cron / WP-CLI, where there is no HTTP_HOST at all.
+    if (isset($_SERVER['HTTP_HOST']) && $_SERVER['HTTP_HOST'] === 'localhost:8000') {
         return BASE_URL_DEV;
     }
 
@@ -283,7 +294,8 @@ function trustmate_get_widget_base_url()
         return get_option('trustmate_base_widget_url');
     }
 
-    if ($_SERVER['HTTP_HOST'] === 'localhost:8000') {
+    // Also reached from WP-Cron / WP-CLI, where there is no HTTP_HOST at all.
+    if (isset($_SERVER['HTTP_HOST']) && $_SERVER['HTTP_HOST'] === 'localhost:8000') {
         return BASE_URL_DEV;
     }
 
@@ -313,7 +325,7 @@ function trustmate_create_account()
     $setup_message_format = "<p><a href='%s' class='tm-button'>%s</a></p>";
     $setup_message = sprintf(
         $setup_message_format,
-        add_query_arg('action', TRUSTMATE_PAGE_SETUP_ACCOUNT),
+        remove_query_arg('_wpnonce', add_query_arg('action', TRUSTMATE_PAGE_SETUP_ACCOUNT)),
         trustmate_tr('Configure invitations and widgets')
     );
 
@@ -482,14 +494,30 @@ if (get_option('trustmate_instant_review')) {
 
 add_action('update_option_trustmate_instant_review', function ($old_value, $value, $option) {
     trustmate_update_settings($value);
-    trustmate_papi_install();
+    trustmate_papi_install_deferred();
 }, 10, 3);
 
 add_action('update_option_trustmate_invitations_enabled', function ($old_value, $value, $option) {
     if ($old_value != $value) {
-        trustmate_papi_install();
+        trustmate_papi_install_deferred();
     }
 }, 10, 3);
+
+// Connecting an existing account, or changing anything the metadata reports, has to reach papi too -
+// otherwise only account creation and widget toggles ever report a shop.
+foreach (array(
+    'trustmate_account_uuid',
+    'trustmate_account_language_uuids',
+    'trustmate_require_review_consent',
+    'trustmate_category_path_mode',
+) as $trustmate_reported_option) {
+    add_action('add_option_' . $trustmate_reported_option, 'trustmate_papi_install_deferred');
+    add_action('update_option_' . $trustmate_reported_option, function ($old_value, $value) {
+        if ($old_value != $value) {
+            trustmate_papi_install_deferred();
+        }
+    }, 10, 2);
+}
 
 add_action('upgrader_process_complete', 'trustmate_on_plugin_update', 20, 3);
 function trustmate_on_plugin_update($upgrader_object, $options)

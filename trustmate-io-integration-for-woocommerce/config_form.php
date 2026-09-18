@@ -231,7 +231,7 @@ function trustmate_render_config_form()
     </form>
 
     <?php include 'faq.php' ?>
-    <a href="?page=trustmate&action=reset_plugin" title="Reset plugin" style="text-decoration: none"> </a>
+    <a href="<?php echo esc_url(wp_nonce_url(admin_url('admin.php?page=trustmate&action=' . TRUSTMATE_PAGE_RESET_PLUGIN), 'trustmate_reset_plugin')) ?>" title="Reset plugin" style="text-decoration: none"> </a>
     </div>
     <?php
 }

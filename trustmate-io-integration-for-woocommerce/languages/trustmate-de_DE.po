@@ -812,6 +812,33 @@ msgstr ""
 msgid "Require customer consent at checkout before sending review invitations"
 msgstr ""
 
+msgid "NEW"
+msgstr ""
+
+msgid "Works with the Hydra widget."
+msgstr ""
+
+
+msgid "Turn it on"
+msgstr ""
+
+msgid "Server-side rendered widgets - even better SEO and GEO visibility"
+msgstr ""
+
+msgid ""
+"Ratings and reviews are placed straight into the page code, so they "
+"can also be read by crawlers that do not run JavaScript - AI "
+"assistants among them. Extra visibility in search results and in what "
+"AI tools say about your shop."
+msgstr ""
+
+msgid ""
+"This is a new feature. It adds a request to TrustMate while your pages "
+"load, and it makes your pages noticeably heavier, because the widget "
+"content now travels with them. If TrustMate is ever unavailable, your "
+"widgets simply keep working the way they do today."
+msgstr ""
+
 #~ msgid "Invald data sent"
 #~ msgstr "Gesendete Invaldaten"
 

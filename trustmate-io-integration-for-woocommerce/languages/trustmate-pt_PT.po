@@ -3,9 +3,9 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-25 07:46+0000\n"
-"PO-Revision-Date: 2025-04-28 02:39+0000\n"
-"Last-Translator: Azure AI Translator <noreply-mt-microsoft-"
-"translator@weblate.org>\n"
+"PO-Revision-Date: 2026-09-18 06:39+0000\n"
+"Last-Translator: App Translator <bot-panel-app-"
+"translator@bots.noreply.weblate.org>\n"
 "Language-Team: Portuguese (Portugal) <https://weblate.trustmate.io/projects/"
 "woocommerce-plugin/main/pt_PT/>\n"
 "Language: pt_PT\n"
@@ -254,9 +254,8 @@ msgstr "Mostrar avaliações nas widgets"
 msgid "Type"
 msgstr "Tipo"
 
-#, fuzzy
 msgid "Company"
-msgstr "Nome da empresa"
+msgstr "Empresa"
 
 msgid "Product"
 msgstr "Produto"
@@ -399,9 +398,8 @@ msgstr ""
 "configurá-lo no painel de cliente TrustMate."
 
 # Chupacabra
-#, fuzzy
 msgid "Social Proof (big box)"
-msgstr "Prova social do widget (caixa grande)"
+msgstr "Prova Social (caixa grande)"
 
 msgid ""
 "Average rating, recent reviews and customer photos displayed on static cards "
@@ -416,9 +414,8 @@ msgstr "Limpo e simples."
 msgid "Carousel - company reviews"
 msgstr "Carrossel - avaliações da empresa"
 
-#, fuzzy
 msgid "Catch your customer attention with this immersive widget!"
-msgstr "Capte a atenção dos seus clientes com este widget imersivo!"
+msgstr "Chame a atenção do seu cliente com este widget imersivo!"
 
 msgid ""
 "Showcase your average rating and the most recent reviews on auto-scrolling "
@@ -444,20 +441,19 @@ msgstr "Encaixa como uma luva e funciona como um sonho!"
 
 # Dodo2
 msgid "Static box with rating (small / large)"
-msgstr ""
+msgstr "Caixa estática com classificação (pequena / grande)"
 
 msgid "Showcase your review count and average rating with this simple widget."
 msgstr ""
 "Mostre a contagem de avaliações e a classificação média com este widget "
 "simples."
 
-#, fuzzy
 msgid ""
 "No matter if your customers want to read reviews or submit their own - "
 "Dodo’s got you covered!"
 msgstr ""
-"Não importa se os seus clientes querem ler avaliações ou enviar as suas "
-"próprias - Dodo tem tudo coberto!"
+"Não importa se seus clientes querem ler avaliações ou enviar as próprias - a "
+"Dodo cuida de tudo para você!"
 
 msgid "Not too little, not too much - just perfect!"
 msgstr "Nem muito pouco, nem demais - simplesmente perfeito!"
@@ -465,6 +461,7 @@ msgstr "Nem muito pouco, nem demais - simplesmente perfeito!"
 # Muskrat2
 msgid "Badge with the company's rating and grades distribution (edge)"
 msgstr ""
+"Distintivo com a classificação da empresa e distribuição das notas (borda)"
 
 msgid "Amaze your customers with this modern, interactive widget!"
 msgstr "Surpreenda os seus clientes com este widget moderno e interativo!"
@@ -498,7 +495,7 @@ msgstr ""
 
 # Alpaca
 msgid "Social Proof (pop-up reviews)"
-msgstr ""
+msgstr "Prova Social (resenhas em pop-up)"
 
 msgid "Attention grabber like no other."
 msgstr "Captador de atenção como nenhum outro."
@@ -532,9 +529,8 @@ msgstr ""
 msgid "Designed for those who want more."
 msgstr "Projetado para quem quer mais."
 
-#, fuzzy
 msgid "Badge - product rating (edge)"
-msgstr "Mostrar selo com a nota dos produtos"
+msgstr "Distintivo - classificação do produto (borda)"
 
 msgid "Small but mighty!"
 msgstr "Pequeno mas poderoso!"
@@ -762,37 +758,80 @@ msgstr ""
 
 # Account info / version
 msgid "Subscription: %s"
-msgstr ""
+msgstr "Assinatura: %s"
 
 msgid "Days remaining: %d"
-msgstr ""
+msgstr "Dias restantes: %d"
 
 msgid "Your subscription expires soon"
-msgstr ""
+msgstr "Sua assinatura expira em breve"
 
 msgid "Your subscription is inactive"
-msgstr ""
+msgstr "Sua assinatura está inativa"
 
 msgid "New version of TrustMate plugin available: %s"
-msgstr ""
+msgstr "Nova versão do plugin TrustMate disponível: %s"
 
 msgid "Download"
-msgstr ""
+msgstr "Baixar"
 
 msgid "Your current subscription does not include some widgets. Enabled but unavailable widgets will not display to your customers."
 msgstr ""
+"Sua assinatura atual não inclui alguns widgets. Widgets ativados, mas "
+"indisponíveis, não serão exibidos para seus clientes."
 
 msgid "Not available in your subscription"
-msgstr ""
+msgstr "Não disponível na sua assinatura"
 
 msgid "Installation key (optional — enables subscription status and update notifications)"
 msgstr ""
+"Chave de instalação (opcional — ativa o status de assinatura e notificações "
+"de atualizações)"
 
 msgid "I agree to receive a review request"
-msgstr ""
+msgstr "Concordo em receber uma solicitação de avaliação"
 
 msgid "Require customer consent at checkout before sending review invitations"
 msgstr ""
+"Exigir consentimento do cliente no checkout antes de enviar convites para "
+"avaliação"
+
+msgid "NEW"
+msgstr "NOVO"
+
+msgid "Works with the Hydra widget."
+msgstr "Funciona com o widget Hydra."
+
+msgid "Turn it on"
+msgstr "Ligue isso"
+
+msgid "Server-side rendered widgets - even better SEO and GEO visibility"
+msgstr ""
+"Widgets renderizados no lado do servidor - ainda melhor SEO e visibilidade "
+"GEO"
+
+msgid ""
+"Ratings and reviews are placed straight into the page code, so they "
+"can also be read by crawlers that do not run JavaScript - AI "
+"assistants among them. Extra visibility in search results and in what "
+"AI tools say about your shop."
+msgstr ""
+"As classificações e avaliações são inseridas diretamente no código da "
+"página, permitindo que também sejam lidas por crawlers que não executam "
+"JavaScript - incluindo assistentes de IA. Maior visibilidade nos resultados "
+"de pesquisa e no que as ferramentas de IA dizem sobre sua loja."
+
+msgid ""
+"This is a new feature. It adds a request to TrustMate while your pages "
+"load, and it makes your pages noticeably heavier, because the widget "
+"content now travels with them. If TrustMate is ever unavailable, your "
+"widgets simply keep working the way they do today."
+msgstr ""
+"Este é um novo recurso. Ele adiciona uma solicitação ao TrustMate enquanto "
+"suas páginas carregam, e isso torna suas páginas visivelmente mais pesadas, "
+"porque o conteúdo do widget agora viaja com elas. Se o TrustMate ficar "
+"indisponível, seus widgets simplesmente continuarão funcionando da maneira "
+"como fazem hoje."
 
 #~ msgid ""
 #~ "Page-wide reviews similar to popular comments sections showing under your "

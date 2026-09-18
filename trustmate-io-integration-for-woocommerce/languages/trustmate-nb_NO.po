@@ -3,11 +3,12 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-25 13:05+0000\n"
-"PO-Revision-Date: 2025-04-28 02:39+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"PO-Revision-Date: 2026-09-18 06:39+0000\n"
+"Last-Translator: App Translator <bot-panel-app-"
+"translator@bots.noreply.weblate.org>\n"
 "Language-Team: Norwegian Bokmål <https://weblate.trustmate.io/projects/"
 "woocommerce-plugin/main/nb_NO/>\n"
-"Language: no_NO\n"
+"Language: nb_NO\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -242,9 +243,8 @@ msgstr "Vis anmeldelser med widgeter"
 msgid "Type"
 msgstr "Type"
 
-#, fuzzy
 msgid "Company"
-msgstr "Firmanavn"
+msgstr "Selskap"
 
 msgid "Product"
 msgstr "Produkt"
@@ -381,9 +381,8 @@ msgstr ""
 "konfigureres i TrustMates kundepanel."
 
 # Chupacabra
-#, fuzzy
 msgid "Social Proof (big box)"
-msgstr "Widget sosialt bevis (stor boks)"
+msgstr "Sosialt bevis (stor boks)"
 
 msgid ""
 "Average rating, recent reviews and customer photos displayed on static cards "
@@ -398,9 +397,8 @@ msgstr "Ryddig og enkel."
 msgid "Carousel - company reviews"
 msgstr "Karusell - selskapsvurderinger"
 
-#, fuzzy
 msgid "Catch your customer attention with this immersive widget!"
-msgstr "Fang kundenes oppmerksomhet med denne oppslukende widgeten!"
+msgstr "Fang kundens oppmerksomhet med denne engasjerende widgeten!"
 
 msgid ""
 "Showcase your average rating and the most recent reviews on auto-scrolling "
@@ -425,27 +423,26 @@ msgstr "Passer som en hanske og fungerer som en drøm!"
 
 # Dodo2
 msgid "Static box with rating (small / large)"
-msgstr ""
+msgstr "Statisk boks med vurdering (liten / stor)"
 
 msgid "Showcase your review count and average rating with this simple widget."
 msgstr ""
 "Vis anmeldelsesantallet ditt og gjennomsnittlig vurdering med denne enkle "
 "widgeten."
 
-#, fuzzy
 msgid ""
 "No matter if your customers want to read reviews or submit their own - "
 "Dodo’s got you covered!"
 msgstr ""
-"Uansett om kundene dine vil lese anmeldelser eller sende inn sine egne - "
-"Dodo har deg dekket!"
+"Uansett om kundene dine ønsker å lese anmeldelser eller sende inn sine egne -"
+" Dodo har deg dekket!"
 
 msgid "Not too little, not too much - just perfect!"
 msgstr "Verken for lite eller for mye - akkurat perfekt!"
 
 # Muskrat2
 msgid "Badge with the company's rating and grades distribution (edge)"
-msgstr ""
+msgstr "Merke med selskapets vurdering og karakterfordeling (kant)"
 
 msgid "Amaze your customers with this modern, interactive widget!"
 msgstr "Forbauser kundene dine med denne moderne, interaktive widgeten!"
@@ -479,7 +476,7 @@ msgstr ""
 
 # Alpaca
 msgid "Social Proof (pop-up reviews)"
-msgstr ""
+msgstr "Sosialt bevis (pop-up vurderinger)"
 
 msgid "Attention grabber like no other."
 msgstr "Oppmerksomhetsfanger som ingen annen."
@@ -512,9 +509,8 @@ msgstr ""
 msgid "Designed for those who want more."
 msgstr "Designet for de som vil ha mer."
 
-#, fuzzy
 msgid "Badge - product rating (edge)"
-msgstr "Vis merke med produktenes karakter"
+msgstr "Merke - produktvurdering (kant)"
 
 msgid "Small but mighty!"
 msgstr "Liten men mektig!"
@@ -737,37 +733,77 @@ msgstr ""
 
 # Account info / version
 msgid "Subscription: %s"
-msgstr ""
+msgstr "Abonnement: %s"
 
 msgid "Days remaining: %d"
-msgstr ""
+msgstr "Dager igjen: %d"
 
 msgid "Your subscription expires soon"
-msgstr ""
+msgstr "Abonnementet ditt utløper snart"
 
 msgid "Your subscription is inactive"
-msgstr ""
+msgstr "Abonnementet ditt er inaktivt"
 
 msgid "New version of TrustMate plugin available: %s"
-msgstr ""
+msgstr "Ny versjon av TrustMate-plugin tilgjengelig: %s"
 
 msgid "Download"
-msgstr ""
+msgstr "Last ned"
 
 msgid "Your current subscription does not include some widgets. Enabled but unavailable widgets will not display to your customers."
 msgstr ""
+"Ditt nåværende abonnement inkluderer ikke noen widgets. Aktiverte, men "
+"utilgjengelige widgets vil ikke vises for kundene dine."
 
 msgid "Not available in your subscription"
-msgstr ""
+msgstr "Ikke tilgjengelig i abonnementet ditt"
 
 msgid "Installation key (optional — enables subscription status and update notifications)"
 msgstr ""
+"Installasjonsnøkkel (valgfritt — aktiverer abonnementsstatus og varsel om "
+"oppdateringer)"
 
 msgid "I agree to receive a review request"
-msgstr ""
+msgstr "Jeg samtykker i å motta en forespørsel om vurdering"
 
 msgid "Require customer consent at checkout before sending review invitations"
 msgstr ""
+"Krev kundens samtykke ved utsjekking før du sender invitasjoner til "
+"anmeldelse"
+
+msgid "NEW"
+msgstr "NY"
+
+msgid "Works with the Hydra widget."
+msgstr "Fungerer med Hydra-widgeten."
+
+msgid "Turn it on"
+msgstr "Slå den på"
+
+msgid "Server-side rendered widgets - even better SEO and GEO visibility"
+msgstr "Server-side rendrerte widgets - enda bedre SEO og GEO synlighet"
+
+msgid ""
+"Ratings and reviews are placed straight into the page code, so they "
+"can also be read by crawlers that do not run JavaScript - AI "
+"assistants among them. Extra visibility in search results and in what "
+"AI tools say about your shop."
+msgstr ""
+"Vurderinger og anmeldelser plasseres direkte inn i kode på siden, slik at de "
+"også kan leses av crawlere som ikke kjører JavaScript - blant dem AI-"
+"assistenter. Ekstra synlighet i søkeresultater og i hva AI-verktøy sier om "
+"butikken din."
+
+msgid ""
+"This is a new feature. It adds a request to TrustMate while your pages "
+"load, and it makes your pages noticeably heavier, because the widget "
+"content now travels with them. If TrustMate is ever unavailable, your "
+"widgets simply keep working the way they do today."
+msgstr ""
+"Dette er en ny funksjon. Den legger til en forespørsel til TrustMate mens "
+"sidene dine lastes, og det gjør sidene dine merkbart tyngre, fordi widget-"
+"innholdet nå følger med dem. Hvis TrustMate noen gang er utilgjengelig, "
+"fortsetter widgetene dine å fungere på samme måte som i dag."
 
 #~ msgid ""
 #~ "Page-wide reviews similar to popular comments sections showing under your "
